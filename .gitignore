@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.xlsx~
+*.tmp
+~$*.xlsx
+~$*.docx
+
+# Large files (optional - 如果PDF太大可以不上传)
+# *.pdf
+
+# Logs
+*.log
