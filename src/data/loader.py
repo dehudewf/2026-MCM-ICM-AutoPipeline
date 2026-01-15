@@ -74,20 +74,32 @@ class DataLoader:
                 error_message=f"File not found: {filepath}"
             )
         
-        try:
-            df = pd.read_csv(filepath, **kwargs)
-            return LoadResult(
-                success=True,
-                data=df,
-                rows_loaded=len(df),
-                columns_loaded=len(df.columns)
-            )
-        except Exception as e:
-            return LoadResult(
-                success=False,
-                data=None,
-                error_message=f"Error loading {filename}: {str(e)}"
-            )
+        # Try multiple encodings
+        encodings = ['utf-8', 'latin-1', 'iso-8859-1', 'cp1252']
+        
+        for encoding in encodings:
+            try:
+                df = pd.read_csv(filepath, encoding=encoding, **kwargs)
+                return LoadResult(
+                    success=True,
+                    data=df,
+                    rows_loaded=len(df),
+                    columns_loaded=len(df.columns)
+                )
+            except UnicodeDecodeError:
+                continue
+            except Exception as e:
+                return LoadResult(
+                    success=False,
+                    data=None,
+                    error_message=f"Error loading {filename}: {str(e)}"
+                )
+        
+        return LoadResult(
+            success=False,
+            data=None,
+            error_message=f"Error loading {filename}: Could not decode with any encoding"
+        )
     
     def load_medals(self, filename: str = 'summerOly_medal_counts.csv') -> pd.DataFrame:
         """

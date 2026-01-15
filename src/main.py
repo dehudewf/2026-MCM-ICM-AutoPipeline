@@ -44,8 +44,22 @@ def load_and_prepare_data() -> Optional[pd.DataFrame]:
         print(f"  Merge failed: {result.error_message}")
         return None
     
+    df = result.data
+    
+    # Standardize column names
+    column_mapping = {
+        'NOC': 'country',
+        'Gold': 'gold',
+        'Silver': 'silver',
+        'Bronze': 'bronze',
+        'Total': 'total',
+        'Year': 'year',
+        'Rank': 'rank'
+    }
+    df = df.rename(columns=column_mapping)
+    
     print(f"  Merged dataset: {result.rows_after} rows")
-    return result.data
+    return df
 
 
 def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
@@ -57,7 +71,7 @@ def preprocess_data(df: pd.DataFrame) -> pd.DataFrame:
     
     # Handle missing values
     numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
-    df = preprocessor.impute_missing(df, numeric_cols, strategy='mean')
+    df = preprocessor.impute_missing_mean(df, numeric_cols)
     
     print(f"  Preprocessed {len(df)} rows")
     return df
