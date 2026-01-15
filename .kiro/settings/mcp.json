@@ -1,0 +1,43 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic/mcp-server-filesystem",
+        "${workspaceFolder}/data",
+        "${workspaceFolder}/output",
+        "${workspaceFolder}/src"
+      ],
+      "disabled": false,
+      "autoApprove": ["read_file", "list_directory"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "sqlite": {
+      "command": "uvx",
+      "args": ["mcp-server-sqlite", "--db-path", "${workspaceFolder}/data/modeling.db"],
+      "disabled": false,
+      "autoApprove": ["read_query"]
+    },
+    "brave-search": {
+      "command": "uvx",
+      "args": ["mcp-server-brave-search"],
+      "env": {
+        "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY"
+      },
+      "disabled": true,
+      "autoApprove": []
+    },
+    "arxiv": {
+      "command": "uvx", 
+      "args": ["mcp-server-arxiv"],
+      "disabled": false,
+      "autoApprove": ["search"]
+    }
+  }
+}
