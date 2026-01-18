@@ -1,0 +1,22 @@
+{
+  "mcp-server-time": {
+    "command": "python",
+    "args": [
+      "-m",
+      "mcp_server_time",
+      "--local-timezone=America/Los_Angeles"
+    ],
+    "env": {}
+  },
+  "mcpServers": {
+    "firecrawl-mcp": {
+      "command": "npx",
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-03cd80a6d3fd49a28c93aac855551f6d"
+      }
+    }
+  }
+}
+
+

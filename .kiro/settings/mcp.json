@@ -1,43 +1,22 @@
 {
+  "mcp-server-time": {
+    "command": "python",
+    "args": [
+      "-m",
+      "mcp_server_time",
+      "--local-timezone=America/Los_Angeles"
+    ],
+    "env": {}
+  },
   "mcpServers": {
-    "filesystem": {
+    "firecrawl-mcp": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@anthropic/mcp-server-filesystem",
-        "${workspaceFolder}/data",
-        "${workspaceFolder}/output",
-        "${workspaceFolder}/src"
-      ],
-      "disabled": false,
-      "autoApprove": ["read_file", "list_directory"]
-    },
-    "fetch": {
-      "command": "uvx",
-      "args": ["mcp-server-fetch"],
-      "disabled": false,
-      "autoApprove": []
-    },
-    "sqlite": {
-      "command": "uvx",
-      "args": ["mcp-server-sqlite", "--db-path", "${workspaceFolder}/data/modeling.db"],
-      "disabled": false,
-      "autoApprove": ["read_query"]
-    },
-    "brave-search": {
-      "command": "uvx",
-      "args": ["mcp-server-brave-search"],
+      "args": ["-y", "firecrawl-mcp"],
       "env": {
-        "BRAVE_API_KEY": "YOUR_BRAVE_API_KEY"
-      },
-      "disabled": true,
-      "autoApprove": []
-    },
-    "arxiv": {
-      "command": "uvx", 
-      "args": ["mcp-server-arxiv"],
-      "disabled": false,
-      "autoApprove": ["search"]
+        "FIRECRAWL_API_KEY": "fc-03cd80a6d3fd49a28c93aac855551f6d"
+      }
     }
   }
 }
+
+
