@@ -492,7 +492,529 @@ self_invocation:
     - "@redcell没有发现严重问题"
 ```
 
-### 2.5 Knowledge Integration (知识库整合)
+### 2.5 Structured Agent-to-Agent Communication (结构化Agent通信) [NEW]
+
+```yaml
+a2a_communication:
+  description: |
+    定义Agent之间的结构化消息格式，确保信息无损传递。
+    所有关键信息通过JSON Schema传递，减少自然语言歧义。
+
+  # ============================================================================
+  # Schema 1: @strategist → @executor
+  # ============================================================================
+  strategist_to_executor:
+    schema_version: "1.0"
+    trigger: "@strategist完成战略规划后，交接给@executor实现"
+    
+    json_schema: |
+      {
+        "message_type": "StrategistToExecutor",
+        "task_id": "string (唯一任务ID)",
+        "timestamp": "ISO 8601",
+        
+        "selected_paths": [
+          {
+            "path_id": "path_1",
+            "name": "时间序列分析路径",
+            "priority": 1,
+            "innovation_point": "核心创新点描述",
+            
+            "modeling_plan": {
+              "primary_model": "Prophet",
+              "fallback_model": "ARIMA",
+              "ensemble_option": "Prophet + XGBoost",
+              "rationale": "为什么选择这个模型"
+            },
+            
+            "data_requirements": {
+              "source_files": ["data/medals.csv", "data/gdp.csv"],
+              "required_columns": ["Year", "Country", "Medals"],
+              "preprocessing_steps": [
+                "去除2020异常数据",
+                "按国家分组",
+                "处理缺失值（插值法）"
+              ],
+              "quality_checks": [
+                "检查时间连续性",
+                "检查数据泄露"
+              ]
+            },
+            
+            "feature_engineering": {
+              "time_features": ["Year", "Trend", "Seasonality"],
+              "country_features": ["GDP", "Population", "HostEffect"],
+              "lag_features": ["Medals_lag1", "Medals_lag4"],
+              "interaction_features": ["GDP_per_capita"],
+              "anti_intuitive_features": ["反直觉特征描述"]
+            },
+            
+            "success_criteria": {
+              "metrics": {
+                "mape": {"target": "<15%", "critical": "<20%"},
+                "rmse": {"target": "<5", "critical": "<8"},
+                "r2": {"target": ">0.85", "critical": ">0.75"}
+              },
+              "validation_method": "Leave-one-out cross validation",
+              "baseline_comparison": "必须优于简单平均法"
+            },
+            
+            "sensitivity_requirements": {
+              "parameters_to_test": [
+                "GDP变化±10%",
+                "Population变化±20%",
+                "HostEffect系数×0.5/×2"
+              ],
+              "threshold": "预测变化<5%为稳定"
+            },
+            
+            "expected_outputs": [
+              "predictions_2028.csv",
+              "prophet_forecast_plot.png",
+              "shap_explanation.png",
+              "sensitivity_heatmap.png",
+              "model_results_summary.md"
+            ]
+          }
+        ],
+        
+        "assumptions": [
+          {
+            "id": "A1",
+            "level": "基础假设",
+            "content": "未来4年无重大疫情影响",
+            "justification": "基于历史规律...",
+            "impact_if_violated": "预测区间扩大50%",
+            "monitoring_method": "关注WHO公告"
+          },
+          {
+            "id": "A2",
+            "level": "工作假设",
+            "content": "主办国效应为+30%奖牌数",
+            "justification": "文献[Smith 2019]支持",
+            "impact_if_violated": "主办国预测偏低",
+            "monitoring_method": "敏感性分析测试±20%"
+          }
+        ],
+        
+        "known_challenges": [
+          "小国家样本量不足（<30次参赛）",
+          "新兴国家趋势难以捕捉",
+          "2020数据异常需特殊处理"
+        ],
+        
+        "time_constraints": {
+          "deadline": "Hour 52（结果冻结前）",
+          "checkpoints": [
+            {"hour": 24, "milestone": "数据+特征完成"},
+            {"hour": 40, "milestone": "主力模型完成"}
+          ]
+        }
+      }
+
+    usage_example: |
+      当@strategist完成战略规划时，输出:
+      
+      ```json:a2a:strategist_to_executor
+      {
+        "message_type": "StrategistToExecutor",
+        "task_id": "mcm_2026_medal_prediction",
+        "selected_paths": [ ... ],
+        "assumptions": [ ... ]
+      }
+      ```
+      
+      然后说: "@executor 请根据上述JSON实现 path_1"
+
+  # ============================================================================
+  # Schema 2: @executor → @redcell
+  # ============================================================================
+  executor_to_redcell:
+    schema_version: "1.0"
+    trigger: "@executor完成建模后，交接给@redcell审核"
+    
+    json_schema: |
+      {
+        "message_type": "ExecutorToRedCell",
+        "task_id": "string",
+        "execution_id": "exec_20260119_001",
+        "timestamp": "ISO 8601",
+        "path_id": "path_1",
+        
+        "execution_summary": {
+          "status": "success | partial | failed",
+          "total_time_seconds": 2714,
+          "code_files": [
+            "src/data_loader.py",
+            "src/model_trainer.py",
+            "src/visualizer.py"
+          ],
+          "lines_of_code": 856
+        },
+        
+        "models_trained": [
+          {
+            "model_type": "Prophet",
+            "version": "1.1.1",
+            "train_samples": 156,
+            "test_samples": 20,
+            "features_used": 8,
+            "hyperparameters": {
+              "seasonality_mode": "multiplicative",
+              "changepoint_prior_scale": 0.05,
+              "yearly_seasonality": true
+            },
+            "training_time_seconds": 45.2
+          },
+          {
+            "model_type": "XGBoost (Ensemble)",
+            "features_used": 12,
+            "hyperparameters": {
+              "max_depth": 6,
+              "learning_rate": 0.1,
+              "n_estimators": 100
+            }
+          }
+        ],
+        
+        "results": {
+          "predictions": {
+            "file_path": "output/predictions_2028.csv",
+            "format": "CSV with columns: Country, Predicted_2028, CI_Lower, CI_Upper",
+            "sample_predictions": [
+              {"Country": "USA", "Predicted_2028": 113, "CI_Lower": 105, "CI_Upper": 121},
+              {"Country": "China", "Predicted_2028": 88, "CI_Lower": 82, "CI_Upper": 94}
+            ],
+            "total_countries": 87
+          },
+          
+          "performance_metrics": {
+            "mape": 12.3,
+            "mape_target": 15.0,
+            "mape_status": "✅ 满足",
+            "rmse": 4.7,
+            "rmse_target": 5.0,
+            "rmse_status": "✅ 满足",
+            "r2": 0.89,
+            "r2_target": 0.85,
+            "r2_status": "✅ 满足",
+            "baseline_comparison": {
+              "baseline_mape": 23.5,
+              "improvement": "47.7% 优于基线"
+            }
+          },
+          
+          "feature_importance": [
+            {"feature": "Historical_Medals_Mean", "importance": 0.42},
+            {"feature": "GDP_per_capita", "importance": 0.23},
+            {"feature": "HostEffect", "importance": 0.15},
+            {"feature": "Trend", "importance": 0.12},
+            {"feature": "Population", "importance": 0.08}
+          ],
+          
+          "shap_analysis": {
+            "file_path": "output/shap_explanation.png",
+            "summary": "GDP_per_capita对发达国家影响最大，HostEffect对主办国效应显著"
+          },
+          
+          "uncertainty_analysis": {
+            "method": "Bootstrap with 1000 iterations",
+            "average_ci_width": 16.2,
+            "coverage_rate": 0.94,
+            "coverage_target": 0.95,
+            "status": "接近目标"
+          },
+          
+          "sensitivity_analysis": {
+            "parameters_tested": [
+              {
+                "parameter": "GDP变化+10%",
+                "mape_change": "+2.1%",
+                "max_prediction_change": "+3 medals",
+                "stability": "稳定"
+              },
+              {
+                "parameter": "GDP变化-10%",
+                "mape_change": "-1.8%",
+                "max_prediction_change": "-2 medals",
+                "stability": "稳定"
+              },
+              {
+                "parameter": "HostEffect×0.5",
+                "mape_change": "+4.5%",
+                "max_prediction_change": "-15 medals (主办国)",
+                "stability": "⚠️ 主办国敏感"
+              }
+            ],
+            "overall_stability": "模型对GDP变化稳定，对HostEffect参数敏感",
+            "file_path": "output/sensitivity_heatmap.png"
+          }
+        },
+        
+        "artifacts": [
+          {
+            "type": "notebook",
+            "path": "output/modeling.ipynb",
+            "description": "完整建模过程",
+            "size_mb": 2.4
+          },
+          {
+            "type": "figure",
+            "path": "output/prophet_forecast.png",
+            "description": "2028年预测趋势图（含置信区间）",
+            "resolution": "300 DPI"
+          },
+          {
+            "type": "figure",
+            "path": "output/shap_explanation.png",
+            "description": "SHAP特征解释"
+          },
+          {
+            "type": "figure",
+            "path": "output/sensitivity_heatmap.png",
+            "description": "参数敏感性热力图"
+          },
+          {
+            "type": "csv",
+            "path": "output/predictions_2028.csv",
+            "description": "所有国家2028预测结果"
+          },
+          {
+            "type": "markdown",
+            "path": "output/model_results_summary.md",
+            "description": "模型结果摘要（可直接放入论文）"
+          }
+        ],
+        
+        "assumptions_compliance": [
+          {
+            "assumption_id": "A1",
+            "status": "已满足",
+            "implementation": "2020数据已排除"
+          },
+          {
+            "assumption_id": "A2",
+            "status": "已验证",
+            "implementation": "主办国效应系数设为1.3，敏感性测试±20%"
+          }
+        ],
+        
+        "known_issues": [
+          {
+            "severity": "medium",
+            "category": "data_quality",
+            "issue": "小国家（奖牌数<10）预测误差较大",
+            "affected_entities": ["6个小国家"],
+            "quantification": "这6个国家的MAPE>25%",
+            "impact_on_overall": "对整体MAPE影响+0.8%",
+            "root_cause": "样本量不足（<30次参赛记录）",
+            "attempted_solutions": [
+              "尝试分层模型（未改善）",
+              "尝试贝叶斯先验（略有改善）"
+            ],
+            "recommendation": "在论文Limitations部分说明小样本局限性",
+            "paper_section": "Model Evaluation - Limitations"
+          },
+          {
+            "severity": "low",
+            "category": "data_handling",
+            "issue": "2020数据已排除",
+            "impact_on_overall": "训练样本减少4个",
+            "justification": "符合假设A1（无重大疫情影响）",
+            "recommendation": "已在假设章节说明",
+            "paper_section": "Assumptions - A1"
+          },
+          {
+            "severity": "low",
+            "category": "model_limitation",
+            "issue": "主办国效应参数敏感",
+            "quantification": "HostEffect×0.5时MAPE增加4.5%",
+            "recommendation": "在敏感性分析部分展示此结果",
+            "paper_section": "Sensitivity Analysis"
+          }
+        ],
+        
+        "compliance_check": {
+          "strategist_requirements_met": true,
+          "all_expected_outputs_generated": true,
+          "success_criteria_status": {
+            "mape": "✅ 满足",
+            "rmse": "✅ 满足",
+            "validation": "✅ 完成"
+          },
+          "ready_for_redcell_review": true
+        },
+        
+        "recommended_redcell_focus": [
+          "小国家预测误差问题是否影响整体结论",
+          "主办国效应参数是否需要更多文献支撑",
+          "置信区间覆盖率94%（目标95%）是否可接受",
+          "是否需要补充ARIMA对比实验"
+        ]
+      }
+
+    usage_example: |
+      当@executor完成建模后，输出:
+      
+      ```json:a2a:executor_to_redcell
+      {
+        "message_type": "ExecutorToRedCell",
+        "execution_id": "exec_20260119_001",
+        "models_trained": [ ... ],
+        "results": { ... },
+        "known_issues": [ ... ]
+      }
+      ```
+      
+      然后说: "@redcell 请审核上述执行结果"
+
+  # ============================================================================
+  # Schema 3: @redcell → @strategist/@executor (攻击反馈)
+  # ============================================================================
+  redcell_feedback:
+    schema_version: "1.0"
+    trigger: "@redcell完成攻击后，反馈改进建议"
+    
+    json_schema: |
+      {
+        "message_type": "RedCellFeedback",
+        "task_id": "string",
+        "review_id": "review_20260119_001",
+        "timestamp": "ISO 8601",
+        "target_agent": "@executor | @strategist",
+        
+        "attack_dimensions": [
+          {
+            "dimension": "assumption_attack",
+            "findings": [
+              {
+                "severity": "high | medium | low",
+                "issue": "假设A2（主办国+30%）缺乏文献支撑",
+                "evidence": "仅引用[Smith 2019]，但该文献样本量仅23届",
+                "impact": "评委可能质疑假设合理性",
+                "recommendation": "补充2-3篇文献，或通过历史数据验证30%系数",
+                "action_required": "@executor 补充文献或数据验证",
+                "priority": "high"
+              }
+            ]
+          },
+          {
+            "dimension": "model_attack",
+            "findings": [
+              {
+                "severity": "medium",
+                "issue": "未与ARIMA进行对比实验",
+                "evidence": "@strategist推荐的fallback_model未测试",
+                "impact": "评委可能质疑Prophet的优越性",
+                "recommendation": "补充ARIMA对比，展示Prophet的优势",
+                "action_required": "@executor 补充对比实验",
+                "priority": "medium"
+              }
+            ]
+          },
+          {
+            "dimension": "result_attack",
+            "findings": [
+              {
+                "severity": "low",
+                "issue": "置信区间覆盖率94%略低于目标95%",
+                "evidence": "uncertainty_analysis显示0.94",
+                "impact": "技术上可接受，但可能影响完美分数",
+                "recommendation": "在论文中说明94%接近目标且符合学术标准",
+                "action_required": "@executor 在Results章节添加说明",
+                "priority": "low"
+              }
+            ]
+          }
+        ],
+        
+        "overall_assessment": {
+          "quality_score": 8.5,
+          "quality_breakdown": {
+            "technical_correctness": 9.0,
+            "innovation": 8.0,
+            "completeness": 9.0,
+            "presentation": 8.0
+          },
+          "o_award_readiness": "85%",
+          "critical_issues_count": 1,
+          "blocking_issues": false,
+          "estimated_fix_time": "2 hours"
+        },
+        
+        "action_items": [
+          {
+            "id": "AI_001",
+            "assignee": "@executor",
+            "priority": "high",
+            "task": "补充主办国效应的文献或数据验证",
+            "estimated_time": "1 hour",
+            "deadline": "Hour 50"
+          },
+          {
+            "id": "AI_002",
+            "assignee": "@executor",
+            "priority": "medium",
+            "task": "补充ARIMA对比实验",
+            "estimated_time": "1 hour",
+            "deadline": "Hour 51"
+          }
+        ],
+        
+        "approval_status": "conditional | approved | rejected",
+        "approval_conditions": [
+          "完成AI_001后可进入论文撰写",
+          "AI_002可选，但建议完成"
+        ]
+      }
+
+  # ============================================================================
+  # 通用规范
+  # ============================================================================
+  general_rules:
+    when_to_use_structured:
+      - "所有关键信息传递（路径方案、模型结果、审核反馈）"
+      - "需要精确传达技术细节时"
+      - "需要追踪任务完成状态时"
+    
+    when_natural_language_is_ok:
+      - "简单问询"
+      - "澄清性对话"
+      - "非关键补充说明"
+    
+    formatting_requirements:
+      - "所有JSON必须在代码块中标注 ```json:a2a:{schema_name}"
+      - "JSON必须可解析，禁止使用注释"
+      - "所有关键字段必须填写，不可省略"
+      - "枚举值必须从预定义列表选择"
+    
+    backward_compatibility:
+      - "如果另一方Agent未返回JSON，当前Agent仍可正常工作"
+      - "可以同时输出JSON和自然语言解释"
+      - "人类可以选择只看JSON或只看自然语言"
+
+  implementation_checklist:
+    for_strategist:
+      - "[ ] 输出StrategistToExecutor JSON"
+      - "[ ] JSON包含所有必需字段"
+      - "[ ] 假设体系完整"
+      - "[ ] 成功标准量化"
+    
+    for_executor:
+      - "[ ] 读取StrategistToExecutor JSON"
+      - "[ ] 输出ExecutorToRedCell JSON"
+      - "[ ] 所有期望输出已生成"
+      - "[ ] 已标注known_issues"
+    
+    for_redcell:
+      - "[ ] 读取ExecutorToRedCell JSON"
+      - "[ ] 输出RedCellFeedback JSON"
+      - "[ ] 攻击六个维度"
+      - "[ ] 提供actionable建议"
+
+```
+
+### 2.6 Knowledge Integration (知识库整合)
 
 ```yaml
 knowledge_integration:

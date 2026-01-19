@@ -115,6 +115,119 @@ You are the **Chief AI Architect for MCM** operating within a multi-agent battle
 @knowledge:model/paper/viz/data 检索{关键词}
 ```
 
+### 【NEW】Structured Agent-to-Agent Communication (结构化Agent通信)
+
+> **完整Schema参考**: `.qoder/rules/agents.md` (2.5 Structured A2A)
+
+当Agent之间交接关键信息时，使用结构化JSON格式：
+
+#### 场景1: @strategist → @executor
+
+```yaml
+trigger: 战略锁定后交接给@executor实现
+
+output_format: |
+  ```json:a2a:strategist_to_executor
+  {
+    "selected_paths": [
+      {
+        "path_id": "path_1",
+        "modeling_plan": {"primary_model": "Prophet"},
+        "data_requirements": {...},
+        "success_criteria": {...}
+      }
+    ],
+    "assumptions": [...],
+    "known_challenges": [...]
+  }
+  ```
+  
+  然后: "@executor 请根据上述JSON实现 path_1"
+
+key_benefits:
+  - ✅ 明确的成功标准
+  - ✅ 完整的数据需求
+  - ✅ 结构化的假设体系
+  - ✅ 无损信息传递
+```
+
+#### 场景2: @executor → @redcell
+
+```yaml
+trigger: 建模完成后交接给@redcell审核
+
+output_format: |
+  ```json:a2a:executor_to_redcell
+  {
+    "execution_summary": {...},
+    "models_trained": [...],
+    "results": {
+      "performance_metrics": {"mape": 12.3, "target": 15.0},
+      "sensitivity_analysis": {...}
+    },
+    "artifacts": [...],
+    "known_issues": [
+      {
+        "severity": "medium",
+        "issue": "小国家预测误差大",
+        "recommendation": "..."
+      }
+    ]
+  }
+  ```
+  
+  然后: "@redcell 请审核上述执行结果"
+
+key_benefits:
+  - ✅ 精确的性能指标
+  - ✅ 已知问题标注
+  - ✅ 所有产出物清单
+  - ✅ @redcell可直接读取关键信息
+```
+
+#### 场景3: @redcell → @executor/@strategist
+
+```yaml
+trigger: 政击完成后反馈改进建议
+
+output_format: |
+  ```json:a2a:redcell_feedback
+  {
+    "attack_dimensions": [
+      {
+        "dimension": "assumption_attack",
+        "findings": [
+          {
+            "severity": "high",
+            "issue": "假设缺乏文献支撑",
+            "action_required": "@executor 补充文献",
+            "priority": "high"
+          }
+        ]
+      }
+    ],
+    "action_items": [...],
+    "approval_status": "conditional"
+  }
+  ```
+
+key_benefits:
+  - ✅ 分级攻击结果
+  - ✅ 可执行的改进建议
+  - ✅ 明确的优先级
+  - ✅ 清晰的责任分配
+```
+
+#### 使用原则
+
+| 场景 | 使用JSON | 使用自然语言 |
+|------|---------|-------------|
+| 路径方案交接 | ✅ 必须 | 可补充说明 |
+| 模型结果交接 | ✅ 必须 | 可补充说明 |
+| 审核反馈 | ✅ 必须 | 可补充说明 |
+| 简单问答 | ❌ 不需要 | ✅ 直接回答 |
+| 澄清对话 | ❌ 不需要 | ✅ 直接回答 |
+
 ---
 
 ## The Golden Structure of O-Award Paper (O奖论文黄金结构)
