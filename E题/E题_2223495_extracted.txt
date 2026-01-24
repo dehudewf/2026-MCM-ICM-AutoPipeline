@@ -1,0 +1,777 @@
+
+
+[========== PAGE 1 ==========]
+
+ Letting "Carbon" Stay: Forest Management for Ecological-Economic 
+Balance in the Perspective of Carbon Sequestration 
+Summary 
+Forests play an important role in both nature and human society. In the context of "car-
+bon peaking and carbon neutral", how to balance the economic and ecological values of 
+forests has become an academic focus. We used differential equations, multi-objective 
+planning, evolutionary games and simulation to find scientific management strategies for 
+forests in different climates and to guide practice and development. 
+First, we constructed a forest carbon sequestration model. Based on the differential 
+equation, we investigated the carbon sequestration level under different forest management 
+strategies, taking into account the forest area, tree age, climate environment, wood use and 
+depreciation, and found that moderate harvesting helps to increase the carbon sequestration 
+of the whole system. In addition, we simulated the adjustment of the harvesting rate 
+ to 
+find the best forest management strategy for carbon sequestration and calculated that 
+. 
+Second, in order to balance the multiple values such as economic value and ecological 
+value of the forest system, we constructed six value systems based on the TEV model. Based 
+on this, we constructed a value system balance model using multivariate objectives pro-
+gramming and solved the maximum total forest ecosystem value (TTF) with the help of 
+simulated annealing (SA) algorithm. Thus, the optimal benefit is achieved with balancing 
+the interests of multiple parties, and the TTF is obtained from the experiment in northern 
+China category: 27283~40924.5$/km2/year. 
+Third, the development of scientific forest management strategies is necessary to 
+achieve the balance and optimum of forest values. The inverse mapping function is con-
+structed based on the value system balance model to analyze the optimal forest management 
+strategy under the corresponding state. Forest management strategies for general and special 
+conditions are developed based on 4 medium forest harvesting strategies simulated for each 
+of the 4 major types of climatic environments. We used a subtropical forest in China as an 
+example, and validated that the 100-year 𝐶𝑂2 uptake for a harvest rate of 41.5% ~ 55% 
+for near-mature trees and 80% for mature trees is found to be 442.2 ~ 820.8𝑘𝑡. 
+Finally, the problem of adaptation to the transition phase of the optimal forest manage-
+ment strategy is addressed. This paper introduced game theory to complement the model 
+and used an evolutionary game approach to explore the behavioral decisions of forest man-
+agers. Moderate deforestation is found to be the optimal outcome that satisfies the demand 
+sensitivity of all parties. The simulation approach is then used to enable the above strategy 
+to be validated in a variety of forest environments. 
+In conclusion, moderate harvesting of forests is the optimal solution to enhance their 
+ecological and economic values. Extending the harvesting cycle will help the current recov-
+ery of over-harvested forests. However, it should be noted that for polar regions we still need 
+to prohibit logging in order to protect them well. 
+Keywords:Differential Equations ; Multiple Objective Planning ; TEV ; Evolutionary Game 
+Problem Chosen 
+E 
+2022 
+MCM/ICM 
+Summary Sheet 
+Team Control Number 
+2223495 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 2 ==========]
+
+Contents 
+ 
+1 Introduction ...................................................................................................... 3 
+1.1 Problem Background ....................................................................................................... 3 
+1.2 Restatement of the Problem and Our works. ................................................................... 3 
+1.3 Literature Review ............................................................................................................. 3 
+1.4 Our Work .......................................................................................................................... 4 
+2 Assumptions & Reasonals ............................................................................... 4 
+3 Notations ........................................................................................................... 4 
+4 Whole Process Carbon Sequestration Model for Trees. ............................... 5 
+4.1 Tree Age Stage Classification Model ............................................................................... 6 
+4.2 Forest Ecology Model ...................................................................................................... 7 
+4.3 Whole Process Forest Wood Model ................................................................................. 8 
+4.4 Steady-state Equilibrium Model ...................................................................................... 9 
+4.5 Total Carbon Sequestration Measurement Model .......................................................... 10 
+5 Forest System Value Balance Model ............................................................ 11 
+5.1 TEV: Multiple Value Systems Within and Outside the Forest System .......................... 11 
+5.2 Value Balance Planning Model ...................................................................................... 14 
+5.3 SA : Solution of Multivariate Objective Programming ................................................. 15 
+6 Forest Management Strategy Model ............................................................ 15 
+6.1 Mapping Model of Felling Rate ..................................................................................... 16 
+6.2 Management Strategies and Climate Types ................................................................... 16 
+6.3 Example of Subtropical Forest Management and Decision Making ............................. 18 
+7 Demand-sensitive Management Strategy Game ......................................... 19 
+7.1 The Game of Forest Management Strategies ................................................................. 19 
+7.2 Evolutionary game simulation for managing plan transitions ....................................... 20 
+8 Sensitivity Analysis ......................................................................................... 21 
+9 Model Evaluation and Further Discussion .................................................. 21 
+9.1 Strengths ........................................................................................................................ 21 
+9.2 Weaknesses .................................................................................................................... 21 
+9.3 Further Discussion ......................................................................................................... 21 
+10 Conclusion ..................................................................................................... 21 
+References .................................................................................................... 22 
+11 Forest Carbon Sequestration Science Articles .......................................... 22 
+Appendix ............................................................................................................ 25 
+ 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 3 ==========]
+
+1 Introduction 
+1.1 Problem Background 
+Climate change is one of the central issues in international public affairs. Reduction of 
+greenhouse gases is important. Carbon sequestration is considered as an effective method to 
+reduce emissions [1]. Carbon sequestration is the safe capture and storage of carbon in the air 
+[2]. Forests are an effective way to sequester carbon [3]. Forests and forest products are affected 
+by the climatic environment and human disturbances [4]. It has been argued that scientific 
+harvest management can improve the carbon sequestration capacity of forest systems. However, 
+forest managers often need to balance ecological, economic and social values when making 
+decisions. 
+1.2 Restatement of the Problem and Our works. 
+Considering the information identified in the problem statement, we need to address the 
+following questions and perform the following tasks 
+⚫ Develop a carbon sequestration model to quantify the amount of carbon sequestration in 
+forests and their products, and use this model to design the most effective carbon-seques-
+tration forest management plans. 
+⚫ Build a decision model to help forest managers choose the best forest management plan 
+and balance multiple value objectives. The model needs to consider the coverage of forest 
+management plans, discuss the conditions under which forests will not be cut down, tran-
+sition points between forest management plans, and characteristics of forests in different 
+locations in the world regarding transition points of management plans. 
+⚫ Apply the model practically to all kinds of forests, identify and select the forest that should 
+adopts a forest management plan that includes a harvesting plan. Project carbon sequestra-
+tion 100 years from now, identify the best forest management plan and argue its rationale, 
+and develop a transition strategy that takes into account the sensitivity of forest managers' 
+needs. 
+⚫ Write a non-technical essay explaining the need for deforestation and convincing local 
+residents that our management plan is the best decision to develop the forest. 
+1.3 Literature Review 
+Forests play a crucial role in the carbon cycle [5,6]. According to the Kyoto Protocol and 
+the United Nations Framework Convention on Climate Change (UNFCCC), carbon sequestra-
+tion in forest ecosystems makes carbon management a promising solution to combat climate 
+change [7,8]. The use of forest resources has entered the stage of multi-value sustainable use 
+of managed forests [9,10]. Currently, maintaining and enhancing carbon sinks and carbon stor-
+age (CSS) in forest ecosystems is becoming a fundamental goal of sustainable forest manage-
+ment [10]. Adaptive silvicultural practices, such as reducing intensive harvesting, may be one 
+of the strategies to increase the long-term CSS of ecosystem HWP [11,12]. It has been sug-
+gested that the carbon sink capacity of planted forests can be maximized by extending crop 
+rotation and taking appropriate measures [13]. 
+ 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 4 ==========]
+
+1.4 Our Work 
+ 
+Figue 1: The structure and process of the full text modeling 
+2 Assumptions & Reasonals 
+⚫ There are no large emergencies in forest ecology. Large-scale emergencies are stochastic 
+in nature and cannot be modeled. Therefore the effects of natural disasters, such as sudden 
+mudslides, forest fires, pests and diseases, and volcanic eruptions, are not considered. 
+⚫ The forest areas involved are all operable in terms of management. Some remote for-
+ests that cannot be used by human activities are outside the scope of this model. This is 
+because it is neither "economic" nor "environmentally friendly" to manage them. 
+⚫ All wood produced by the forest is fully accessible to the market. According to Say's 
+law, in a free market, the total demand of society is always equal to the total supply . Our 
+model defaults to all timber being available for sale. 
+3 Notations 
+The key mathematical notations used in this paper are listed in Table 1. 
+Table 1: Notations used in this paper 
+Forest Management 
+Strategy Model
+Forest System Value
+Balance Model
+Optimal harvesting 
+strategy
+Best Carbon Sealing Strategy
+Mapping Of 
+Harvesting Rates
+Multiple Objectives
+Programming
+Management 
+Optimization
+Balance Value
+Evolutionary 
+Gaming
+Simulation
+Strategy Transition
+Data
+Prepare
+Literature
+Research
+Ecological Types
+Appropriate harvesting 
+strategies
+Ecological Benefits
+Economic Benefits
+Practice 
+Guidance
+Application and 
+Transition of 
+Strategies
+Symbol 
+Description 
+Unit 
+s(i) 
+Carbon sequestration by trees in the i stage 
+Ktons 
+ 
+Carbon fixation factor 
+Unit 
+x(i) 
+Area of forest in the i stage 
+Km2 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 5 ==========]
+
+Where we define the main parameters while specific value of those parameters will be given later. 
+4 Whole Process Carbon Sequestration Model for Trees. 
+In order to construct a full-cycle carbon sequestration model for forest trees, two system 
+levels need to be considered: the forest carbon flow system and the wood product carbon flow 
+system. For the forest system, we need to consider the age of trees, their carbon sequestration 
+capacity, natural growth rate and natural mortality rate under different geographical and envi-
+ronmental conditions. For the wood products carbon flow system, we need to consider the ef-
+ficiency of wood utilization, the depreciation rate and the end-of-life time of the products. 
+We developed a differential equation-based decision optimization model for the sustaina-
+ble development of the forest, which takes into account the regeneration continuity and the 
+optimal carbon dioxide sequestration in the forest, so as to achieve the highest level of carbon 
+sequestration for both native ecological and economic products under the premise of "sustain-
+able development" of the forest. In the process of analysis, we use the Volterra model and ex-
+pand the original model by using the tree growth environment, the environmental and economic 
+values of forest products and the cutting plan of the forest to balance the harvesting strategy 
+with the restoration strategy and the selection of high-quality and low-quality products, and 
+finally solve the differential equation to calculate the CO2 sequestration of the whole system 
+under different cutting conditions. 
+ 
+Figue 2: Whole process carbon sequestration model 
+When the above two systems reach steady-state equilibrium, the total carbon sequestration 
+Wooden Material Carbon Flow System
+Forest Carbon Flow System
+Forest age stage classification model
+Forest Environment Model
+Age class
+*CSC:Carbon sequestration capacity
+CSC
+Growth 
+rate
+Mortality 
+rate
+Environment
+Ecology
+Utilization 
+efficiency
+Depreciat
+ion rates
+Documents
+Steady-state equilibrium model
+[ Differential equation models ]
+Total Carbon sequestration measurement model
+[ Based on Standard carbon fixation level ]
+             (   )
+CSC Incoming
+ 
+Growth factor 
+Unit 
+ 
+ Natural rate of death in the i stage 
+Unit 
+ 
+Deforestation rate in the i stage 
+Unit 
+ 
+Carbon transfer coefficient 
+Unit 
+ 
+Carbon tax price 
+$/ton 
+ 
+Biodiversity coefficient 
+Unit 
+R 
+Rhizome ratio 
+Unit 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 6 ==========]
+
+of the two systems is calculated by referring to the standard unit area of forest land sequestra-
+tion level, and the sum is the carbon sequestration level of the whole process of forest trees. 
+4.1 Tree Age Stage Classification Model 
+Different types of trees have different growth cycles and rotation periods, which are ana-
+lyzed through the papers of the biological model of trees, while the species of trees are different 
+and the geographical variability is significant. Therefore models need to be constructed to deal 
+with this relationship. 
+Generally, the growth stages of trees are divided into four stages: young stage, middle stage, 
+near-mature stage, and mature stage. In order to make the model more universal and robust, we 
+fuzzify the years of tree growth and construct the following tree age stage division model with 
+one growth stage of the tree as the minimum time unit t. (It is known from consulting the data 
+that each growth stage of most exploited forest trees is about 10-15 years and the whole life 
+cycle is 40-60 years). 
+ 
+Figue 3: Tree age stage classification  
+For plantations, the over-ripe stage accounts for almost a small percentage due to the 
+presence of management and can be ignored. For natural stands, the number of trees in the 
+mature stage is limited by competition due to the presence of natural competition, and again 
+the proportion is small and negligible. The model was constructed for four age stages, A, B, 
+C, and D. 
+(A)Juvenile stage(27.0%)
+Trees in the young stage grow slowly
+at the beginning and gradually increase
+in speed later, during which they are
+often
+affected
+by
+competition
+from
+weeds, miscellaneous, shrubs, etc. It is
+the most unstable period for tree growth.
+(C)Near-Maturity Stage(24.3%)
+At this time the trees grow vigorously, 
+branches and leaves flourish, flowering 
+and fruiting appear and increase year 
+by year, the diameter growth accelerate-
+s, but the tree height growth gradually 
+slows down, roots and crowns expand 
+rapidly in all directions.
+(D)Mature age stage(23.1%)
+Trees move from robust to mature
+age. The growth gradually
+slows
+down, especially the tall growth is
+not significant, and the magnitude of
+the longitudinal and lateral growth
+of its underground roots and above-
+ground crown parts approaches or
+reaches its maximum.
+(B)Middle age stage(25.6%)
+The proportion of dry wood
+biomass increased rapidly while
+the proportion of leaf biomass
+decreased
+relatively
+in
+the
+biomass of the forest community.
+(E)Over-aged stage(0.01%)
+The tall growth and diameter growth of the trees
+are extremely insignificant, the life activity is
+gradually weakened, and the ability to adapt to the
+environment is greatly reduced.
+E
+D
+C
+B
+A
+×
+Unavailable
+×
+Harvestable
+Unharvestable
+Type
+10~15Years
+10~15Years
+10~15Years
+10~15Years
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 7 ==========]
+
+The trees in stages A and B are in the fast growth stage and the timber stock is small, so 
+cutting will not bring more economic value, so it is assumed not to harvest trees in stages A 
+and B here. For stage C trees, moderate harvesting can be done, and for stage D, more har-
+vesting can be done. 
+4.2 Forest Ecology Model 
+4.2.1 Climate Impact on Forests 
+The growth rate and natural mortality of trees are related to the climate and environment 
+in which they live. Drawing on the regularization of the world's major forest area categories in 
+the literature study published by Derrahmane Ameray et al. in 2021, we visualized the forest 
+area characteristics, climatic characteristics of the three major categories and derived the 
+growth coefficient λ and natural mortality rate 𝜌 differently in different forest area types 
+through a comprehensive assessment, as shown in the following Table. 
+ 
+Figue 4: Basic information of the three major forest species 
+4.2.2 General Forest Properties 
+In order to make the model usable and robust even in the absence of data, the attributes of 
+the forest in general state are measured. The percentage of each tree age stage in the natural 
+forest. Checking the relevant data, we know that the retention rate of saplings growing to ma-
+turity in the forest is 85%. The natural mortality rate at each stage can be set as 𝜌 and can be 
+set to 
+. It can be obtained that 𝜌 is approximately equal to 5%. Set up the 
+equation: 
+-50
+0
+50
+100 A
+B
+C
+D
+E
+Boreal Forest Index
+Boreal Forest
+Boreal Forest
+Coordinates
+53°59’N,105°7’W
+Max.leaf area 
+index
+3×3
+Nearest 
+town
+Prince Albert, Canada
+Average canopy 
+height(m)
+9
+Forest type
+Evergreen coniferous
+Basal area(m2ha-1)
+31×5
+Parameters
+0
+100
+200 A
+B
+C
+D
+E
+Temperate Forest Index
+Temperate Forest
+Temperate Forest
+Coordinates
+35°57’N,84°17’W
+Max.leaf area 
+index
+4×9
+Nearest 
+town
+Oak Ridge, USA
+Average canopy 
+height(m)
+26
+Forest type
+Winter deciduous 
+broadleaved
+Basal area(m2ha-1)
+20×1
+Parameters
+0
+200
+400 A
+B
+C
+D
+E
+Tropical Forest Index
+Tropical Forest
+Tropical Forest
+Coordinates
+2°35’S,50°06’W
+Max.leaf area 
+index
+5-6
+Nearest town
+Manaus, Brazil
+Average canopy 
+height(m)
+30
+Forest type
+Evergreen broadleaf 
+terra firme
+Basal area(m2ha-1)
+29
+Parameters
+A
+B
+C
+D
+E
+Average summer 
+temperature(°C)
+Average winter 
+temperature(°C)
+Precipitation(cm)
+‘Growing’ season (d)
+Dry period(month)
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 8 ==========]
+
+ 
+(1) 
+ 
+The percentage of trees in their natural state at each age stage can be calculated from Equa-
+tion (1). For each tree age, the carbon sequestration level was set. The carbon sequestration 
+level of larch plantation in northern China measured by Jia Yanlong based on CO2FIX model 
+was set as 25𝑘𝑡𝑜𝑛 𝑘𝑚2. Meanwhile, the carbon sequestration level of different tree ages was 
+weighted according to the CO2FIX measurement method, and the summary results are as fol-
+lows table. 
+Table 2: Carbon fixation coefficient value  
+ 
+4.3 Whole Process Forest Wood Model 
+For the wood of the forest, it can be divided into two parts: 
+ 
+Figue 4: Whole process forest wood  
+Forest age class
+(A,B,C,D)
+Percent
+(      )
+Carbon sequestration level
+             (   )
+(A)Juvenile 
+27.0%
+                     
+(B)Mid-age 
+25.6%
+                    
+(C)Near-Maturity 
+24.3%
+                      
+(D)Mature age 
+23.1%
+                    
+(a) Initial state of the forest.
+(b) Selective harvesting cycle.
+(c) Growth and recovery cycle.
+(a) Four cycle types of trees exist.
+(b) Selective harvesting of categ
+-ory C and D trees.
+(c) The harvested areas are repl
+-anted, waiting for the forest
+to grow and recover.
+A
+B
+C
+D
+Juvenile
+Mid-aged
+Near-Mature
+Mature
+(I) The harveste
+d trees become ti
+-mber, which pl
+ays a role in carb
+-on sequestratio
+n to some extent.
+(II) Wooden furnitu
+-re and building ma
+terials can stabilize
+carbon sequestratio
+n over a long period
+of time.
+(I)
+(II)
+(III)
+(III)Depreciation.The
+carbon in used wood
+furniture re-enters
+the carbon cycle.
+Carbon sequestration in wood products
+Carbon sequestration in forests
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 9 ==========]
+
+Forest trees and wood products. Both of these parts have carbon sequestration. In order to 
+study the flow of carbon in both parts, the following flow chart of the whole process of forest 
+wood was drawn. The first part, forest carbon sequestration: the model is divided according to 
+the age stage by rasterizing and classifying the area of trees in each age stage of the forest. The 
+specific process is shown in Fig. The second part, wood carbon sequestration, wood is pro-
+cessed, used and finally scrapped. 
+4.4 Steady-state Equilibrium Model 
+For the forest carbon sequestration system: set 𝑋𝑖 to be the area(km2) of trees in growth 
+stage i and 𝛽𝑖 to be the ecological carbon sequestration per square kilometer of trees in age 
+stage i. The constraints and parameters to be considered are as follows: 
+a) Limitations on the quantity of each tree age.  
+b) The maximum area stock 𝑁 of tree age stages cannot exceed the maximum value in 
+the natural state and at the same time will not exceed the area of its previous tree age 
+stages. Constraints were set for 𝑁3, 𝑁4 as follows: 
+ 
+(2) 
+c) Introduction of growth rate and natural mortality. The parameters lam and rou were 
+introduced to take into account the variability in age, geography and climate. The 
+parameters 
+ and 
+ were introduced. 
+ is the growth rate. 
+ is the natural 
+mortality rate. The values are taken according to the forest ecological model con-
+structed above. 
+d) Set the carbon sequestration coefficient 𝛽. For the wood carbon sequestration system, 
+the following limitations were assumed: 
+ 
+Wood conversion rate, from trees to wood is 90%: 
+ 
+ 
+Depreciation rate of wood products, set the average depreciation of all types of 
+wood products 20% when scrapped, then can be calculated for each tree age stage 
+(about 10-15 years) wood products average depreciation of about 10%. 
+ 
+(3) 
+Using the modified Volterra model, we construct a set of differential equations for the 
+amount of carbon sequestered by trees and wood products at stage C age and stage D age. The 
+equations (4) are as follows: 
+ 
+(4) 
+(a)
+(b)
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 10 ==========]
+
+The initial state of the area of each tree stage is set as the area distribution in  
+the natural state, and the initial amount of carbon sequestered by wood products is 0.  
+The equation is solved with the help of Scipy. Let the solution of the differential equation ob-
+tained be 
+. 
+4.5 Total Carbon Sequestration Measurement Model 
+Referring to the above setting, the following formula can be derived:  
+ 
+(5) 
+The model was experimented with a larch plantation ecosystem in northern China by tak-
+ing a 100𝑘𝑚2 area stand in natural state, and the trees' carbon sequestration capacity beta 
+referred to the settings in the tree age stage classification model. The total amount of carbon 
+sequestered when the system reached stability was calculated in three ways, respectively. 
+Experiment with the model. Taking the 100𝑘𝑚2 area of larch plantation ecosystem in 
+northern China as an example, the tree carbon sequestration capacity 𝛽 refers to the setting in 
+the tree age stage division model. The total amount of carbon sequestration when the system 
+reaches stability is calculated in the following three ways： 
+a) Moderate deforestation and exploitation of forests. When the forest is reasonably 
+felled, take 𝜇𝑎=0.3, 𝜇𝑏 =1. The total carbon sequestration of the system S=1360.3 
+kilotons of carbon dioxide. 
+b) No deforestation of the forest. When there is no harvesting of any age stage of the 
+forest, i.e., 𝜇𝑎 𝜇𝑏 0, the solution yields the amount of carbon sequestered by the 
+system at stabilization S=1242.7 kt CO2. 
+c) Excessive deforestation in general. 𝜇𝑎=0.6, 𝜇𝑏 =1, S=1123.6 kilotons of CO2. 
+ 
+Figue 5: Simulation of harvesting strategies under three values of 
+ 
+Based on a model of forest age classificationTime phase
+Carbon sequestration level
+The carbon sequestration
+system reaches a relatively st-
+eady-state stage, where
+the amount of carbon sequest-
+ered by each subject be-gins to
+vary little or not at all.
+(a)Moderate deforestation.
+Mature trees are cut down.
+Only 30% of nearly mature trees 
+are cut.
+(b)No logging of the forest, the
+forest grows naturally.
+No logging of the forest, the fore
+st grows naturally.
+(c)Over-harvesting. 60% of all t-
+rees near mature age were harv-
+ested, and all mature trees were
+harvested.
+(a)
+(b)
+(c)
+Kton(𝐶𝑂2)
+t
+Kton(𝐶𝑂2)
+Kton(𝐶𝑂2)
+Kton(𝐶𝑂2)
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 11 ==========]
+
+Note: Simulations were performed with 100 𝑘𝑚2of forest in its natural state. t indicates 
+the number of tree age stages experienced. 
+The analysis of the figure shows that. First, at the beginning of the system, any degree of 
+deforestation will lead to a small decrease in the amount of carbon sequestered by the system, 
+and then the amount of carbon sequestered will be increased in a short period of time. Second, 
+when the system reaches equilibrium: (a) moderate harvesting of forest land helps to increase 
+the total carbon sequestration; (b) no harvesting of forest will not change the carbon sequestra-
+tion of forest; (c) excessive harvesting of forest land will lead to a decrease in the total carbon 
+sequestration. 
+Based on the above analysis, the system was simulated separately for different 𝜇𝑎 to cal-
+culate the carbon sequestration level under each C tree felling rate, and the final results are 
+shown in Fig 6. 
+ 
+Figue 6: Carbon sequestration levels of forest trees under different 
+ values 
+From the above figure, it can be seen that the optimal level of carbon sequestration is 
+reached when the felling rate is about 37.48% for trees of category C age. 
+5 Forest System Value Balance Model 
+TEV model proposed by American economist and environmentalist A Freeman in 2022. 
+We use the idea of TEV model to measure the multiple benefits of forest ecosystem through 
+multi-objective planning (MOP), and use Python to simulate differential equations, SA optimi-
+zation algorithm and game theory to solve the model, so as to get Pareto solution, which is the 
+better strategy after measuring the interests of all parties. 
+5.1 TEV: Multiple Value Systems Within and Outside the Forest System 
+Total forest ecosystem values can be roughly divided into six categories: output values 
+(EF), carbon tax transfer (MF), tourism values (LF), ecological values (GEP), biomass values 
+(CF), and other values (OF). Among them, the ecological value has a more complete account-
+ing system and values in the academic community, so we will not repeat them here. 
+Stage 1(0%~25%)
+Increased cutting rate.
+Increased carbon 
+sequestration.
+Stage 2(30%~50%)
+Increase cutting rate.
+No change in carbon 
+sequestration.
+Stage 3 (55%~100%)
+Increased cutting rate 
+Reduced carbon 
+sequestration.
+Three steady-state phases
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+
+[========== PAGE 12 ==========]
+
+ 
+Figue 7: The value composition system of TTF 
+5.1.1 Output Value (EF) 
+We confine the output value of forest trees to the market purchase and sale of forest prod-
+ucts, and take up the previous section on the harvesting of forest resources to establish the 
+following set of equations:  
+ 
+(6) 
+Consider the fluctuation of timber prices with time and market conditions. where 𝑃𝑡is the 
+average of the market purchase and sale prices of timber in period 𝑡. Based on the actual situ-
+ation in felling, we constrain the equation as follows: 
+ 
+(7) 
+5.1.2 Carbon Tax Transfer (MF) 
+The World Bank gives value transfers to areas that maintain forest ecology to absorb car-
+bon.. The following is how the carbon tax value is calculated:  
+In the first step, the carbon dioxide uptake capacity of the forest system is analyzed. The 
+carbon dioxide uptake per unit time t is given by the equation : 
+ 
+(8) 
+When the system enters steady state, there are limits: 
+ 
+(9) 
+The formula (8) can be simplified as: 
+ 
+(10) 
+In the second step, we economically compensate the forest land according to the objectives 
+depicted in Copenhagen Accord. Due to the inconsistency of carbon trading and carbon tax 
+policies in each country, we adopt a fuzzy treatment and estimate the amount of carbon seques-
+tered on forest land in the previous paper based on the following equation： 
+ 
+(11) 
+ is the carbon sequestration on forest land in period 𝑡 of the first problem; 
+ 
+is the price per tonne for carbon trading, the specific values are shown below (for some coun-
+tries) By weighting the recent U.S. carbon price, 
+=51.2$/ton (CO2), and checking the recent 
+news in 2022, we know that the CO2 price in the U.S. carbon trading market is about 50$/ton, 
+which means the calculation is verified. 
+ 
+GEP
+EF
+MF
+OF
+LF
+• Neutralizing CO2
+CF
+• Water Conservation
+Domestic Tourism 
+Revenue
+International Tourism 
+Revenue
+Carbon Allowances
+Carbon Tax
+Scientific Research
+Potential Bequest
+Forest Froduct Profit
+TTF
+Biomass value(CF)
+Ecological Value (GEP)
+Tourism Value (LF)
+Economic Value (EF)
+Carbon tax transfer(MF)
+Other Values (OF)
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网

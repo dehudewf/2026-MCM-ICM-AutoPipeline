@@ -1,0 +1,847 @@
+================================================================================
+E题 O奖论文完整提取 - 全部论文
+成功提取: 10 篇
+================================================================================
+
+
+################################################################################
+# 论文ID: 2202171 | 年份: 2022
+# 文件: 2202171-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+Carbon neutrality is mainly achieved by reducing carbon emission and increasing carbon
+sequestration. Forests have an important impact on enhancing carbon sequestration. In this paper,
+we developed a forest system carbon sequestration prediction model and a forest value balance
+decision model to study the carbon stock changes of forest system (forest and forest products)
+and the optimal management plan, and to reveal the beneficial effects of certain deforestation on
+the carbon sequestration of forest system.
+In Task1, the change of carbon stock in the forest growth cycle satisfies the logistic law, so
+we obtain the deforestation intensity and the age of deforestation when the forest is stable and the
+carbon sequestration is maximum. In order to accelerate forest restoration, new trees need to be
+planted in the deforested area. Thus, forest system carbon sequestration prediction model is
+developed. We explored the effects of deforestation interval and forest size on carbon stock, and
+obtained the optimal management scheme. The results show that the optimal forest management
+plan is to cut old-growth trees annually, to produce high-lived forest products, to set the cutting
+intensity at half the inherent growth rate of forest carbon stocks, and simultaneously to plant both
+the cut and increased areas. Under our optimal scenario, Beijing's deforestation is stabilized at
+6
+3
+3.2 10 m
+
+, and carbon neutrality is achieved around 2063.
+In Task2, considering the social demand, economic benefits and ecological influence of
+forests, forest value balance decision model is constructed and the balance point between the
+values is studied. And we analyze the scope of application of management plans and the
+prerequisites for no deforestation. Using genetic algorithms and characteristic parameters of each
+forest, we determine the optimal management plans and transition points for forests in different
+temperature zones and forests with different uses. The results indicate that our model is mainly
+applicable to general forests. Some forests can not be deforested for biodiversity or cultural
+reasons. The transition points in optimal management plans of different types of forests are
+different, and the transition points can be divided into phased and final. However, all types of
+forests can effectively increase or be in a stable state of carbon sequestration while satisfying
+social needs under optimal plans.
+In Task3, we choose Tien Shan forest as the research object. Based on the above decision
+model, we obtain the optimal forest management plan when each value of Tien Shan forest is
+balanced, and the change of its carbon stock in the next 100 years. The results show that the
+optimal management plan is to carry out annual felling of old trees and produce long life forest
+products, and to plant the felled areas. Under the optimal plan, the economic benefits of the Tien
+Shan forest stabilize at
+8
+1.52 10 USD
+
+, the carbon stock increases year by year and stabilizes 
+
+【Model_Titles】
+----------------------------------------
+  • 4. Forest System Carbon Sequestration Prediction Model
+  • 5.1 Forest value balance decision model
+  • 5.3 Transition point analysis
+  • 7. Sensitivity Analysis
+  • 4. Forest System Carbon Sequestration Prediction Model
+  • 5.1 Forest value balance decision model
+  • 5.3 Transition point analysis
+
+
+################################################################################
+# 论文ID: 2202666 | 年份: 2022
+# 文件: 2202666-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Introduction】
+----------------------------------------
+1.1 Problem Background 
+Climate change has long been recognized by the international community as one 
+of the major global environmental issues. Greenhouse gases produced by human activ-
+ities, such as carbon dioxide (CO2) and methane (CH4), have seriously affected the 
+chemical composition of the atmosphere. With their strong ability to absorb infrared 
+radiation, they have caused the rise both in the average temperature of the earth's sur-
+face and in sea level year by year, inducing incalculable damage to mankind. Therefore, 
+using forests, especially forest products, to absorb and sequestrate atmospheric carbon 
+dioxide is an effective and practical way to reduce greenhouse gases. In a forest eco-
+system, the carbon cycle can be divided into four stages [1], as shown in the figure 
+below.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: The carbon cycle 
+ 
+The first stage is the absorption of carbon dioxide by the forest through photosyn-
+thesis. The second stage is tree cutting, where part of it becomes logs to be used for the 
+production of HWP (harvested wood products) and the remainder will rot or burn to 
+release the organic carbon in it. The third stage is the wood use stage, where the amount 
+of carbon sequestered by logs in the production of HWP is also lost in the form of 
+carbon dioxide, but the HWP represented by durable wood products will slowly release 
+its stored organic carbon over a longer period of time. The fourth stage is the disposal 
+stage of HWP, when the discarded HWP enters the landfill and the carbon sequestration 
+will be permanently maintained. 
+ 
+1.2 Our Work 
+It is possible to achieve more carbon sequestration over time attributable to the sum 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+[PAGE 4]
+of carbon sequestration in forest products derived from deforestation and carbon se-
+questration generated by the young forests. We have developed a forest management 
+decision model based on an eco-environmental conservation perspective which con-
+tains the social value of forests while ensuring that forests and forest products sequester 
+as much carbon as possible. 
+First, as forest managers, we decide to transform the forest by means of controlling 
+the rate of cutting trees. In model 1, we construct a model for calculating the carbon 
+sequestration. The amount of carbon sequestered in a defined forest is determined by 
+the living trees and the forest products made from the harvested trees.  
+Then, we design a three-dimension evaluation system of forest value – ESE Model. 
+We classify forest values into the following three dimensions: ecological values, social 
+values and economic values, and six subsets in detail. We quantify the qualitative indi-
+cators first and then process the dataset. Using K-means Algorithm, we obtain the 
+weight of every indicator. After assigning scores to each of them, we get GE matrix for 
+the ESE Model. 
+Finally, we introduce Beijing as a real case to derive suitable forest management 
+scenarios with the help of Mod
+
+【Model_Titles】
+----------------------------------------
+  • 4 Forestry Carbon Sequestration Model 
+  • 5 Forest Value Evaluation Model 
+  • 5.3 Decision-making analysis 
+  • 6.1 Forestry Carbon Sequestration Model 
+  • 6.2 Forest Value Evaluation Model 
+  • 7.1 Sensitivity Analysis 
+  • 4 Forestry Carbon Sequestration Model 
+  • 5 Forest Value Evaluation Model 
+  • 5.3 Decision-making analysis 
+  • 6.1 Forestry Carbon Sequestration Model 
+
+【Keywords】
+----------------------------------------
+Carbon Sequestration; Forestry Carbon Sequestration Model；Forest Value Evalu-
+
+
+################################################################################
+# 论文ID: 2202838 | 年份: 2022
+# 文件: 2202838-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+"Trees are unguilty. You destroy them. You are guilty!" Some argue that we should not cut 
+down trees at all to mitigate climate change, but in fact, proper logging is necessary and beneficial. 
+Through establishing models, we demonstrate that forest management plans including harvesting 
+can balance the carbon sequestration (CS) and the realization of other values.  
+First, we establish a Carbon Sequestration Model to obtain the amount of CS including 
+forest and forest products. In the calculation, we use the Conversion Factor Method (CFM) of 
+forest stock volume, comprehensively considering trees, understory plants and wood soil. And we 
+use a logical growth model to express the CS capacity and tree age to obtain a more real value. By 
+adding the CS of forests and forest products, we can obtain the total amount of CS in year . 
+Then, we establish a Forest Management Model for Carbon Sequestration combining the 
+idea of Dynamic Objective Programming. We divide the forest into regions, using 
+, 
+ 
+and 
+ to store information about cut or not, tree age, and death or not respectively. These 
+variables affect each other. Combined with them and the CS model, we can obtain the amount of 
+CS in statistical time, which is our objective function. Then, we get the optimal management plan 
+by searching the optimal solution to the function. 
+To comprehensively consider other forest values, we establish a Forest Management Model 
+for Society. And we create a three-level evaluation indicator system, including four second-level 
+indicators (carbon sequestration, biodiversity, cultural and recreational value) and 10 third-level 
+indicators. We determine the weight of each third-level indicator by Entropy Weight Method. 
+Considering different characteristics and geographical location of each forest, we use the Analytic 
+Hierarchy Process to get the value score by weighting the secondary indicators to make the score 
+closer to the real situation. Meanwhile, we use GE Matrix to evaluate the forest management plan 
+based on the cost of realizing the value, and get transition points of different plans. By optimizing 
+the distance between the plan and the optimal point in GE matrix, we obtain the optimal forest 
+management plan for society, which may vary for different forest managers. 
+Next, we apply our models to the Greater Khingan Mountains. And we obtain that the total 
+CS of forest and its products after 100 years is 4.264 billion tons, among which the CS of forest is 
+2.724 billion tons and that of its products is 1.540 billion tons. Then we establish a Nonlinear 
+Programming Model and use Genetic Algorithm to get the best forest management plan: the 
+ratio of the four regions realizing the value is 58.95%, 11.20%, 11.41% and 18.37%, respectively. 
+Allowing logging 10 years longer than current practices, we modify the management plan to 
+provide forest managers and all those who use forests with strategies to meet their needs. 
+In the end, we write a newspaper
+
+【Introduction】
+----------------------------------------
+1.1 Background 
+Global warming is bringing alarming consequences around the world, including more extreme 
+events, the rise of sea levels and the increased threat of extinction of plant and animal species. In 
+order to slow climate change and protect human environment, it is not enough to reduce carbon 
+emissions. We should also consider how to increase the amount of carbon dioxide sequestered from 
+the atmosphere, known as carbon sequestration.[1] 
+As the main body of terrestrial ecosystems, forests store more than 45% of all terrestrial 
+organic carbon, and their annual absorption of 𝐶𝑂2 through photosynthesis accounts for 2/3 of all 
+terrestrial ecosystems. Forests play a very important role in the global carbon cycle. Through 
+logging, fixed carbon in forests can be transferred to wood forest products, which can store carbon 
+in the whole life cycle of forest products. The disturbance of human activities to the global carbon 
+cycle in the 20th century is an unprecedented phenomenon in history. Understanding the global 
+carbon cycle and its impact on human activities is important for developing viable climate change 
+mitigation strategies. 
+ 
+1.2 Problem Restatement  
+In order to develop guidelines for forest managers around the world to try to figure out how 
+to use and manage their forests, our group undertook the following work: 
+⚫ Design a carbon sequestration model to determine the amount of 𝐶𝑂2 that a forest and its forest 
+products can sequester over time, and determine which forest management plans are most 
+effective. 
+⚫ Develop a decision model to determine a forest management plan. Consider the following 
+questions: what are the conditions that would prevent a forest from being cut down; whether 
+there are transition points between management plans applicable to all forests; how to use the 
+characteristics of a particular forest and its location to determine transition points between 
+management plans. 
+⚫ Apply the model to a variety of forests. Determine how much 𝐶𝑂2 a forest and its products 
+will absorb over a period of 100 years. Discuss what forest management plans should be 
+adopted for the forest and strategies to achieve them, supposing the best management plan 
+includes a time between harvests that is 10 years longer than current practices in the forest. 
+⚫ Write a non-technical newspaper article explaining the forest management plan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+[PAGE 4]
+1.3 Our Work 
+ 
+Figure 1: Our work
+
+【Model_Titles】
+----------------------------------------
+  • 4 Carbon Sequestration Model 
+  • 5 Forest Management Model for Carbon Sequestration 
+  • 6 Forest Management Model for Society 
+  • 6.3 Forest Management Evaluation Model 
+  • 8 Sensitivity Analysis 
+  • 4 Carbon Sequestration Model 
+  • 5 Forest Management Model for Carbon Sequestration 
+  • 6 Forest Management Model for Society 
+  • 6.3 Forest Management Evaluation Model 
+
+【Keywords】
+----------------------------------------
+Carbon Sequestration, Forest Management Model for Carbon Sequestration or Society,
+
+
+################################################################################
+# 论文ID: 2203489 | 年份: 2022
+# 文件: 2203489-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+Firstly, we divide objects that can sequester carbon into two categories: living forests and 
+forest products. In the calculation of living forests, we established a Tree Biomass Logistic 
+Growth Model for the number biomass to obtain a biomass-time function, and combined with 
+the scale of the real forest, rasterized the forest. We used the basic dichotomy model to cal-
+culate the vegetation coverage，and linear programming model to calculate the Carbon Dioxide 
+Containment (𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕) that can be sequestered by forests and their products over a while. The 
+𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡 is shown in Equation (12). 
+Secondly, we established a decision model in the forest management plan, selecting eco-
+logical benefits and economic benefits as decision variables, and the forest ecosystem service 
+function evaluation system as the objective function, and introduce the priority factor 𝑝𝑝 as a 
+constraint through the Analytic Hierarchy Process (𝐴𝐴𝐴𝐴𝐴𝐴), and get inspiration from the Gini 
+coefficient, it is concluded that the Comprehensive Optimization Index (𝑪𝑪𝑪𝑪𝑪𝑪) interval value is 
+between −5.77 ~ 94.26, the forest system with 𝐶𝐶𝐶𝐶𝐶𝐶 value closer to the right end point is op-
+timal at the comprehensive level, and the characteristics of specific forests and their locations 
+are combined with the priority sequence model. We propose a forest management plan optimi-
+zation algorithm based on a specific forest set. 
+Then, we established an economic benefit decision model, combined two expressions to 
+determine the Intensity Of Intermedia Cutting (𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰), and divided the intensity of intermedia 
+cutting into grades. The optimal harvesting cycle will improve the exist low benefit
+
+【Introduction】
+----------------------------------------
+1.1 Problem Background 
+IPCC noted that in the next 100 years, the average global surface temperature will in-
+crease by about 0.74 degrees. Carbon emissions caused by fuel burning played an important 
+role in the greenhouse effect. The traditional management of forests was carried out by com-
+munity succession and restoration measures. 
+Instead of them, we think forest ecosystem management should be based on the structural 
+adjustment of the system and the establishment of an adaptive mechanism to maintain the forest 
+ecosystem function and ensure its sustainable development.  
+Technology and method of forest ecosystem management are not only an urgent practical 
+topic in contemporary forestry production, but also an important theoretical and practical prob-
+lem. Carbon sequestration is born with the urgent need of reducing carbon emission. This 
+method considers both the carbon dioxide absorption of trees live and dead trees. Nowadays, 
+the forest has potential benefits in more fields than what we thought. Comprehensive evalua-
+tions are required in relating issues. 
+1.2 Our Work 
+First, we need to determine the amount of carbon sequestered that can be absorbed in the 
+process of development and set up a carbon sequestration model. Secondly, how to balance the 
+benefits brought by ecologic and economic is a problem that cannot be ignored, then set a 
+decision-making model for forest management plans, and finding balance point. 
+Afterwards, the established model will be applied to the case, if after the calculation, the 
+management plan now is quite different from the current one. We have to theoretically prove 
+the rationality of the improved policy proposed by the model. Lastly, it is important to develop 
+newspaper articles and publish them in the local community so that both the public can be 
+aware of current program changes and support our program. 
+ 
+Figure 1: Flow chart of our Model 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+[PAGE 4]
+
+【Model_Titles】
+----------------------------------------
+  • 4 Model I: Carbon Sequestration Model 
+  • 4.1 Tree carbon sequestration model 
+  • 4.2 Linear programming model of carbon sequestration in forest products 
+  • 4.3 Establishment of the carbon sequestration model 
+  • 5 Model II: Economic Benefit-Based Forest Management Model 
+  • 5.1 Selection of forest management plan based on priority sequence model 
+  • 5.2 Economic benefit model 
+  • 6.1 Results of Forest Management Plan Based on Priority Sequence Model 
+  • 6.2 Results of Economic Benefit First Model 
+  • 6.3 Results of Canadian forests based on the Carbon Sequestration Model 
+
+【Keywords】
+----------------------------------------
+Linear programming, Priority factors, Intermediate cutting, Forest management
+
+
+################################################################################
+# 论文ID: 2209336 | 年份: 2022
+# 文件: 2209336-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+Due to the huge role of forests in alleviating the greenhouse eﬀect, people are very concerned about 
+the carbon sequestration of forests. However, in addition to carbon sequestration, forests also have 
+many values that deserve attention and utilization.
+In this paper, in order to comprehensively evaluate all aspects of forest value and formulate a rea-
+sonable plan to promote forest development, we established an Eﬃciency-Estimation-Evaluation-
+Management Model (E3 −M Model) . E3 −M Model is a decision model composed of three
+sub models and forest management plans. Both The ﬁrst E model and The second E model are
+used to analyze the carbon sequestration of forests, while The third E model is used to evaluate the
+comprehensive value of forests and analyze the eﬃcacy of various management plans.
+E3: Evaluation Model is a model that can evaluate the comprehensive value of forests, including
+ﬁve indicators. We use The ﬁrst E and The second E to calculate the total carbon sequestration
+and calculate the weight of each indicator by combining AHP and EWM. Finally, we will quantify
+the comprehensive value of the forest in the form of a score. Then we will predict the future score
+of the forest according to the BP neural network, and determine the best forest management plan
+based on the change of the score.
+Management plans: : Making the best forest management plan for the forest is our ultimate
+goal. Our management plan can be divided into two parts: forest transition plan and commodity
+system transformation plan. The adjustment of cutting cycle is the core content of the management
+plan and we have discussed and analyzed it in detail in this article. Our model is applied to four
+kinds of forests. Then we choose Bach Ma National Park in Vietnam as the speciﬁc research object.
+The research conclusions are as follows:
+• The total carbon sequestration of the forest in 100 years is 1.68 × 107 t.
+• Increasing the cutting cycle can enhance the sustainability of forest development.
+• Increasing the cutting cycle doesnt necessarily lead to the transition stage and transition point.
+• The
+
+【Introduction】
+----------------------------------------
+1
+1.1
+Problem Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+1.2
+Problem Restatement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+1.3
+Our Approach . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+【Assumptions】
+----------------------------------------
+can ignore many complex factors.
+• Assumption 5: The cutting intensity is constant
+Justiﬁcation: In this paper, we are concerned with the cutting cycle and not the cutting
+intensity.
+• Assumption 6: The data we get from the website is accurate and reliable
+Justiﬁcation: Our data are mostly obtained from authoritative websites, such as FAO, FSC
+and global forest watch. Authoritative and professional data acquisition channels greatly
+increase the reliability of our data and models.
+
+【Model_Titles】
+----------------------------------------
+  • 4
+Idea of Eﬃciency-Estimation-Evaluation-Management Model
+  • 5
+First E : Eﬃciency Model for Carbon Sequestration
+  • 5.2
+Establishment of Eﬃciency Model for Carbon Sequestration 
+  • 6
+Second E: Estimation model of forest area
+  • 6.2
+Forest Area Model
+  • 7
+Third E: Evaluation Model for the Value of Forests
+  • 7.2
+Establishment of Evaluation Model 
+  • 4
+Ideaof Eﬃciency-Estimation-Evaluation-ManagementModel
+  • 5
+First E : Eﬃciency Model for Carbon Sequestration
+  • 5.2
+Establishment of Eﬃciency Model for Carbon Sequestration
+
+【Keywords】
+----------------------------------------
+E3 −M Model, Cutting cycle, Carbon Sequestration, Transition Point, Soil Fertility
+
+
+################################################################################
+# 论文ID: 2216618 | 年份: 2022
+# 文件: 2216618-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+Current forest management plans prioritize economical proﬁtability with little con-
+sideration of the forest’s ecological e↵ects. Thus, the managers fail to delibrately utilize
+their precious and natural resource of forests as the source of carbon sequestration, the
+process of decreasing the stocks of carbon dioxide from the atmosphere mechanically or
+by the biosphere. Undoubtedly, this has led to severe climatic changes and environmental
+unsustainability.
+Incorporating social, economical, and ecological sectors, the model we present serves
+as a novel approach to balance various factors involved in forestry. It re-optimizes the
+pre-existing forest management plans and enhances eﬃciency, from a global perspective.
+A sophisticated but limited model in real-life is The Faustmann Model[1]. It calcu-
+lates the present value of the income stream for forest rotation and infers the optimal time
+to cut the forest but is completely based on the economical portion of our world.
+We designed the Comprehensive Index of Forest (CIF) to measure the synthetical
+value of a forest, consisting of three indices: CSI, EI and BDI. The CSI takes the total
+carbon dioxide sequestrated by a forest and its products into account; the EI values the
+economical worth provided by the products; and the BDI is an important indicator of the
+inﬂuence on biodiversity by the harvest. And we use AHP to determine the weights for
+developed and developing countries. Moreover, considering the topology, we designed
+AVF to measure the comprehensive quality of the forest more accurately.
+Next we selected two forests from developed and developing countries as our case
+studies for the model:
+Quaking aspen forests: (representative for developed sector)
+• Developed countries concentrate more on achieving social and ecological goals,
+so the CSI weights more than the others and the tendency to cut down trees is low.
+• Surprisingly, we found out that it is actually better to not harvest any trees.
+Amazon rainforest: (representative for developing sector)
+• Developing countries rely more on the economical e↵ects that the forest may
+bring about, and hence has a much higher chance to cut down the trees.
+• Being di↵erent from its developed counterpart, developing countries must
+consider harvesting in the management plan to optimize CIF.
+We also commented about the strengths and weaknesses of our models, and pointed
+out the aspects for further improvement. And the sensitivity analysis is conducted at the
+end. We focused on the analysis of the estimation of the average lifespan of products.
+Finally, we wrote a newspaper article persuading some communities that well-prepared
+harvesting may actually elevate the overall beneﬁts socially, economically and ecologi-
+cally, rather than destroying the environment.
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+[PAGE 2]
+Team # 2216618
+
+【Introduction】
+----------------------------------------
+3
+1.1
+Problem Background . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.2
+Problem Restatement . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1.3
+
+【Model_Titles】
+----------------------------------------
+  • 3.5
+Further adjusted model 
+  • 6
+Sensitivity analysis
+  • 3.5
+Further adjusted model
+
+【Sensitivity】
+----------------------------------------
+21
+
+
+################################################################################
+# 论文ID: 2218144 | 年份: 2022
+# 文件: 2218144-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+“Gabon is one of the world’s leading producers of wood. It enforces selective logging:
+not more than one tree every hectare.” This occurs in Yann Arthus-Bertrand’s 2009 ﬁlm Home.
+In reality, indiscriminate logging can increase soil erosion, reduce biodiversity, etc. But cutting
+down trees and making them into woody forest products can be economically beneﬁcial and can
+absorb carbon dioxide. Therefore, it is necessary to make a reasonable forest management plan
+to plan the number of trees to be cut and planted to achieve a stable and balanced forest.
+First, we propose a Forest-Harvested Wood Products (HWP) Carbon Sequestration
+(FHWP) model and measure the amount of carbon sequestered by forests and HWP. First, the
+forest is divided into trees, understory plants, and woodlands, and their carbon conversion co-
+efﬁcients are calculated, and the forest carbon stock is solved by combining the forest area and
+carbon density. Second, the carbon sequestration of HWP was divided into two parts, including
+the carbon stock contained in wood and the amount of carbon entering the HWP pool in year
+i. The HWP is divided into four types, such as round wood, charcoal, and wood panel, and the
+carbon conversion factors of the four products are considered to predict the stock entering the
+HWP in year i. Then, we add up the carbon sequestration of both to construct the FHWP model.
+Finally, the model is applied to Russia and solved using an improved bat algorithm to derive the
+carbon sequestration in Russian forests, e.g., 1.39×1013t of carbon sequestration in Russian
+forests in 2020.
+Second, we construct Carbon Sequestration-Economic Value-Ecological Protection (CEE)
+model to make forest management optimal in three dimensions: carbon sequestration (CS), eco-
+nomic value (EV), and environmental protection (EP). First, 12 indicators in the three dimensions
+of CS, EV, and EP are selected, and the indicators are calculated using the current market price
+and forest land revenue, and the data are normalized. Secondly, the entropy weight method is
+applied to calculate the weight of each indicator. |C| indicates the overall level achieved by this
+forest management plan under the three dimensions, and then CEE model is constructed. Finally,
+the model is applied to China considering the 5-year transition period of the plan. Under the con-
+dition of no deforestation, the transformation at 0.162% planting rate can reach the overall level
+of 2020 in 2025, corresponding to a carbon sequestration of 3.0411×1011t.
+Third, the model was applied to Sudanese forests to derive the best forest management plan
+after 10 years of transition. First, Sudan’s forests from 2011-2020 was evaluated using CEE
+model. Second, based on FHWP model, the current amount of carbon sequestered by forests and
+their derivatives is calculated, and the amount of carbon sequestered after 100 years is predicted,
+starting from 2020. Next, we optimized the management plan based on the best management
+guideline-makin
+
+【Introduction】
+----------------------------------------
+3
+1.1
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.2
+Restatement of the Problem . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1.3
+Our Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+
+【Assumptions】
+----------------------------------------
+4
+2.1
+Symbol table
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.2
+Assumptions
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+
+【Model_Titles】
+----------------------------------------
+  • 3.1
+Forest Carbon Sequestration Model
+  • 3.4
+Solving the FHWP model by using the improved bat algorithm 
+  • 3.5
+Application of FHWP model: Russia 
+  • 4
+Carbon Sequestration-Economic Value-Ecological Protection Model(CEE)
+  • 4.1
+Overview of CEE model
+  • 4.4
+Establishment of CEE Model 
+  • 4.5
+Application of CEE model: China 
+  • 5.2
+Results of applying CEE and HHWP model to Sudan 
+  • 6
+Sensitivity Analysis
+  • 3.1
+Forest Carbon Sequestration Model
+
+【Sensitivity】
+----------------------------------------
+22
+
+【Keywords】
+----------------------------------------
+Forest Management; FHWP Model; CEE Model; Bat Algorithm
+
+
+################################################################################
+# 论文ID: 2220714 | 年份: 2022
+# 文件: 2220714-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+As the lung of the earth, forest is the most powerful carbon sequestration player in 
+nature. An appropriate forest management is conducive to the realization of sequestra-
+tion potential. Therefore, we established the Tree-Products-Environment Carbon Se-
+questration (TPE) Model to calculate how much carbon the forests can save over a fixed 
+time, and proposed a set of forest management to maximize fixation efficiency. Then 
+considered ecological, economic, tourism and entertainment factors comprehensively, 
+established the Forest Management Evaluation (MFE) Model to score every manage-
+ment, finally pick the best one. 
+Firstly, net primary productivity (NPP) was used to measure the carbon sequestra-
+tion level of forest, then the NPP calculation model evaluated by GLO-PEM help us to 
+calculate the carbon synthesized by photosynthesis. Our TPE model points out that part 
+of the carbon is stored in the living tree to activate the carbon cycle, another is fixed in 
+forest products and decomposed over time, others is released into the atmosphere or 
+environment because of the natural death of trees. On this basis, we advance a “Rota-
+tion Regeneration” forest management, which prioritizes cutting the older trees, at the 
+same time, set a harvest cycle and cutting ratio, planting new seedlings while cutting 
+older trees. Then is applied to ChangBai forest, find that when the rotation period is 10 
+years and the cutting ratio is 20 %, which can be the most effective plan, the carbon 
+sequestration in 100 years is as high as 3.57 × 1010 𝑔. 
+Secondly, considering the applicability to society, in addition to the ecological 
+value of carbon sequestration, in terms of economic and tourism worth, we propound 
+another two indicators of tourism experience and management cost. And give a scoring 
+system by the MFE model based on AHP. Further, we put forward a management strat-
+egy that balances the three indicators above. Based on the data of ChangBai forest, we 
+get a best strategy when the rotation cycle is 15 years and the cutting proportion is 40 %, 
+then take a sensitivity analysis. Applying the MFE model in different forests, we found 
+that with the change of main tree species, the influence of three indicators on manage-
+ment strategies will also change, by the way, the optimal strategy transit to the direction 
+of forest value maximization. For example, from Muchuan forest with ornamental for-
+est mainly to tropical dry deciduous forest with economic forest in Jhumpa, India, the 
+best management will transit from long rotation cycle and low cutting proportion to a 
+short one and high one. 
+Finally, we contributed a magazine article to ICM about the necessity of harvesting 
+trees for forest management.
+
+【Introduction】
+----------------------------------------
+1.1  Problem Background 
+In recent years, the concentration of greenhouse gases in the atmosphere has in-
+creased, resulting in global warming [1]. Carbon dioxide is the main influencing factor. 
+At present, the concentration of carbon dioxide in the atmosphere has increased from 
+280 𝑚𝐿· 𝑚−3 before the industrial revolution to 370 𝑚𝐿⋅𝑚−3 in 2001, and is in-
+creasing at the rate of 1~1.5 𝑚𝐿⋅𝑚−3 per year [2]. It is necessary to take correspond-
+ing measures to reduce carbon dioxide in the atmosphere.  
+Carbon sequestration is a process of capturing and storing carbon dioxide from the 
+atmosphere. Forest carbon sequestration means that forest plants absorb carbon dioxide 
+in the atmosphere and fix it in vegetation or soil, thereby reducing its concentration in 
+the atmosphere. The annual carbon exchange between forest light cooperation and res-
+piration and atmosphere is as high as 90% of the annual carbon exchange of terrestrial 
+ecosystem [3], which plays an important role in regulating global climate and maintain-
+ing global carbon balance. 
+Forests not only store carbon dioxide in living plants, but also exist in their forest 
+products. Over time, the carbon sequestration capacity of trees and the longevity of 
+forest products will change. In the long run, appropriate management strategies need to 
+be conducive to maximizing carbon sequestration. However, most forests in the world 
+have not been effectively managed, and carbon sequestration reaches the maximum [4]. 
+It is of great significance to develop a good forest management plan to effectively re-
+duce carbon dioxide in the atmosphere.   
+At the same time, forest manager also requires attention to value factors other than 
+carbon sequestration. Due to the different composition, interests and uses of forests, an 
+optimal forest management plan should be suitable for social needs and has the greatest 
+ecological, economic and cultural value. 
+Taking into account the above situation, we have constructed two models based 
+on the existing research model and data.  
+A Tree-Products-Environment Carbon Sequestration (TPE) Model was con-
+structed to estimate carbon sequestration in a forest area. Then carbon sequestration, 
+forest product value, deforestation frequency as ecological, economic, cultural and en-
+tertainment value indicators. We build a Forest Management Evaluation (FME) Model 
+to give the best management plan for society. Finally, the actual data are used for veri-
+fication. We use the two models to analyze the given strategies for the forest regions of 
+Changbai Mountain in China and the tropical dry deciduous forest in Jhumpa, Haryana 
+State in southern India. 
+ 
+ 
+更多大学生竞赛资料 |  请关注公众号：竞赛资料网
+
+[PAGE 4]
+1.2  Restatement of the Problem 
+Reasonable forest management plan is conducive to improving forest carbon se-
+questration capacity. Living plants in the forest can absorb carbon dioxide, and forest 
+products made of cut trees also have certain carbon dioxide storage. To maximize fores
+
+【Model_Titles】
+----------------------------------------
+  • 5 
+Tree-Products-Environment Carbon Sequestration（TPE） Model 
+  • 5.2 
+The Establishment of TPE Model 
+  • 5.3 
+Simulation of TPE Model 
+  • 6 
+Forest Management Evaluation (FME) Model 
+  • 6.2 
+Calculation Method of Evaluation Factors 
+  • 6.3 
+TOPSIS Comprehensive Evaluation Method 
+  • 7 
+Sensitivity Analysis 
+  • 5.2 The Establishment of TPE Model 
+  • 5.3  Simulation of TPE Model 
+  • 6 Forest Management Evaluation (FME) Model 
+
+【Keywords】
+----------------------------------------
+AHP  NPP  the TPE model  the MFE model  harvesting strategy
+
+
+################################################################################
+# 论文ID: 2223269 | 年份: 2022
+# 文件: 2223269-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+The
+
+【Assumptions】
+----------------------------------------
+Assumption 1: We only consider the natural carbon sequestration of forests and their 
+products, and do not consider their carbon sequestration in other specific ways through 
+human involvement. 
+Because according to the data, the natural carbon sequestration of forests and their products 
+is much greater than the latter, so the latter can be ignored without affecting the accuracy of the
+
+【Model_Titles】
+----------------------------------------
+  • 4. 
+The Carbon Sequestration Model ······································································ 3 
+  • 4.2 Establishment of a Forest Carbon Sequestration Model ···················································· 3 
+  • 4.3 Establishment of a Forest-products Carbon Sequestration Model······································ 6 
+  • 5.5 The Multi-objective Programming Model ········································································13 
+  • 4. The Carbon Sequestration Model 
+  • 4.2 Establishment of a Forest Carbon Sequestration Model 
+  • 1590.45 
+ 
+It can be seen from the VIF value in the above table that the model has a serious collinearity 
+  • 2. 
+It can be seen from the above models that if we want to obtain C(t) and then C(t+1), the forest 
+  • 4.3 Establishment of a Forest-products Carbon Sequestration Model 
+  • 5.5 The Multi-objective Programming Model 
+
+【Keywords】
+----------------------------------------
+Carbon sequestration; Multi-objective programming; Forest management; Harvest
+
+
+################################################################################
+# 论文ID: 2223495 | 年份: 2022
+# 文件: 2223495-公众号【竞赛资料网】.pdf
+################################################################################
+
+【Summary】
+----------------------------------------
+Forests play an important role in both nature and human society. In the context of "car-
+bon peaking and carbon neutral", how to balance the economic and ecological values of 
+forests has become an academic focus. We used differential equations, multi-objective 
+planning, evolutionary games and simulation to find scientific management strategies for 
+forests in different climates and to guide practice and development. 
+First, we constructed a forest carbon sequestration model. Based on the differential 
+equation, we investigated the carbon sequestration level under different forest management 
+strategies, taking into account the forest area, tree age, climate environment, wood use and 
+depreciation, and found that moderate harvesting helps to increase the carbon sequestration 
+of the whole system. In addition, we simulated the adjustment of the harvesting rate 
+ to 
+find the best forest management strategy for carbon sequestration and calculated that 
+. 
+Second, in order to balance the multiple values such as economic value and ecological 
+value of the forest system, we constructed six value systems based on the TEV model. Based 
+on this, we constructed a value system balance model using multivariate objectives pro-
+gramming and solved the maximum total forest ecosystem value (TTF) with the help of 
+simulated annealing (SA) algorithm. Thus, the optimal benefit is achieved with balancing 
+the interests of multiple parties, and the TTF is obtained from the experiment in northern 
+China category: 27283~40924.5$/km2/year. 
+Third, the development of scientific forest management strategies is necessary to 
+achieve the balance and optimum of forest values. The inverse mapping function is con-
+structed based on the value system balance model to analyze the optimal forest management 
+strategy under the corresponding state. Forest management strategies for general and special 
+conditions are developed based on 4 medium forest harvesting strategies simulated for each 
+of the 4 major types of climatic environments. We used a subtropical forest in China as an 
+example, and validated that the 100-year 𝐶𝑂2 uptake for a harvest rate of 41.5% ~ 55% 
+for near-mature trees and 80% for mature trees is found to be 442.2 ~ 820.8𝑘𝑡. 
+Finally, the
+
+【Introduction】
+----------------------------------------
+1.1 Problem Background 
+Climate change is one of the central issues in international public affairs. Reduction of 
+greenhouse gases is important. Carbon sequestration is considered as an effective method to 
+reduce emissions [1]. Carbon sequestration is the safe capture and storage of carbon in the air 
+[2]. Forests are an effective way to sequester carbon [3]. Forests and forest products are affected 
+by the climatic environment and human disturbances [4]. It has been argued that scientific 
+harvest management can improve the carbon sequestration capacity of forest systems. However, 
+forest managers often need to balance ecological, economic and social values when making 
+decisions. 
+1.2 Restatement of the Problem and Our works. 
+Considering the information identified in the problem statement, we need to address the 
+following questions and perform the following tasks 
+⚫ Develop a carbon sequestration model to quantify the amount of carbon sequestration in 
+forests and their products, and use this model to design the most effective carbon-seques-
+tration forest management plans. 
+⚫ Build a decision model to help forest managers choose the best forest management plan 
+and balance multiple value objectives. The model needs to consider the coverage of forest 
+management plans, discuss the conditions under which forests will not be cut down, tran-
+sition points between forest management plans, and characteristics of forests in different 
+locations in the world regarding transition points of management plans. 
+⚫ Apply the model practically to all kinds of forests, identify and select the forest that should 
+adopts a forest management plan that includes a harvesting plan. Project carbon sequestra-
+tion 100 years from now, identify the best forest management plan and argue its rationale, 
+and develop a transition strategy that takes into account the sensitivity of forest managers' 
+needs. 
+⚫ Write a non-technical essay explaining the need for deforestation and convincing local 
+residents that our management plan is the best decision to develop the forest. 
+1.3 Literature Review 
+Forests play a crucial role in the carbon cycle [5,6]. According to the Kyoto Protocol and 
+the United Nations Framework Convention on Climate Change (UNFCCC), carbon sequestra-
+tion in forest ecosystems makes carbon management a promising solution to combat climate 
+change [7,8]. The use of forest resources has entered the stage of multi-value sustainable use 
+of managed forests [9,10]. Currently, maintaining and enhancing carbon sinks and carbon stor-
+age (CSS) in forest ecosystems is becoming a fundamental goal of sustainable forest manage-
+ment [10]. Adaptive silvicultural practices, such as reducing intensive harvesting, may be one 
+of the strategies to increase the long-term CSS of ecosystem HWP [11,12]. It has been sug-
+gested that the carbon sink capacity of planted forests can be maximized by extending crop 
+rotation and taking appropriate measures [13]. 
+ 
+更多大学生竞赛资料 |
+
+【Model_Titles】
+----------------------------------------
+  • 4 Whole Process Carbon Sequestration Model for Trees
+  • 4.1 Tree Age Stage Classification Model 
+  • 4.2 Forest Ecology Model 
+  • 4.3 Whole Process Forest Wood Model 
+  • 4.4 Steady-state Equilibrium Model 
+  • 4.5 Total Carbon Sequestration Measurement Model 
+  • 5 Forest System Value Balance Model 
+  • 5.2 Value Balance Planning Model 
+  • 6 Forest Management Strategy Model 
+  • 8 Sensitivity Analysis 
+
+【Keywords】
+----------------------------------------
+Differential Equations ; Multiple Objective Planning ; TEV ; Evolutionary Game
+

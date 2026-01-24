@@ -1,0 +1,59 @@
+E题 O奖论文完整统计分析
+============================================================
+
+【数据来源】
+  2023年: 7篇
+  2024年: 5篇
+  总计: 12篇
+
+【2022年E题主题】森林碳汇与管理
+【2024年E题主题】极端天气与财产保险
+
+【高频关键词】
+  ahp: 4次
+  light pollution: 3次
+  arima: 2次
+  ge matrix: 2次
+  risk analysis: 1次
+  risk-capital asset pricing model: 1次
+  sperman-critic: 1次
+  extreme weather event: 1次
+  property insurance: 1次
+  dual-objective optimization: 1次
+  searches on google scholar: 1次
+  and there is little: 1次
+  extreme weather: 1次
+  ruin theory: 1次
+  ahp-ewm: 1次
+  logistic model: 1次
+  sustainability: 1次
+  cost-benefit analysis: 1次
+  topsis: 1次
+  fuzzy comprehensive evaluation: 1次
+  underwriting decision model: 1次
+  monte carlo simulations: 1次
+  risk checklist: 1次
+  ewm-ahp algorithm: 1次
+  alarp: 1次
+  risk indicator q: 1次
+  coupling coordination: 1次
+  "light pollution" and found that the re-: 1次
+  lsn evaluation model: 1次
+  lpi: 1次
+
+【高频模型/方法】
+  Sensitivity Analysis: 37次
+  Risk Assessment: 26次
+  AHP: 24次
+  Entropy Weight Method: 21次
+  TOPSIS: 19次
+  GE Matrix: 15次
+  Goal Programming: 8次
+  ARIMA: 8次
+  Logistic Model: 7次
+  Fuzzy Evaluation: 5次
+  Ruin Theory: 4次
+  Monte Carlo Simulation: 3次
+  Gray Forecasting: 3次
+  Information Diffusion: 3次
+  Cost-Benefit Analysis: 2次

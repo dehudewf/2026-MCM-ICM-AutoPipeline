@@ -1,0 +1,189 @@
+================================================================================
+E题 O奖论文 Abstract 对比分析 (2022年)
+================================================================================
+
+
+################################################################################
+# 论文 2202171
+################################################################################
+
+
+################################################################################
+# 论文 2202666
+################################################################################
+
+【Introduction (前1500字)】
+1.1 Problem Background 
+Climate change has long been recognized by the international community as one 
+of the major global environmental issues. Greenhouse gases produced by human activ-
+ities, such as carbon dioxide (CO2) and methane (CH4), have seriously affected the 
+chemical composition of the atmosphere. With their strong ability to absorb infrared 
+radiation, they have caused the rise both in the average temperature of the earth's sur-
+face and in sea level year by year, inducing incalculable damage to mankind. Therefore, 
+using forests, especially forest products, to absorb and sequestrate atmospheric carbon 
+dioxide is an effective and practical way to reduce greenhouse gases. In a forest eco-
+system, the carbon cycle can be divided into four stages [1], as shown in the figure 
+below.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: The carbon cycle 
+ 
+The first stage is the absorption of carbon dioxide by the forest through photosyn-
+thesis. The second stage is tree cutting, where part of it becomes logs to be used for the 
+production of HWP (harvested wood products) and the remainder will rot or burn to 
+release the organic carbon in it. The third stage is the wood use stage, where the amount 
+of carbon sequestered by logs in the production of HWP is also lost in the form of 
+carbon dioxide, but the HWP represented by durable wood products will slowly release 
+its stored organic carbon over a longer period of time. The fourth stage is the disposal 
+stage of HWP, when the dis
+
+
+################################################################################
+# 论文 2202838
+################################################################################
+
+【Summary/Abstract】
+"Trees are unguilty. You destroy them. You are guilty!" Some argue that we should not cut 
+down trees at all to mitigate climate change, but in fact, proper logging is necessary and beneficial. 
+Through establishing models, we demonstrate that forest management plans including harvesting 
+can balance the carbon sequestration (CS) and the realization of other values.  
+First, we establish a Carbon Sequestration Model to obtain the amount of CS including 
+forest and forest products. In the calculation, we use the Conversion Factor Method (CFM) of 
+forest stock volume, comprehensively considering trees, understory plants and wood soil. And we 
+use a logical growth model to express the CS capacity and tree age to obtain a more real value. By 
+adding the CS of forests and forest products, we can obtain the total amount of CS in year . 
+Then, we establish a Forest Management Model for Carbon Sequestration combining the 
+idea of Dynamic Objective Programming. We divide the forest into regions, using 
+, 
+ 
+and 
+ to store information about cut or not, tree age, and death or not respectively. These 
+variables affect each other. Combined with them and the CS model, we can obtain the amount of 
+CS in statistical time, which is our objective function. Then, we get the optimal management plan 
+by searching the optimal solution to the function. 
+To comprehensively consider other forest values, we establish a Forest Management Model 
+for Society. And we create a three-level evaluation indicator system, including four second-level 
+indicators (carbon sequestration, biodiversity, cultural and recreational value) and 10 third-level 
+indicators. We determine the weight of each third-level indicator by Entropy Weight Method. 
+Considering different characteristics and geographical location of each forest, we use the Analytic 
+Hierarchy Process to get the value score by weighting the secondary indicators to make the score 
+closer to the real situation. Meanwhile, we use GE Matrix to evaluate the forest management plan 
+based on the cost of realizing the value, and get transition points of different plans. By optimizing 
+the distance between the plan and the optimal point in GE matrix, we obtain the optimal forest 
+management plan for society, which may vary for different forest managers. 
+Next, we apply our models to the Greater Khingan Mountains. And we obtain that the total 
+CS of forest and its products after 100 years is 4.264 billion tons, among which the CS of forest is 
+2
+
+【Introduction (前1500字)】
+1.1 Background 
+Global warming is bringing alarming consequences around the world, including more extreme 
+events, the rise of sea levels and the increased threat of extinction of plant and animal species. In 
+order to slow climate change and protect human environment, it is not enough to reduce carbon 
+emissions. We should also consider how to increase the amount of carbon dioxide sequestered from 
+the atmosphere, known as carbon sequestration.[1] 
+As the main body of terrestrial ecosystems, forests store more than 45% of all terrestrial 
+organic carbon, and their annual absorption of 𝐶𝑂
+
+
+################################################################################
+# 论文 2203489
+################################################################################
+
+【Summary/Abstract】
+Firstly, we divide objects that can sequester carbon into two categories: living forests and 
+forest products. In the calculation of living forests, we established a Tree Biomass Logistic 
+Growth Model for the number biomass to obtain a biomass-time function, and combined with 
+the scale of the real forest, rasterized the forest. We used the basic dichotomy model to cal-
+culate the vegetation coverage，and linear programming model to calculate the Carbon Dioxide 
+Containment (𝑪𝑪𝑪𝑪𝑪𝑪𝒕𝒕) that can be sequestered by forests and their products over a while. The 
+𝐶𝐶𝐶𝐶𝐶𝐶𝑡𝑡 is shown in Equation (12). 
+Secondly, we established a decision model in the forest management plan, selecting eco-
+logical benefits and economic benefits as decision variables, and the forest ecosystem service 
+function evaluation system as the objective function, and introduce the priority factor 𝑝𝑝 as a 
+constraint through the Analytic Hierarchy Process (𝐴𝐴𝐴𝐴𝐴𝐴), and get inspiration from the Gini 
+coefficient, it is concluded that the Comprehensive Optimization Index (𝑪𝑪𝑪𝑪𝑪𝑪) interval value is 
+between −5.77 ~ 94.26, the forest system with 𝐶𝐶𝐶𝐶𝐶𝐶 value closer to the right end point is op-
+timal at the comprehensive level, and the characteristics of specific forests and their locations 
+are combined with the priority sequence model. We propose a forest management plan optimi-
+zation algorithm based on a specific forest set. 
+Then, we established an economic benefit decision model, combined two expressions to 
+determine the Intensity Of Intermedia Cutting (𝑰𝑰𝑰𝑰𝑰𝑰𝑰𝑰), and divided the intensity of intermedia 
+cutting into grades. The optimal harvesting cycle will improve the exist low benefit problem in 
+the single-phase model. Referring to the intergenerational equity principle in resource eco-
+nomics, the model is optimized to an infinite-time model, which can achieve the purpose of 
+maximizing forest land income and maintaining forest function at the same time. 
+According to the value of 𝐶𝐶𝐶𝐶𝐶𝐶, we applied the model to Saihanba and Canadian Douglas 
+fir forests respectively, and used the MATLAB fitting toolbox to apply the forest management 
+plan. We calculated that the Douglas fir forest should take 13 years as the harvesting cycle 
+and 𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼= 35%, which will absorb 70,780,800 𝑚𝑚𝑚𝑚 𝐶𝐶𝐶𝐶2 in 100 years. Furthermore, with 
+the help of the boundary Kuznets curve, we quantify the relationship between forest users 
+satisfaction and forest area under the assumption of an extended harvesting perio
+
+【Introduction (前1500字)】
+1.1 Problem Background 
+IPCC noted that in the next 100 years, the average global surface temperature will in-
+crease by about 0.74 degrees. Carbon emissions caused by fuel burning played an important 
+role in the greenhouse effect. The traditional management of forests was carried out by com-
+munity succession and restoration measures. 
+Instead of them, we think forest ecosystem management should be based on the structural 
+adjustment of the system and the establishment of an adaptive mechanism to maintain the forest 
+ecosystem function and ensure its sustainable development.  
+Technology and method of forest ecosystem management are not only an urgent practical 
+topic in contemporary forestry production, but also an important theoretical and practical prob-
+lem. Carbon sequestration is born with the urgent need of reducing carbon emission. This 
+method considers both the carbon dioxide absorption of trees live and dead trees. Nowadays, 
+the forest has potential benefits in more fields than what we thought. Comprehensive evalua-
+tions are required in relating issues. 
+1.
+
+
+################################################################################
+# 论文 2209336
+################################################################################
+
+【Summary/Abstract】
+Due to the huge role of forests in alleviating the greenhouse eﬀect, people are very concerned about 
+the carbon sequestration of forests. However, in addition to carbon sequestration, forests also have 
+many values that deserve attention and utilization.
+In this paper, in order to comprehensively evaluate all aspects of forest value and formulate a rea-
+sonable plan to promote forest development, we established an Eﬃciency-Estimation-Evaluation-
+Management Model (E3 −M Model) . E3 −M Model is a decision model composed of three
+sub models and forest management plans. Both The ﬁrst E model and The second E model are
+used to analyze the carbon sequestration of forests, while The third E model is used to evaluate the
+comprehensive value of forests and analyze the eﬃcacy of various management plans.
+E3: Evaluation Model is a model that can evaluate the comprehensive value of forests, including
+ﬁve indicators. We use The ﬁrst E and The second E to calculate the total carbon sequestration
+and calculate the weight of each indicator by combining AHP and EWM. Finally, we will quantify
+the comprehensive value of the forest in the form of a score. Then we will predict the future score
+of the forest according to the BP neural network, and determine the best forest management plan
+based on the change of the score.
+Management plans: : Making the best forest management plan for the forest is our ultimate
+goal. Our management plan can be divided into two parts: forest transition plan and commodity
+system transformation plan. The adjustment of cutting cycle is the core content of the management
+plan and we have discussed and analyzed it in detail in this article. Our model is applied to four
+kinds of forests. Then we choose Bach Ma National Park in Vietnam as the speciﬁc research object.
+The research conclusions are as follows:
+• The total carbon sequestration of the forest in 100 years is 1.68 × 107 t.
+• Increasing the cutting cycle can enhance the sustainability of forest development.
+• Increasing the cutting cycle doesnt necessarily lead to the transition stage and transition point.
+• The
+
+【Introduction (前1500字)】
+1
+1.1
+Problem Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+1.

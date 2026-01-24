@@ -1,0 +1,4 @@
+Severity,Dimension,Issue,Evidence,Impact,Recommendation
+MAJOR,Indicator System,High correlation between indicators (lack of independence),SkyBrightness ↔ OverIllumination (r=0.993); SkyBrightness ↔ EcoDisruption (r=0.977); SkyBrightness ↔ CircadianImpact (r=0.981),Redundant information → biased weights → distorted ranking,Consider removing or combining highly correlated indicators
+MAJOR,Ranking,Very close scores between top alternatives,Protected vs Rural: Δscore = 0.0062,Ranking is fragile → small data/weight changes may reverse order,Report top-2 as statistically tied; conduct deeper sensitivity analysis
+MAJOR,Robustness,Moderate sensitivity to extreme perturbations,Top-1 changed in 12.5% of extreme tests,Model is moderately fragile under large uncertainties,Report confidence intervals for rankings

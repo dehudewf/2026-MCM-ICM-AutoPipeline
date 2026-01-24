@@ -1,0 +1,5 @@
+Location,Current_Score,Expected_Reduction_%,Expected_New_Score,Recommended_Actions
+Protected,0.779215563800642,50.0,0.389607781900321,Midnight Curfew Policy (amount: 100.0)
+Rural,0.7729751518162327,0.0,0.7729751518162327,No intervention needed (already low pollution)
+Suburban,0.5283773721548644,0.0,0.5283773721548644,No intervention needed (already low pollution)
+Urban,0.22078443619935795,0.0,0.22078443619935795,No intervention needed (already low pollution)

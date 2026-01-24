@@ -1,0 +1,3815 @@
+================================================================================
+E题 2023-2024 O奖论文 OCR提取
+成功提取: 12篇
+================================================================================
+
+
+################################################################################
+# 2024年 论文ID: 2400860
+# 文件: 2400860.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2024 Team Control Number
+
+E MCMICM 2400860
+
+Summary Sheet
+
+Veils of Uncertainty: Weaving Risk into the Tapestry of Preservation
+Under the Weather's Watch
+Summary
+
+As the tapestry of nature weaves its unpredictable patterns, humanity’s quest for stability
+becomes ever more pressing. In the shadow of uncertainty, we find resilience, crafting shields
+against the tempests of fate.
+
+First, we establish a Risk Analysis model to comprehensively assess the Expected An-
+nual Loss (EAL) from extreme weather in terms of population, building, and agriculture. The
+assessment for each aspect is calculated from three perspectives: natural hazard exposure, His-
+toric Loss Ratio, and the likelihood risk factor of natural hazard annualized frequency. Com-
+munity Risk Factor (CRF) is calculated from social vulnerability and community resilience:
+EAL and CRF are used to quantify the risk levels of various regions and rank them using the
+K-means algorithm, resulting in a risk level map of the United States.
+
+Second, we develop a Risk-incorporated Capital Asset Pricing Model (CAPM) to aid
+insurance companies in underwriting decisions. This model combines market return rates, the
+tisk-free rate, and bankruptcy theory with a 10% bankruptcy probability to set insurance rates.
+It evaluates if the region's residents can afford these premiums, providing decision-making ad-
+vice for insurance companies.
+
+More specifically, we apply our Risk-incorporated Capital Asset Pricing Model in Los
+Angeles and Gorontalo. In Los Angeles, insurance companies see high profits and low risks.
+However, in Gorontalo, the required premium for $10,000 coverage is $342.745, beyond local
+affordability. We recommend insurance securitization and partnerships with local govern-
+ments to reduce premiums. Consequently, Gorontalo residents could pay just $137.25 annually,
+with companies projecting $245 million in revenue.
+
+Third, we establish a Building Preservation Model, selecting seven secondary indicators
+such as the annual number of visitors and construction cost, and three primary indicators: cul-
+tural values and community influence, economy, and history. These are weighted using the
+Sperman-CRITIC algorithm and AHP method to calculate building value, combined with
+risk levels to determine the preservation level of buildings. Based on the preservation level, the
+community's investment and measures for building protection can be determined.
+
+Then our models inform investment and protection strategies for Tokyo Tower, acknowl-
+edging its value and the necessity of preservation in an earthquake zone. We communicate these
+findings and propose protection measures to the Tokyo Tower community.
+
+Finally, we analyze the sensitivity and robustness of our models, the models can change
+the insurance rate sensitively according to the change of the market predicted return and the
+slight error of the risk factor calculation will not affect the models’ result, which verifies the
+sensitivity and robustness of our models. In addition we analyze the strengths and weaknesses
+of the models.
+
+Keywords: Risk Analysis, Risk-Capital Asset Pricing Model, Sperman-CRITIC, AHP,
+Building Preservation Model.
+
+
+[PAGE 2]
+Team # 2400860 Page 2 of 27
+
+Contents
+
+1 Introduction...
+1.1 Problem Background vee
+1.2 Restatement of the Problem ............0..cccceccecseecs cesses cess ecssessteseesesesesetseesreteretseesrcssesseeseeel
+
+V3 Our Work ...cecscecccceccecsseesesesseseseeseseseeseaeeseaesescanereaesesscanersaesneneseereaesnsiesseusaeensnsreensneensnereeees 4
+2 Assumptions and Justifications.............ssscescsesssssescsescssscssssesssesssssesesssenseenses 5
+3 Notations
+4 Insurance Pricing and Decision Model ............s.sssssssscssecssssssssesssssesesssseseesses 6
+AL Data Collection ......c.ccecccccceccecessesseeseeteseseeseseensseenenesesteseeneesnsnereenseensnereenseensnentansesinenese 6
+
+4.2 Risk Analysis ............... ceseteeenee
+4.2.1 The Expected Annual al Loss(EAL)..
+4.2.2 Community Risk Factor
+4.2.3 Risk Calculation
+4A Me@aASUre ooo. eee ceecc cece estes testes tes ceeneseeutereseessttearsantetereanetetsiseisaetetsineeeeeesees LB
+
+Co AD
+
+4.4.1 Insurance Securitization occ. cccce cecceeeces ceees eee eeeeeseeseeesaesestesicsiesieseseesseseeseesee 13
+4.4.2 Co-operation with the Government .............c.ccceecceeecee esses eseeeeeseresteseeesteesneeeeeees 13
+4.4.3 The Implementation of Measures ........... 14
+4.5 Real Estate Decision Making........0..0...0c00 14
+
+5 Building Preservation Model
+5.1 Building Value Quantification ..
+5.1.1 Indicators Determimation ..........0.0.c0. cece cee eeeeee sees ereseeteeeeieteetieeieiereeeees 16
+
+$.1.2 Weight Calculation ............. co ccueceeseaseseesesissteseesisevssessessessessesesseeteseee 7
+
+5.1.3 Quantitative Results of Building V VALUCS ee eseeeeteeeestesssteseenssereenereensuessenereatsnensene 19
+
+5.2 Determination of protection measures...
+
+$.2.1 Measure Score .......0..0.ccc cc
+
+5.2.2 Score of Protection Measures................. ...20
+
+§.2.3 Mentoring for Community Leaders .......0..0..ccccee cesses se eesesseeeeesesetteeneseessen 20)
+
+6 Landmark Case AmallySis.........ssccsssssesssesssssesssssssessssssssssssesssesssessessssessnseseees 21
+6.1 Insurance Pricing for Tokyo Towet.........c.ccccccesssesessssesssesesteseeesnesesnesesnsueessnereanseeeenerens 21
+
+6.2 Architectural Value of Tokyo Tower .......0..0...0.c0cceeceeeereeeeeseereseeritreeeseene 2h
+7 Sensitivity and Robustness AnalySis..........ssscssssessssssescssssescssssesssesseessssseseees 22
+TA Semsitivity ooo. cece cecccecseecescseesessesnssnsseeseseessessessesnesesseanssnssseensanssesresenseesresesneeeeeenene 22
+7.2 RODUSEIESS oo... cceeceeceseeceseseescseecseeseescansrsacsesrsatsrsaesesnsanersatscanesssrsassssnssssesativasrcareasicarsiea® 23
+
+
+[PAGE 3]
+Team # 2400860 Page 3 of 27
+
+8 Model Evaluation... csssssssssssssssssecsssssseesssssssesesssssscsessesesssnesesesesssseseees 23
+8.1 Strengths ...
+8.2 Weaknesses
+
+References...
+
+
+[PAGE 4]
+Team # 2400860 Page 4 of 27
+
+1 Introduction
+
+1.1 Problem Background
+
+Extreme weather events are becoming more frequent due to climate change. As the eco-
+nomic costs of disasters rise, how should the insurance industry respond to losses? Extreme
+weather events cause untold human suffering but and ever-growing economic costs.
+
+Catastrophic risks consequently cause a variety of problems for insurers. First, because
+the losses arise from a small number of lumpy events, the insurer may not have sufficient re-
+sources to cover the losses. Less dramatically, the firm may suffer losses well in excess of the
+value of the premiums that it charged for the coverage. In the absence of adequate reinsurance,
+the firm may go bankrupt or may choose to exit a state in which there is a substantial exposure
+to such catastrophic risks. The unexpected catastrophes or blockbuster events maybe raise the
+tate that firms charge for insurance. Thus, for any given number of policies written, the total
+premiums will rise "!).
+
+The impact of natural disasters is equivalent to a $520 billion loss in annual consumption,
+and forces some 26 million people into poverty each year. Given the gradual increase in the
+number of extreme-weather events in the world, how to realize the sustainability of property
+insurance is a great challenge we need to address.
+
+1.2 Restatement of the Problem
+
+Considering the background information and restricted conditions identified in the prob-
+lem statement, we need to solve the following problems:
+> Problem 1: The property insurance industry faces a crisis from increased extreme
+weather events caused by climate change, leading to higher claims and premiums.
+> Problem 2: Insurance companies must decide on underwriting policies in weather-af-
+fected regions, balancing risk and long-term viability.
+> Problem 3: Participants are tasked with creating a model to assist in underwriting deci-
+sions and a preservation model for community leaders to protect significant buildings.
+> Problem4: The models should be applied to specific areas and a historic landmark, with
+recommendations for future insurance and preservation strategies.
+
+1.3 Our Work
+
+In order to clearly illustrate our work, we draw the flowchart Figure 1.
+
+
+[PAGE 5]
+Team # 2400860 Page 5 of 27
+
+cRITIC
+
+The value of buildings
+
+Figure 1: Our work
+
+2 Assumptions and Justifications
+
+Considering those practical problems always contain many complex factors, first of all,
+we need to make reasonable assumptions to simplify the model, and each hypothesis is closely
+followed by its corresponding explanation:
+
+¢ Assumption: The data we use are accurate and valid.
+
+¢ Justification: Our data is collected from the World Bank and some other official web
+
+sites and research papers. it’s reasonable to assume the high quality of their data.
+
+* Assumption: The regions under study will remain peaceful and stable, with no signifi-
+cant events other than natural disasters occurring in the foreseeable future.
+
+* Justification: A stable capital market environment provides a predictable framework
+within which we can project our expected returns. It is important to note that this as-
+sumption does not negate the potential impact of natural disasters.
+
+¢ Assumption: The estimated figures for each region represent an average level of per-
+formance or condition for that area.
+
+¢ Justification: For the purposes of this study, treating each region as a cohesive entity
+allows for a more streamlined analysis. This methodological approach simplifies the
+complexity inherent in regional studies by focusing on aggregate data, thereby provid-
+ing a generalized view of each area's performance or condition.
+
+3 Notations
+
+The key mathematical notations used in this paper are listed in Table 1.
+
+
+[PAGE 6]
+Team # 2400860
+
+Page 6 of 27
+
+Table 1: Notations
+
+Symbol Description
+
+EAL Expected Annual Loss
+SV Social Vulnerability
+
+CR Community Resilience
+CRF Community Risk Factor
+HLR Historic Loss Ratio
+
+* There are some variables that are not listed here and will be discussed in detail in each
+
+section.
+
+4 Insurance Pricing and Decision Model
+
+4.1 Data Collection
+
+Table 2: Date Websites
+
+Database Names Database Websites
+Los Angeles https://geohub.lacity.org/
+The National Risk Index National Risk Index | FEMA.gov
+
+Bureau of the Census
+South Carolina
+
+World Bank
+
+4.2 Risk Analysis
+
+https://data.census.gov/
+https:/Avww.sc.edu/
+
+https://data. worldbank.org/
+
+4.2.1 Expected Annual Loss (EAL)
+
+The EAL value are in units of dollars, representing the community’s average economic
+loss from natural hazards each year. EAL is calculated using a multiplicative equation that
+considers the consequence risk factors of natural hazard exposure, HLR (Historic Loss Ratio),
+and the likelihood risk factor of natural hazard annualized frequency. The EAL value for each
+consequence type is calculated by multiplying the exposure value of an area by the estimated
+
+annualized frequency and the HLR.
+
+EAL = Exposure X Annualized Frequency X HLR (1)
+
+
+################################################################################
+# 2024年 论文ID: 2401102
+# 文件: 2401102.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2024 Team Control Number
+
+MCM/ICM
+E Summary Sheet 2401102
+
+In Face of Increasingly Severe Extreme Weather:
+Sustainable Property Insurance under Risk
+
+Summary
+
+The first priority of survival is getting protection from the extreme weather. —Bear Grylls
+
+More frequent and severe extreme weather events are causing greater damage to people’s prop-
+erty, leading to a reevaluation of the sustainability of insurance companies. On one hand, maintaining
+enough customers for long-term healthy operation is crucial; on the other hand, avoiding excessively
+high compensation risks to remain profitable is essential. Therefore, we assessed the sustainability of
+the insurance sector in areas that were frequently impacted by extreme weather events from two per-
+spectives: insurance demand and total risk.
+
+For Task 1, we developed a Property Insurance Posture Model for insurance companies. We
+categorized extreme weather into 4 types and used an ARIMA model to forecast the future risk of
+extreme weather for each region-disaster pair, and calculated the expected loss. Then, we used Lane’s
+AFC model to calculate premiums. To measure demand with premiums, we introduced the insurance
+demand curve. Finally, we established Demand-Risk Equilibrium Model for Insurance(DBMI) to
+provide decisions on whether to underwrite insurance in specific regions.
+
+Next, we applied the model above to Australia and Southeast Asia, where approximately 60 years of
+data from 3000 records were available. Then we applied ARIMA model on selected area-event series,
+with an eminent fit: R? consistently above 0.625, and IC all below 300. Consequently, we forecast
+the risks for 2024-2027. This has resulted in the determination of premiums ranging from $119.2 to
+$1295.6. The optimal solutions indicated that in Australia, QLD and WA should be underwritten; in
+SE Asia, PHL and THA.
+
+For Task 2, we introduced Innovative Risk Prediction Property Development Method(IRPPDM),
+which integrated DBMI with real estate companies’ willingness index to construct a Willingness-Risk
+coordinate system. We specifically targeted High Risk-High Willingness areas, providing 3 possible
+tisk reassessment methods to help transfer them into Low Risk-High Willingness category.
+
+For Task 3, we used Historic Landmark Preservation Model to help community leaders. We
+estimated the significance of historic landmarks by AHP method considering 8 indicators in 4 dimen-
+sions. Then we offered suggestions considering both the extent of significance and predicted risks.
+According to our model, Temple of Literature in Hanoi, Vietnam had a score of 0.463, facing risks
+of floods and cyclones. Considering its features, we offered 4 tailored suggestions.
+
+In the end, we stated the strengths and weaknesses of models. Based on their performances in
+application, Property Insurance Posture Model reasonably balanced demand and risk, and Historic
+Landmark Preservation Model was comprehensive in measuring value.
+
+Keywords: Extreme Weather Event; Property Insurance; ARIMA; Dual-objective Optimization; AHP
+
+
+[PAGE 2]
+Team # 2401102 Page 1 of 25
+
+Contents
+
+1 Introduction, 2
+1 Problem Background .. 2... 2 2 ee ee 2
+.2 OurWork) 2... 2 2 ee 2
+
+B Assumptions and Notationg 3
+
+Model I: Property Insurance Posture Model
+The Types of Extreme Weather Events... 1. ee 4
+Predicting Extreme Weather Events: Based on ARIMA
+ee Clr 6
+B.2.2 ARIMA Model]... 2... ee 6
+Insurance Price andDemand ............0..00 02000020002 2000- 7
+
+B.3.1 Two TypesofInsurance .. 2... 2... ee eee 7
+B.3.2 Erice of Insurance
+
+10
+10
+11
+13
+13
+13
+
+14
+15
+16
+17
+
+Model II: Historic Landmark Preservation Mode 17
+
+6.1 Indicator Selection... ee ee 18
+
+6.2 Weight Calculation: Based on AHP 18
+6.3 Value Calculation and Extent Estimatio: 20
+6.4 Application: Temple of Literature in Hanoi, Vietnam]... 2.2... 2... 2 ee ee 21
+
+Strength and Weakness 22
+23
+etter of Recommendatio: 24
+
+BRS: WWE FES eB HIMQQHELOTT 734962, ii!
+
+
+[PAGE 3]
+Team # 2401102 Page 2 of 25
+
+1 Introduction
+
+1.1. Problem Background
+
+Over the past few years, more than 1,000 extreme weather events have resulted in more than $1 trillion in
+global losses. Swiss Re predicted that losses from weather-related events in Australia, Canada, France,
+Germany, Japan, the U.K., and the U.S. could increase by 35-120 percent by 2040, due to the impact
+of natural disasters such as floods, hurricanes, and wildfires. [1]
+
+(a) Decadal average: Annual economic damages (b) Decadal average: Annual number of people
+from disasters as a share of GDP left homeless from disasters
+
+(©) Decadal average: Annual number of people (d) Decadal average: Annual number of deaths
+affected by disasters from disasters
+
+Figure 1: Global Impact of Natural Disasters[2]
+
+The frequent occurrence of extreme weather events presents a complex challenge for the property
+insurance industry. These events can lead to substantial financial losses due to increased claims, testing
+the industry’s resilience. Insurers must navigate the dual pressures of maintaining profitability and
+offering affordable premiums.
+
+Therefore, there’s a growing need for risk assessment models that accurately reflect the high level
+risks associated with extreme weather events. This will help insurers to price policies more effectively
+and encourage investment in protective measures for properties at risk.
+
+1.2 Our Work
+
+For insurance companies, we have developed a property insurance deployment model to assist them
+in selecting the areas to underwrite against extreme weather events, ensuring the sustainability of their
+operations. Specifically, we measured sustainability based on the company’s total demand and the total
+risk they face: Demand reflected the consideration of profitability, while underwriting risk was related
+to long-term healthy operation. After the model was established, we applied it to two different regions
+to validate its feasibility.
+
+For real estate developers, we extended the insurance model mentioned above to assist in the
+decision-making process for property development, providing insights on where, how, and whether
+
+BG: HINGETE TES VORMAIIQQH 1077734962, att!
+
+
+[PAGE 4]
+Team # 2401102 Page 3 of 25
+
+to construct buildings. Specifically, using the weather risk predictions obtained from the insurance
+model, we provided corresponding strategies that developers could implement to mitigate risks during
+the construction of properties.
+
+For community leaders without the shelter of extreme weather event insurance, we have developed
+a historical landmark significance model that assesses the significance of historical landmarks based.
+on four aspects: history, culture, economy, and community. Ultimately, this helps them determine the
+extent of protection needed for their historical landmarks.
+
+The detailed flowchart is illustrated in Figure | below:
+
+Extreme
+Weather Events Ty
+
+Area Risk
+
+Application:
+Area Demand Southeast
+Asia
+
+Development
+Willingness
+Index
+
+Economic
+Value
+
+Temple of
+Literature
+in Hanoi,
+
+Vietnam
+Whether to
+
+Build
+
+Extent of
+Preservation
+
+Figure 2: Flowchart
+
+2 Assumptions and Notations
+
+Assumption1: Insurance companies bear the risk independently
+
+Justification: In reality, insurance companies often diversify risks through financial products, govern-
+ment support, and other means. Since we focus on the design of insurance products, we assume that
+insurance companies do not adopt risk diversification measures.
+
+DRS: WWSEE ES POR IMQQHELOTT 734962, tit!
+
+
+[PAGE 5]
+Team # 2401102 Page 4 of 25
+
+Assumption2: Insurance demand is negatively correlated with price, and insurance demand re-
+flects the number of customers.
+
+Justification: Insurance, as a normal good, experiences a decrease in demand as its price increases.
+And insurance demand corresponds to the number of insurance policies, and it can be directly seen as
+reflecting the number of customers.
+
+Assumption3: Existing real estate development processes do not primarily consider extreme
+weather risk predictions.
+
+Justification: Extreme weather events have low frequencies and high randomness, making them dif-
+ficult to predict. Additionally, we conducted keyword searches on Google Scholar, and there is little
+discussion on incorporating extreme weather risk predictions into the primary indicators for real estate
+development.
+
+Assumption4: The data we use is true and reliable.
+
+Justification: Our data sources include international statistical agencies, academic databases, and rep-
+utable insurance companies. Therefore, we can confidently state that the data we use is accurate and
+reliable for modeling purposes.
+
+Notations
+Symbol Definition
+EL Expected Loss
+PEL Frequncy of Loss
+Q Quantity of Insurance Demand
+D Insurance Demand
+R Total Risk for Insurance
+Sustainability Sustainability for Insurance Company
+DBMI Demand-Risk Equilibrium Model for Insurance
+IRPPDM Innovative Risk Prediction Property Development Method
+HLPM Historical Landmark Preservation Model
+
+3 Model I: Property Insurance Posture Model
+
+3.1 The Types of Extreme Weather Events
+
+According to USDA Climate Hubs, extreme events are occurrences of unusually severe weather or
+climate conditions that can cause devastating impacts on communities and agricultural and natural
+ecosystems.
+
+NASA provided a brief summary of global extreme weather events, including heat waves, wildfires,
+droughts, tropical cyclones, heavy precipitation, floods, high-tide flooding, and marine heat waves.[3]
+
+BRS: WOGETE FES ROB AINQQH1077734962, iii!
+
+
+[PAGE 6]
+Team # 2401102 Page 5 of 25
+
+As illustrated in Figure BL we mainly discuss the impact of extreme weather events on property insur-
+ance, so we only focuse on four main categories: droughts, floods, tropical cyclones, and wildfires.
+
+Wildfires . 3 Floods
+
+Tropical YQ » Droughts
+
+cyclones
+
+Others
+
+Figure 3: Four types of extreme weather events studied
+
+¢ Wildfires: Dry conditions increase the risk of wildfires. With global temperatures on the rise,
+some regions may experience more frequent and intense wildfires, posing a threat to life and
+property.
+
+Floods: Floods present a substantial threat to properties as heightened atmospheric moisture can
+result in more frequent and heavier rainfall, which can overwhelm both natural and man-made
+water management systems. This is especially true in coastal areas due to the compounding effect
+of rising sea levels.
+
+Tropical Cyclones: Tropical cyclones, fueled by warmer ocean temperatures and more humid
+air, are likely to cause more severe and long-lasting rainfall events. These natural phenomena
+can severely impact properties, particularly through enhanced coastal flooding, driven by rising
+sea levels that elevate storm surge impacts.
+
+Droughts: The rising aridity in certain regions, exacerbated by global warming, has adverse
+effects on properties. This not only depletes ground moisture but also perpetuates a cycle of
+warming and moisture loss, leading to soil degradation, foundation issues, and an increased risk
+of fire hazards.
+
+Others: Other types can be listed as heat extremes, heavy precipitation, high-tide flooding, ma-
+rine heat waves,etc.
+
+3.2. Predicting Extreme Weather Events: Based on ARIMA
+
+To accurately calculate the expected loss of insurance products, insurance companies must precisely
+predict the probability of various extreme weather events. This step is significant for insurance pricing
+and risk control.
+
+Given the uncertainty, complexity, and randomness of extreme weather events, we propose the use
+of time series analysis method to fit and predict the frequency of extreme weather events more accu-
+
+BS
+
+<a
+
+: TITER HES VORA NQQHELOT7 734962, WY!
+
+
+################################################################################
+# 2024年 论文ID: 2407414
+# 文件: 2407414.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2024 Team Control Number
+
+E MCM/ICM 2407414
+
+Summary Sheet
+
+Navigating the Climate Labyrinth: A Dual Approach to
+Insurance Resilience and Landmark Defense
+Summary
+
+The growing number of extreme weather events poses significant challenges for in-
+surance industry, communities and property developers in terms of their resilience and
+sustainability, which includes an insurance protection gap to mend, residential siting de-
+cisions to make and preservation strategies to take.
+
+In order to better comprehend and tackle the problems brought by deteriorating cli-
+mate conditions, we build two models: Model I: Climate Risk Assess Model for Insurance
+Companies and Model I: Landmark Preservation Model for Community Leaders.
+
+For Question one, we utilize Peaks Over Threshold (POT) method to fit the distribu-
+tion of disaster intensity measured by losses brought by extreme weather events. We ap-
+ply hypothesis testing to fit the distribution of disaster frequency, and the results suggest
+that the it follows a Poisson distribution. We calculate the probability of ruin (POR) for
+insurance companies and determine the optimal retention and investment strategy via
+ruin theory. Finally, we categorize risk into four levels and apply our model to Mumbai
+and Cairns. The conclusion indicates the prediction of risk level of Mumbai will transition
+from level II to III with predicted POR varies from 3.71% to 12.22% while the risk level of
+Cairns will shift from level I to II with predicted POR varies from 1.33% to 4.40%.
+
+For Question two, we enhance our insurance model by incorporating a Socio-Economy-
+Insurance-Cost (SEIC) evaluation metric to make residential siting decisions.This enhance-
+ment involves the inclusion of two first-level indicators, which are further divided into
+eight second-level indicators.The weight assigned to each indicator is determined through
+the Analytic Hierarchy Process (AHP), then development potential index (DPI) is intro-
+duced for real-estate decisions making. Finally, we apply our SEIC metric to Miami, New
+Orleans and Houston. The prediction results indicate that the DPI ranking for the next
+decade is as follows: Houston > New Orleans > Miami.
+
+For Question three, we select three dimensions including historical, economic and
+cultural-community significance to assess the value of landmarks (VOL). In assessing the
+risk of landmarks (ROL), we consider five types of risks including being uninsured and
+several climate risks. Employing the AHP-EWM algorithm, we ascertain the indicators’
+weights. Upon deriving the VOL and the ROL we take VOL as horizontal values and VOL
+as vertical values to construct a GE matrix with nine sectors (I to IX). These sectors are di-
+vided into five levels from A to E, which help us determine the preservation strategies.
+Finally, we apply our model to Faneuil Hall and propose several preservation strategies.
+
+Finally, sensitivity analysis of Model I demonstrated that altering the compensation
+ratio from 0 to 20 percent resulted in a marginal modification in the POR value, confined
+toa narrow band of 2 percent. This suggests that our model is not sensitive to market con-
+ditions. Furthermore, robust test of Model II indicates that our model is robust against
+perturbations. Combined with Model I and Model II, a letter for Faneuil Hall with con-
+crete strategies and explicit agenda is composed.
+
+Keywords: Extreme Weather; Ruin Theory; AHP-EWM; GE Matrix; Logistic Model
+
+
+[PAGE 2]
+Team # 2407414 Page 2 of 25
+
+Contents
+
+1 Introduction 3
+1.1 Problem Background ... 2... 2... ee eee 3
+1.2 Restatement of the Problem .........0.000.0.022200002220000- 3
+
+1.3 LiteratureReview ... 2... ..0 02.0002 ee 4
+
+14 OurWork. 2... eee 4
+
+2 Assumptions and Justifications 5
+3 Notation 6
+4 Model Preparation 6
+4.1 Selection of Research Areas .. 2.2.2.2... ee ee 6
+4.2 DataOverview .... 2.2... ee 7
+
+5 Climate Risk Assess Model for Insurance Companies 7
+5.1 Distribution Fitting for Extreme Weather Events ................ 7
+5.1.1 Distribution Fitting for Disaster Intensity .............-.. 8
+
+5.1.2 Distribution Fitting for Disaster Frequency ..............- 9
+
+5.2 Model Establishment for POR... 6. 0 ee 10
+5.3. Decision-Making for Insurance Companies ........-.-.-.2-0-5 12
+5.4 Case Study: Property Insurance Market in Mumbai and Cairns ....... 13
+
+6 Socio-Economy-Insurance-Cost (SEIC) Evaluation Metric 14
+6.1 Selection and Analysis of Indicators .............-.2.00000-. 14
+
+6.2 The Establishment of Evaluation System... ...........0.0005% 15
+6.2.1 Determination of Weights for Indicators... ...........-.- 15
+
+6.2.2 Calculation of Development Potential Index (DPI) ........... 16
+
+6.3 The Application of SEIC Evaluation Metric .. 2.6.6... eee ee 17
+
+7 Landmark Preservation Model for Community Leaders 18
+7.1 Key Factors for Landmark Preservation .... 6.0... 0.00. e ee eae 18
+
+7.2 Weight Determination Using AHP-EWM ...............-.0.4.- 19
+
+7.3 Preservation Strategies Based on GE Matrix... ..........--004- 20
+
+74 Case Study: Preservation Strategies for Faneuil Hall... .........-. 21
+
+8 Sensitivity Analysis 22
+9 Model Evaluation 23
+9.1 Strengths 2... ee 23
+9.2 Weaknesses 2.2... ee 23
+
+References 23
+
+
+[PAGE 3]
+Team # 2407414 Page 3 of 25
+
+1 Introduction
+
+1.1 Problem Background
+
+Global extreme weather events have been on the rise, a trend expected to worsen, as
+per meteorologists [1]. Instances of hurricanes, floods, droughts, and wildfires are in-
+creasing, leading to more severe impacts on lives, property, ecosystems, and economies.
+“Climate change is a terrible problem, and it deserves to be a huge priority” said Bill
+Gates, calling for global attention to climate issues.
+
+Figure 1: Extreme Weather Events around the World in Recent Decades
+
+Such changes in climate have not only impacted the environment but has also had
+repercussions on the insurance industry. These effects can be observed in various aspects
+such as changes in insurance premiums, underwriting policies, and the cost of property
+insurance. As a result, insurance prices have risen, and the availability of property insur-
+ance has decreased. This has led to a significant insurance protection gap, which currently
+stands at 57% globally and continues to grow. Consequently, insurers are facing a prof-
+itability crisis while property owners are struggling to afford insurance coverage.
+
+1.2 Restatement of the Problem
+
+To evaluate the long-term viability of the property insurance sector and establish the
+most effective operational approach for insurance companies, ICM (COMAP’s Insurance
+of Catastrophes Modelers) necessitates our attention to the issue of property insurance
+and real estate decision-making. Additionally, we are to identify at-risk historic land-
+marks and offer preservation strategies to the community. To summarize, our specific
+objectives are as follows:
+
+1) Task 1 Develop a model for insurance companies to determine whether they should
+underwrite policies or take the risk in areas experiencing an increasing number of ex-
+treme weather events.
+
+
+[PAGE 4]
+Team # 2407414 Page 4 of 25
+
+2) Task 2 Adapt the insurance model to assess where and how shall property developers
+build on to enhance the resilience the properties as well as the facilitation for growing
+communities and populations.
+
+3) Task 3 Establish a preservation model for community leaders to identify and adapt
+rational conservation strategies to the landmarks of great cultural, historical, economic,
+or community significance that are at risk.
+
+4) Task 4 Create a concise one-page letter to the community outlining the comprehensive
+schedule, plan, and cost for preserving their landmark with results and conclusions
+yielded from our models.
+
+1.3 Literature Review
+
+Experts in environmental science recommend using weather insurance, which com-
+bines risks faced by numerous entities based on the law of large numbers, to assist house-
+holds and businesses in addressing unpredictable and severe weather events [2].
+
+Data from Munich Reinsurance highlights a significant gap in natural disaster insur-
+ance coverage. Only 45% of losses in high-income countries and 7% in low-income coun-
+tries were insured [3]. Mills and Evan propose innovative solutions for the insurance in-
+dustry’s response to climate change from an enterprise risk management perspective [4].
+Herweijer et al. explore climate change threats and opportunities for insurers, focusing
+on sustainable adaptation [5].
+
+In empirical analyses, Aglasan et al. use a linear fixed-effects model to study crop in-
+surance losses due to extreme weather events in the mid-western United States [6]. Hillier
+et al. examine the correlation between meteorological time series data and residential
+insurance losses using the aggregate exceedance probability method [7]. These studies
+provide crucial insights into managing risks associated with extreme weather events.
+
+In summary, experts advocate weather insurance for mitigating severe weather im-
+pacts, while empirical studies highlight disparities in natural disaster coverage and pro-
+pose innovative strategies for insurers to address climate change risks.
+
+14 Our Work
+
+The problem requires us to make informed decisions regarding property insurance and
+real estate. Additionally, we are to identify historic landmarks that are at risk and propose
+preservation strategies to the community. Our work mainly includes the following:
+
+1. For problem one: We first demonstrate the intensity and frequency of disasters via
+distribution fitting. And then we model the surplus process of insurance companies
+and calculate the probability of ruin (POR). Our model is applied to Mumbai and
+Cairns, interpretations of the results and strategies of insurance companies are made.
+
+2. For problem two: Our insurance model is incorporated with a Socio-Economy-
+Insurance-Cost (SEIC) evaluation metric and the Development Potential Index (DPI)
+
+
+[PAGE 5]
+Team # 2407414 Page 5 of 25
+
+is defined for real-estate decisions. Our incorporated model is applied to three dif-
+ferent sites in the US.
+
+3. For problem three: A landmark preservation model is established based via AHP-
+EWM algorithm. We employ GE Matrix with the assessed value and risk to enhance
+the formulation of preservation strategies for specific landmarks.
+
+In order to intuitively reflect our work process, the flow chart is shown in Figure 2.
+
+Our works: eer
+Data Collection Data Insurance Protection Case study Robustness Sensitivity
+Data Processing Visualisation — Model Model analysis analysis
+
+Predicting Mumbai POR model
+
+Intensity extreme — Case pe
+Distribution Establishing _W2Het _ stuay | |! = — eS Ar
+om ae, POR model | - Selection of
+eme weather Frequency t factors
+Cains a
+Calculation of
+> DPI
+Selection yg fe tn, Selection of the
+and Determination 4 of « optimal location
+procession pe sresaits by Faneuil Hall =
+of factors GEESE @é ,
+ret =4
+* 7 A
+
+Insurance
+
+Evaluation Say ; My Weshould | —2
+
+of a J High value a ‘make a > >
+
+Faneuil Hall Protection High isk AQ) movement! ===—-——2
+model
+
+Figure 2: Model Framework
+
+2 Assumptions and Justifications
+
+¢ Assumption 1: The catastrophe insurance business is a independent process and is
+not correlated with other types of insurance.
+
+“Justification: The risks of meteorological disasters iare relatively independent of
+the risks associated with financial products such as bonds and stocks, thus the the
+corresponding insurance products are also relatively independent of each other.
+
+¢ Assumption 2: The insurance company has the ability to transfer its risk through
+reinsurance and generate returns by investing in financial assets.
+
+Justification: The insurance company manages the funds associated with catas-
+
+trophe insurance business independently and with flexibility, thereby balancing po-
+tential payout pressures from catastrophe insurance business.
+
+
+[PAGE 6]
+Team # 2407414 Page 6 of 25
+
+¢ Assumption 3: The insurance products sold have a certain deductible, which is
+borne by the policyholder.
+
+Justification: By setting deductibles, the insurance company encourages policy-
+holders to exercise caution regarding risks, and simultaneously reduces the payout
+pressure on the company for smaller losses.
+
+3 Notation
+
+The primary notations used in this paper are listed in Table 1. There can be some other
+notations to be described in other parts of the paper.
+
+Table 1: Notations
+
+Symbol Definition Unit
+s The initial capital of insurance company $1B
+N(t) Number of claims over a period of time -
+Xj Amount of compensation from insurance company per claim $1B
+6 Time interval between the arrival of the two claims day
+aq Compensation ratio of catastrophy insurance -
+b(s) Retention for catastrophe insurance operations $1B
+p(s) Proportion of insurance funds invested in risky assets -
+VOL Value of landmark -
+ROL Risk of landmark -
+DPI Develop potential index of a specific region -
+
+4 Model Preparation
+
+4.1 Selection of Research Areas
+
+In question one, we are required to demonstrate our model using two areas on different
+continents that experience extreme weather events. We had Cairns, a northeast Australian
+city, and Mumbai, a city in the western peninsula of India, selected for following reasons:
+
+1. Mumbai: Mumbai faces significant challenges in the monsoon season, with heavy
+rainfall causing floods and storms damaging infrastructure and residential areas.
+Additionally, the city encounters the ongoing threat of rising sea levels. This presents
+an opportunity for insurance companies to offer coverage for these extreme events.
+
+2. Cairns: The Cairns region frequently experiences tropical cyclones, floods, and for-
+est fires. The weather patterns in Cairns have shown a rise in extreme weather
+events, making it an ideal case study for investigating how insurance companies
+assess and provide coverage in response to the escalating impact of climate change.
+
+
+################################################################################
+# 2024年 论文ID: 2410578
+# 文件: 2410578.pdf
+################################################################################
+
+
+[PAGE 1]
+2024
+Problem Chosen Team Control Number
+E MCM/ICM 2410578
+
+Summary Sheet
+
+Insured Properties, Assisted Developers
+
+and Protected Landmarks
+Summary
+
+The increasing number of extreme weather events has left property owners and insurers in
+similar predicaments. Increased premiums and reduced underwriting by insurers have put the
+sustainability of the insurance industry at risk. In order to address this issue, we build a Model
+of Decision making for Insurance companies (MDI). Then, the model is adjusted and used as a
+basis to develop a Model of Site Selection for property developers (MSS). Finally, in areas where
+development or insurance is not recommended, we build a Value Assessment and Conservation
+Models for historical and cultural buildings there.
+
+Firstly, based on the Information Diffusion Theory, we establish a Risk Assessment
+Index (RI). Then, applying economic principles and Cost-Benefit Analysis, we build a Model of
+Decision making for Insurance companies (MDI). Considering the sustainability of insurance
+companies, we generalize the model to a multi-period dynamic model. Then, we applied the
+model to Sichuan, China and Slovakia. Based on the data of last 20 years, we forecast the possible
+future risk of insurance companies in the two regions by Gray Forecasting Method. Finally, the
+calculation shows that both the two locations should be underwritten.
+
+Secondly, we introduce the factor of property developers, allow it to interact with
+insurance companies to adjust the MDI. The adjusted model contains resilience of buildings and
+sustainability costs. Then, we create a Model for Site Selection (MSS) for property developers.
+By assessing the benefits, costs, and risk of a certain area, we use a combination of Analytic
+Hierarchy Process (AHP) and TOPSIS method to synthetically evaluate areas and select the
+optimal to develop property.
+
+Thirdly, in the areas where development or insurance is not recommended, we build a
+Model for the Conservation of Buildings (MCB) for community leaders. Through the Fuzzy
+Comprehensive Evaluation Method, 4 aspects are used to assess the value of historical and
+cultural buildings. Then, four conservation patterns are given and the cost of each pattern is
+calculated separately. We choose the Ancient Residences in HuiZhou, China as an example and
+apply our model to estimate the value (about US$1.055 million). The optimal conservation
+method is in-situ maintenance conservation. Based on the results, we wrote a suggestion letter
+to the local community.
+
+Finally, we perform a sensitivity analysis and evaluation of our model. The result shows
+that our model is stable and can provide an effective reference for practical problems.
+
+Keywords: sustainability, Cost-Benefit Analysis, TOPSIS, Fuzzy Comprehensive Evaluation
+
+BARS: WW GERE ES COSLB IQQHE 1077734962, tat!
+
+
+[PAGE 2]
+Team Control Number Problem Chosen Page 2
+
+2410578 E Total Pages: 25
+Content
+L Introd uction.....escsssessssssssesscsscsscsesssssssssssssessssasssseesssssessssscssesssssssesessensesssesseesseseeseessees 3
+L.1 Problem background ...ssesssssesssssessmsesesnssesinssesnseeiunsettnesenanseetasseetnsseetssseennssetenassnimaneenseninassesnnesttaies 3
+1.2 Restatement of the Problem ......ssesssssssssssnisessssseeeesesesssssansnuunecseeeesseeeeeessesanenunanusestenieeeeeteesansnesunenneeees 3
+1.3 Our WOK wee ceeeeesessesssesesssessnsnuesseseeeeeseeseeesonsnsssunmmetsesteeceeeseesoessansnmumessiteesseeceesseeeanenunauumeenteeeeeeeesensneennennneseeees 4
+2 Assumptions and Justification .........sccsssssssssessessssessssessesssssssssessessssnssnssssssssssssensenes 5
+3 Notations and Glossaxries............ssssscssessscssesssssesssssessssesssssessssesessececessssncesseensessoeeseess 5
+4 Task 1: Will insurers choose to cover weather hazard risks? 0.00... s.sssssssseseseeee 6
+
+4.1 Building a Mathematical Model for Insurance Companies’ Decision Making
+
+4.2 Application and calculation of the MDI model - an example from two regiONS wees 9
+5 Task 2: Where should a property developer site buildings?............ssssssesees 13
+5.1 Adjustment of the MDI model.usesussessseesusesesuseesmssseenssseesssneesussesnanseseusssensssassesasssnstese 13
+
+5.2 Developing a mathematical model of site selection for property developers...
+
+6 Task 3: How to protect historical and cultural buildings? ........ssssssssesssesesee 18
+6.1 Assessing the value of historical and cultural buildin gs....cesesccsssesesnssseenesseesmeseesnssessnsseinee 19
+6.2 Conservation measures for historical and cultural buildings and their COStS 1... 20
+
+6.3 The Use of MCB Models in the Conservation of Ancient Residences in Huizhou...
+
+7 Sensitivity Amal ysis ...........ccssscssssscsscssesesssscssessessessssssssssncsessesscenssessessessssnssssssseeseeeees 24
+
+8 Model Evaluation and Further Discussion ...............s:sssesssssseseeesseceesseceeseensseeesecee 24
+
+8.1 Strengths
+8.2 Further GisCUsSiON ....ssssssssssssssssssususssssssessssssesesesesesssesessssasssonsesssseeseesseesestuesuasunsssssssesoressneeeeeanenecuesesases® 25
+
+References...
+DRG: WWE ES BS INQQHLOTT 734962, iY!
+
+
+[PAGE 3]
+Team Control Number Problem Chosen Page 3
+2410578 E Total Pages: 25
+
+1 Introduction
+1.1 Problem background
+
+On 9 January 2024, the Munich Re Group released its Natural Disaster Loss Record for 2023,
+which shows that global losses from natural disasters in 2023 totaled around USD 250 billion
+and resulted in more than 74,000 deaths, and that global insured losses amounted to around
+USD 95 billion, which is close to the five-year average (USD 105 billion) and higher than the
+average for the last ten years (USD 90 billion). Losses such as the Fort McMurray Hill Fire in
+Canada in 2016, Hurricane Ian in the North Atlantic in 2022, Typhoon Dusuari in China in the
+summer of 2023, and Hurricane Otis on the west coast of Mexico in October 2023 are expected
+to be the most significant among the series of extreme-weather events that have posed a serious
+threat to the safety of people and property. Of all the economic losses caused by extreme-
+weather events, property losses are the most serious.
+
+The best way to hedge against property losses is to insure the property with property
+insurance based on an assessment of the probability of extreme-weather events occurring. For
+property owners in areas prone to natural disasters, by purchasing insurance and paying a
+certain amount of premiums each year, when a disaster occurs, they can receive compensation
+from the insurance company for property losses, thus making up for the excess losses. For
+insurance companies, by selling property insurance to a wide range of consumers, they can use
+a portion of the premiums they collect to pay for the losses agreed upon in the insurance contract
+in the event of a disaster, while also reaping a certain amount of profit.
+
+In addition, property developers can decide where to locate new construction after
+assessing the safety of the area, in order to avoid building in the core areas where extreme-
+weather events are frequent and pose a threat to the safety of their customers. When it comes to
+the preservation of historical and cultural buildings, an assessment of the probability of a
+disaster in the area can also provide guidance for the preservation of community buildings.
+
+1.2 Restatement of the Problem
+
+¢ Based on the measurement of the risk of extreme-weather events in each region, a
+mathematical model is developed to analyze the external conditions for insurance
+companies to determine coverage, as well as to set the criteria for insurance companies
+to charge premiums. In addition, the influence of property owners on the insurer's
+decision-making is determined and extrapolated. And two highly representative
+regions from different continents are selected to evaluate the calculation results of the
+model.
+
+* Another mathematical model is developed to calculate the resilience of property in
+different locations and regions based on natural disaster risk assessment, in order to
+assist property developers in identifying sites for property construction and
+
+BOS: MMSE ES GOSHAINQQHELOT7 734962, YT!
+
+
+[PAGE 4]
+Team Control Number Problem Chosen Page 4
+2410578 E Total Pages: 25
+
+development with a view to providing adequate housing services for growing
+communities and populations.
+
+¢ For some buildings with strong cultural, historical, economic or human values that are
+denied coverage by insurance companies, a third mathematical model is developed to
+assess the value of the buildings and provide developers and building managers with
+recommendations for building preservation. This culminates in a letter of
+recommendation to the community with plans, timelines, and cost proposals for the
+future of their treasured landmark building.
+
+1.3 Our work
+
+em a a a ee a ee
+
+‘about
+Learning
+‘modelling and
+‘computer
+programming
+
+Finding relevant data,
+ne sicies
+
+Mathematical modeling
+
+Essay wnting
+
+a a
+eee eee eee eee ee eee ee ee eee eee eee
+
+Figure 1: Our work
+BAS: MINGERE BE TE INQQHELOT7734962, iH!
+
+
+[PAGE 5]
+Team Control Number Problem Chosen Page 5
+2410578 E Total Pages: 25
+
+2 Assumptions and Justifications
+
+Assumption 1: It is assumed that the insurance companies seek to maximize their profits.
+
+Assumption 2: It is assumed that insurance companies consider the issue of sustainability
+and consider stable income over a period of time in the future, and it is assumed that the
+discounted cash flow rate will not fluctuate significantly in the future.
+
+Assumption 3: Assume that all insurance policies discussed in this paper are fair and full.
+
+Assumption 4: It is assumed that every individual is rational and seeks to maximize
+personal utility. In a region, it is assumed that a typical individual is representative of all
+individuals in the region.
+
+Assumption 5: It is assumed that the data we cited and referenced in this paper are accurate
+and credible.
+
+3 Notations and Glossaries
+
+The process of building and using mathematical models inevitably involves the use of a
+considerable amount of mathematical notation. To avoid ambiguity and vagueness of meaning,
+the significance of the important symbols is listed in Table 1 below.
+
+Table 1: Notations used in this paper
+
+Symbol Description Unit Location
+
+An index that measures the extent to which
+
+RI property owners are exposed to the risk of loss of - Chapter 4.1.1
+their property.
+Prek Total amount of premiums paid by property Currency unit Chapter 4.1.2
+owners to insurance companies in year k. (of the region)
+
+In year k, the sum of the amounts paid by the
+
+Com! insurance company to the property owner in Currency unit Chapter 4.1.2
+accordance with the insurance contract.
+6 Discount rate for currencies. - Chapter 4.1.4
+Ratio of additional costs to traditional construction
+B costs in the sustainability costs of property - Chapter 5.2.1
+
+developers.
+
+0 conomic damage to historic buildings as a - Chapter 6.2
+percentage of their total value.
+
+BARS: WIFE ES OUR QOH L077 734962, WyUH!
+
+
+[PAGE 6]
+Team Control Number Problem Chosen Page 6
+2410578 E Total Pages: 25
+
+Note: It is true that there are some variables and their symbols that are not listed in this table. The meaning
+will be elaborated when used later.
+
+4 Task 1: Will insurers choose to cover weather hazard risks?
+4.1 Building a Mathematical Model for Insurance Companies’ Decision Making
+
+Property insurance is a broad term for a series of policies that provide either property
+protection coverage or liability coverage for property owners. Property insurance provides
+financial reimbursement to the owner or renter of a structure and its contents in case there is
+damage or theft—and to a person other than the owner or renter if that person is injured on the
+property.
+
+In this section, we develop a mathematical model of decision making for insurance
+companies (hereafter referred to as MDI).
+
+4.1.1 Establishing a regional meteorological disaster risk assessment model
+
+We have collected data on the occurrence of extreme weather events globally in recent years
+and obtained the following map of the distribution of direct economic losses caused by extreme
+weather events globally in the last three decades.
+
+Direct Economic Loses. USS" 000
+91
+
+Figure 2: Direct economic losses caused by extreme weather events globally
+
+For the risk of an extreme weather event in a region, we used a meteorological disaster risk
+assessment model based on information diffusion theory. There are various information
+diffusion models, and we chose the normal diffusion model. The basic principle of applying
+information diffusion theory to extreme weather event risk evaluation is to divide the range of
+values of the evaluation indicators into multiple discrete points, then diffuse the observation
+samples of the indicators to these discrete points, and apply the principle of probability theory
+after normalization to obtain the probability of the risk of a certain extreme weather event
+occurring in the region. Firstly, based on the disaster occurrence criterion, the range of the
+disaster indicator is divided into multiple discrete points ui to get the disaster index thesis
+U{uy, U2, Us, ..., Um}, and for a single-valued sample point x of the observation, it is diffused to
+the points in the thesis according to the normal diffusion model. The formula is
+
+BARS: WHITES FES A SH IMQQHE 1077734962, UTHT!
+
+
+################################################################################
+# 2024年 论文ID: 2410889
+# 文件: 2410889.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2024 Team Control Number
+
+E MCM/ICM 2410889
+
+Summary Sheet
+
+Find a Home for Your Property
+
+Summary
+
+As the frequency of extreme weather events increases globally, the threat to prop-
+erty safety is growing, leading to higher insurance claim risks and consequently rapid
+increases in insurance rates. This results in potential losses for insurance companies
+and unaffordable insurance premiums for property owners. This paper develops an
+insurance model to assess whether insurance companies should conduct business in
+these areas. Additionally, a protection model is established to identify properties of
+cultural and community significance and to provide recommendations for protective
+measures.
+
+For Task 1, we developed an underwriting decision model based on whether the
+insurance company is profitable as the decision criterion. Using Monte Carlo simula-
+tions, we generated 100 insurance scenarios to calculate the probability of profitability
+for the insurance company, which informed the underwriting decisions. Demonstrat-
+ing this model in Guangdong Province, China, and Florida, USA, the probability of
+profitable underwriting in Guangdong is 63%, while it is 26% in Florida. Therefore, the
+insurance company undertakes underwriting in Guangdong but not in Florida. Addi-
+tionally, when the base rate is high, the insurance company opts for risk-taking. Prop-
+erty owners can influence the insurance company’s decision by using a risk checklist
+to reduce the probability of property damage.
+
+For Task 2, we improved the underwriting decision model to quantify the level
+of real estate protection in different locations within specific areas. Furthermore, we
+quantified convenience based on the distance from the location to living service areas.
+Then, we established a goal programming model that maximizes both the level of
+protection and convenience, solving for the optimal construction site using particle
+swarm optimization. We recommend not constructing in locations with a target value
+lower than 0.5 and choosing high disaster-resistant building materials for locations
+with lower levels of protection.
+
+For Task 3, we proposed a protection value assessment model that considers cul-
+tural, historical, economic, and community values. Using EWM-TOPSIS, we calcu-
+lated protection value scores and divided them into four levels: no protection (0-0.1),
+first-level protection (0.1-0.3), second-level protection (0.3-0.5), and third-level pro-
+tection (0.5-1.0). The level into which a building falls determines whether it is pro-
+tected, with specific protective measures proposed for each protection level. For Task
+4, we selected the Forbidden City in Beijing as the case study. Using the underwriting
+decision model and protection value assessment model, we found that the Forbidden
+City has significant cultural, historical, economic, and community values with high
+sustainable development value. Its protection value is 0.618, qualifying it as a third-
+level protection building.
+
+Finally, we conducted a sensitivity analysis on the underwriting decision model
+and protection value assessment model. With the investment interest rate varying
+between [0.002,0.007], the insurance company’s decisions remain unchanged. A 20%
+variation in the protection value indicators results in a total value score change of no
+more than 5%, demonstrating the reliability of the models proposed in this paper.
+
+Keywords: Underwriting decision model; Monte Carlo simulations; Risk checklist;
+Goal programming; EWM-TOPSIS; protection value model
+
+
+[PAGE 2]
+Team # 2410889 Page 2 of 23
+
+Contents
+
+1 Introduction 3
+1.1 Problem Background ... 6.6... ee eee 3
+
+1.2 Restatement of the problem and our work... ........--.-5-. 3
+
+2 Assumption and Justifications 4
+3 Notations 5
+4 Underwriting Decision Model 5
+4.1 Policy Risk Assessment... . 2.2.02 22 ee ee 6
+
+4.2 Income reallocation... 2... ...0.0.0 0000020000000 0000004 7
+4.2.1 Pricingofpremiums ... 6... 0.0 eee ee eee 7
+
+4.2.2 Reallocationof premiumincome .............+.-.0-- 8
+
+4.3. Perform underwriting decisions... . 2... ..-..0 0040000005 9
+43.1 CostCalculation .............0 20.0005. 05.0-. 9
+
+43.2 Judgment Criteria for Decision-making ............... 10
+
+4.4 Demonstration of Model Results .......0.....-....--0.- 10
+
+5 Underwriting Decision-Goal Programming Model 12
+5.1 Adaptationof UDM....... 0.2... 5.25.62 e eee eee 12
+
+5.2. Model of Property Decisions... ........-..-2-0 00020005 12
+
+5.3 Model Effect Demonstration... 2.0... 6 ee 13
+
+6 Protection Value Assessment Model 14
+6.1 Discussion of Indicators ... 2... 20.2000. 0000000 e eee 14
+
+6.2 Scoring based onthe EWM-TOPSIS........-...--.022-05- 16
+
+6.3 Protection Measures Under Each Level... 2... 2. ee ee eee 17
+
+7 Case Study: the Forbidden City 19
+7.1 Underwriting Decision Model... 1.2... ...-2.0.0-00 0000055 19
+
+7.2 Protection Value Assessment Model ..........0 00000000005 20
+
+8 Sensitivity Analysis 21
+9 Strengths and Weaknesses 22
+9.1 Strengths... 2... eee 22
+
+9.2 Weaknesses 2... ee 22
+
+References 23
+
+
+[PAGE 3]
+Team # 2410889 Page 3 of 23
+
+1 Introduction
+
+1.1 Problem Background
+
+As the global population and economy grow, the frequency of human activities is
+also increasing. The result of this increased human activity is an increasing concen-
+tration of greenhouse gases in the atmosphere and an intensification of the problem of
+global warming. Petteri Taras, Secretary General of the World Meteorological Orga-
+nization, said in an interview in 2021, "Humans are no strangers to extreme weather,
+but climate change has undoubtedly increased the frequency and severity of extreme
+weather."
+
+Extreme weather events are also taking an increasing toll on people. According
+to the World Meteorological Organization, economic losses from extreme weather in-
+creased 7-fold from the 1970s to the 2010s. And that’s a huge blow to the insurance
+industry because it means insurers also face higher claims. The Boston Consulting
+Group predicts that climate change will increase insurance premiums by 30 to 60 per-
+cent by 2040, which could reflect a worse profitability for insurers. So how insurers
+should adjust in an environment where extreme events continue is a question worth
+
+(Data: ERAS. Reference period: 1981-2010. Credit: C3S/ECMWF)
+
+considering.
+q ) =
+2
+EE S285 Sison Coemins = ESECMWE Ci Stone
+
+Figure 1: Abnormal temperatures(Image courtesy of The Copernicus Climate Change Service
+(C3S))
+
+Surface air temperature anomaly for June to August 2022
+
+SO @
+
+w
+
+“4s
+
+&
+
+a
+
+co-60 rece nate. ota
+
+1.2 Restatement of the problem and our work
+
+(1) Problem Restatement: Develop an insurance model to identify whether in-
+surance companies are underwriting in places where extreme weather is increasing.
+And apply the model to two regions on different continents that experience extreme
+weather events.
+
+Our work: We construct a model of the profitability of insurance companies, using
+whether or not they are profitable as the basis for decisions about whether to under-
+write a policy. The probability of payout for each policy is quantified, and 1000 times
+Monte Carlo sampling is performed, which in turn yields the profitability of an insur-
+ance company in terms of a region. Guangdong Province in China and Florida in the
+USS. are chosen to demonstrate the model.
+
+
+[PAGE 4]
+Team # 2410889 Page 4 of 23
+
+(2) Problem Restatement: In a given region, the insurance model evaluates where
+to build real estate, how to build it, and whether to build it at all.
+
+Our work: Considering the degree of protection and convenience of real estate,
+the farther away from the place where extreme weather occurs the higher the degree
+of protection will be, and the closer to the living service area the higher the degree
+of convenience will be. Therefore, we combine the insurance model to build a goal
+programming model to solve to get the optimal construction location.
+
+(3) Problem Restatement: Develop a conservation model that identifies the build-
+ings that should be protected and the corresponding conservation measures.
+
+Our work: We consider the impact of 4 dimensions: Cultures, Histories, Eco-
+nomics, and Communities. We also establish a conservation value assessment model
+through the EWM-TOPSIS method. Finally, the score is divided into 4 intervals: no
+protection, primary protection, secondary protection, and tertiary protection, and cor-
+responding protection measures are taken according to the protection level.
+
+(4) Problem Restatement: Select a landmark that has experienced an extreme weather
+event and evaluate the value of the landmark using an insurance model and a protec-
+tion model.
+
+Our work: Select the Forbidden City located in Beijing, China to assess the value
+of the landmark and use the insurance model to get the probability that the Forbidden
+City can enjoy the insurance service, and use the conservation model to get the value
+of the Forbidden City in terms of its history, economy, and so on.
+
+For a clearer understanding of our processa more intuitive understanding of our
+approach can be seen in the flowchart below.
+
+Policy risk
+
+1
+Assessment 1 ee
+
+Simulation
+
+Decision criterion:
+Profit>0
+
+Goal
+
+Safety oF Bulking | | programming
+
+Underwriting Decision-
+Goal Programming Model
+(UD-GPM)
+
+living Convenience
+
+of Building
+
+poceccos- +
+
+(Ccattures) | \
+! (Ccuttures 7) | 1 \
+I | EWM-Topsis Protection Value j \
+1 Assessment Model ql '
+1 I (vam) |
+f
+1 \ \ /
+
+Figure 2: Flowchart of ideas
+
+2 Assumption and Justifications
+
+¢ Assumption:The demand for one year’s worth of policies in an area is known
+and does not change due to changes in policy rates.
+Justification:Reducing the complexity of the model scenario makes the scenario
+easier to simulate.
+
+
+[PAGE 5]
+Team # 2410889 Page 5 of 23
+
+¢ Assumption:The probability of a policy payout occurring is positively related to
+the risk of the policy.
+Justification:The risk of a policy is often measured by the probability of a claim
+occurring; the higher the probability of a claim, the higher the risk.
+
+¢ hypothesis:Buildings within an area have the same external risk, and internal
+tisk is related to their own building risk.
+Justification:External risk comes mainly from the effects of extreme weather,
+which can have a large impact and can cover an entire region.
+
+¢ Assumption:Insurance companies can spread the risk by reinsurance.
+Justification:There are a large number of insurance companies in the world, and
+one insurance company can buy insurance from another.
+
+3 Notations
+
+In the following table we list some of the symbols and definitions we use.
+
+Symbols Definition
+oO A policy
+Os A collection of policies
+OS; A collection of low-risk policies
+OS), A collection of high-risk policies
+Co Policy premiums
+Ao Policy amount
+Po Policy benefit amount
+Fo Rate of the policy
+Ro Risk of the policy
+8; Extent of damage to property in area j
+rate; Annual expected investment yield in area j
+dij Distance of location i from the j:, extreme weather occurrence
+dri: Distance of location i from the k,), life service area
+
+Other symbols will be described as they are used
+
+4 Underwriting Decision Model
+
+For the underwriting decision modeling, our premise is that insurance companies
+are "economic beings’. That is, insurance companies are most concerned with profit,
+and when the profit is positive, insurance companies are willing to underwrite policies
+ina region. In order to calculate the profit, we first consider how to evaluate the risk
+of a policy in a region, which is set as Ro in this model. Then we develop a premium
+pricing strategy based on Ro. To obtain greater income as well as to reduce risk, we
+consider that the insurance company will redistribute the total premium income (set as
+RI in this model) into reserve funds, investment assets, and reinsurance funds. Thus
+
+
+[PAGE 6]
+Team # 2410889 Page 6 of 23
+
+the insurance company’s true income over the policy term is RI’. Finally, the profit is
+calculated by subtracting costs from the true income RI’.
+
+4.1 Policy Risk Assessment
+
+To assess the risk of an order, we consider the external risk R& and the internal risk
+Ré of the order. External risk refers to the risk of damage to the property caused by
+an extreme weather event; internal risk refers to the insured property’s risk profile,
+e.g., if the insured property has a high level of resilience, then the risk of damage
+occurring in the face of equivalent extreme weather is lower. We believe that it is more
+comprehensive and reasonable to assess the risk of a policy through both internal and
+external risks.
+
+(1) Quantify external risk RG
+
+Most extreme weather events cause economic damage to the area, and insurance
+companies then pay out to their customers. A higher number of extreme weather
+events in a region means that insurers are exposed to a higher risk of paying out.
+We therefore use the frequency of extreme weather events in a region in a year as a
+measure of external risk, which is
+
+Pn x 365 ”
+Where, ewn; means the number of times the ith type of extreme weather occurs ina
+year, and n means the number of extreme weather types occurring in a region during
+the insurance period.
+(2) Quantify internal risk Fj,
+
+We use the risk checklist checklist methodology in risk management to quantify
+internal risks''. The risk checklist includes multiple risk dimensions that help users to
+more fully understand the nature and extent of risks and to predict the probability of
+a compromised risk occurring and the impact it may result in.
+
+One of the property risk management evaluation forms we have produced is shown
+below
+
+Table 1: Internal risk checksheet
+
+Indicators Sub-Indicators ‘Scoring Criteria (1-10) Score
+Cracking Conditions The more severe the cracking, the higher the score
+Carrying The higher the structural strength, the lower the
+
+Gnas Structure Type Ca
+
+‘The more severe the deformation and displacement,
+
+[Deformation & Displacement! the higher the seore
+
+Material Strengths ‘The higher the material strength, the lower the score
+rs ee ee |
+Durability Concrete Corrosion ‘The more severe the corrosion, the higher the score
+Steel Corrosion The more severe the corrosion, the higher the score
+Useful Life ‘The more years of use, the higher the score
+Usage . The higher the number of disasters, the higher the
+History Disasters Suffered ‘score
+
+The higher the number of function changes, the
+higher the score
+
+Functional Changes
+
+
+
+################################################################################
+# 2023年 论文ID: 2301428
+# 文件: 2301428【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+E MCMIIE™M 2301428
+
+Summary Sheet
+
+Recast Mystletainn to Fight the Artificial God of Light
+
+Summary
+
+Bright windows, blazing streetlights, pulsating neon...human beings are slowly be-
+ing deprived of the dark night. Since the invention of artificial light, this artificial light
+has gradually started to affect animals, plants and human health. It is sad that the tech-
+nological light that should bring convenience has brought harm. To better measure and
+intervene in the effects of light pollution, we study light pollution to better enjoy this light.
+
+Several models are established: Model I: Pollution Quantification Model; Model II:
+Risk Assessment Model; Model III: Intervention Strategy Model.
+
+Prepare for establishing models, we analyzed the composition and main impact as-
+pects of light pollution. By visualizing the results of a large number of data collected from
+official databases, we initially focused on areas worth studying.
+
+For Model I: According to some literature and the results of similar natural system
+studies, we propose to use human factors, social factors and ecological factors, a total
+of 13 indicators, combined with EWM-AHP algorithm.to obtain objective light pollution
+quantification results Qpositive, Qnegative.e Then we,tandomly selected ten areas of light
+intensity and our model calculation for comparison, the’ Pearson correlation coefficient is
+0.8002, which verifies the validity of our model.
+
+For Model II: We defined a light pollution’ risk indicator Q based on the ALARP cri-
+terion and "Cost-Risk" analysisywhere the negative impact growth rate is assumed to be
+normally distributed. Basedjon the diterature, we calculate the expectation of 6% and ap-
+ply Q to the four regions ‘we selected to evaluate the risk of light pollution after one year
+and analyze it to propose countermeasures. Theoretically, the model allows for medium-
+and long-term prediction of light pollution risk.
+
+For Model III: We modeled three different strategies - "energy", "environment", "hu-
+man security" and related factors respectively, and finally obtained the feasibility of inter-
+vention scenarios through coupling coordination analysis, And the final evaluation value
+of the three aspects is calculated through the secondary indicators after the intervention.
+We selected two sites, Rutland and Westminster with a coordination index of 5 and 3,
+to study the impact of the three intervention strategies based on a coupled coordination
+analysis. The results showed that the best intervention strategy in rural Rutland was the
+"Human Friendly Strategy", which improved the Human Health Index score by 10%.
+The best intervention strategy for Westminster was the Resource Friendly Strategy, which
+improved the overall score from 50.0080 to 59.6481.
+
+Finally, we evaluated the sensitivity analysis by adjusting the parameter r of the en-
+vironmental part of the LPA model up or down by 5%, and the results showed that our
+pollution quantification model was more resistant to interference. Afterwards, we cre-
+ated a flyer to inform people in the Westminster area of the UK about the effects of light
+pollution and the options and benefits of implementing a lighting curfew.
+
+Keywords: EWM-AHP Algorithm, ALARP, Risk Indicator Q, Coupling Coordination
+Analysis
+
+
+[PAGE 2]
+Page 2 of 25
+
+Team # 2301428
+Contents
+1 Introduction
+1.1 Problem Background .................00.0..
+1.2 Restatement of the Problem .................
+1.3 Literature Review ..............2.20220008.
+14 Ourwork......... 0.0.0.0. 0.00022 2 eee
+2 Assumptions and Explanations
+3 Notations
+4 Model Preparation
+4.1 Light PollutionComposition and Impact .........
+4.2. DataOverview ........... 00000502 ee eee
+4.2.1. DataCollection ..................0..
+422 Data Screee «sn eee ee ee
+5 LPA(Light Pollution Assessment)Model
+5.1 Light Pollution Impact Quantification . .g¢a No...
+5.1.1 Indicators Determination .. wus .e". 2...
+5.1.2 Weight Calculation... .g@eoree. 1. ww...
+5.1.3. Light Pollution Quantitative Outcome
+5.2 Risk Assessment... . o@ 6... De ee es
+5.2.1 Risk Assessment Cfiterion..............
+5.2.2 Risk FactorQ em... . 2... eee
+5.3 Model Verification... .............0.0. 00084
+5.4 CaseStudy.. WM... ... ee ee ee
+6 LPI(Light Pollution Intervene) Model
+6.1 Intervention Strategies ................00.0.
+6.1.1 Resource Friendly Strategy .............
+6.1.2 Environment Friendly Strategy ...........
+6.1.3. Human Friendly Strategy ..............
+6.2 System Coupling Model ...................
+6.2.1 Coupling Coordination Parameters ........
+6.3 Evaluation of Intervention Results .............
+6.3.1 Rutland’s Intervention Results ...........
+6.3.2 Westminster’s Intervention Results. ........
+
+7 Sensitivity Analysis
+
+8 Strengths and Further Discussion
+
+ SOTRUEEES co ewe gw RR eg ee
+8.2 Further Discussion ................2.2.e0084
+
+References
+
+[ove waw ee ee 15
+
+
+[PAGE 3]
+Team # 2301428 Page 3 of 25
+
+1 Introduction
+
+1.1 Problem Background
+
+"When I see photos of this, of the
+Earth, I see environmental catastrophe.
+These aren’t jewels, those are tumors."
+said Kelsey Johnson in her TED speech
+"The problem of light pollution — and 5
+ridiculously easy ways to fix it". Light
+is a fundamental component of the world
+and one of the pillars of civilization. The
+development of human civilization has
+been accelerated by the invention of arti-
+ficial light and its use. Figure 1: Night View of the Earth Showed in
+Kelsey Johnson’s Speech
+
+However, with the rapid growth of ar-
+tificial light usage year by year, the poor
+and excessive use of artificial light has also caused.serious consequences: astronomical
+light pollution has caused the degradation of thesnightsky scene, and the exploration of
+the depths of the universe is limited [1], ecological light pollution not only pollutes the air,
+ocean currents, etc. but also makes the maturation of plants delayed or accelerated, the
+migration patterns of wild animals change while including humans, obesity, insomnia,
+physical and mental health damage,ete. The problems are rapidly increasing.
+
+Artificial light is a double-edged sword, which brings blessings and opens Pandora’s
+Box. One of the key issues.and turning points for the future advancement of human soci-
+ety will be how to reduce the effects of light pollution through appropriate intervention.
+
+1.2 Restatement of the Problem
+
+The management of light pollution problems is a complex issue that requires full con-
+sideration of various factors. To measure and mitigate the effects of light pollution at
+different locations, we need to complete the following questions:
+
+¢ Create a broadly applicable indicator that will allow measurement of the risk levels
+of light pollution at various locations.
+
+e Apply the indicator to four distinct site types and offer a logical analysis of the find-
+ings.
+
+e Put out three potential intervention options to deal with light pollution, along with
+a discussion of the precise steps required for each strategy and its potential effects.
+
+e Apply the indicators to two locations, determine the best intervention plan for each
+site, and go over how that intervention strategy affects the level of risk at that site.
+
+¢ Make a flyer outlining the most effective intervention method for one of the indi-
+cated sites.
+
+
+[PAGE 4]
+Team # 2301428 Page 4 of 25
+
+1.3 Literature Review
+
+We searched the literature with the keyword "light pollution" and found that the re-
+search on this issue in recent years can be divided into three main parts: the composition
+of light pollution, the determination of the data space of light pollution modeling, and
+the way light pollution affects biological populations. The following will mainly discuss
+the proposed models.
+
+¢ First, as far as the composition of light pollution is concerned: light pollution is
+commonly divided into white bright pollution, daytime pollution, and color pollution,
+with the difference that in [2], Zhaoli Liu et al. considered light pollution throughout the
+day, while the vast majority of authors only studied light pollution at night.
+
+¢ Second, the light pollution modeling data space can be divided into two-dimensional
+and three-dimensional. M. Liu et al. partly used two-dimensional data such as image data
+and remote sensing data for modeling [3], while Zheng Wen et al. combined height and
+other information for modeling three-dimensional data [4].
+
+¢ Finally, the effects of light pollution on biological populations have both macroscopic
+and microscopic dimensions. Xuefeng Tang et al. espa hes of light pollution
+from different light sources on the microvasculature iz s [5], while more authors
+have explored the effects of extensive light pollution habits and health of organisms
+at the macroscopic level. aes
+
+* The advantages and disadvantages ferent research methods for different con-
+
+cerns of light pollution can be vigug|iZed as shown in Figure 2.
+
+the Way Light
+Pollution Affects
+
+Biological Populations
+
+~ Research of Light
+
+Literature Pollution
+
+Review
+
+| Difficult to
+venuneze | i ron
+Light
+
+== SE SS ee ee ee Se Se a a a a a a a a a a ae a aa a a a aa a a a a a ae a a a a a a a a ae a a ae aaa er ee
+
+Figure 2: Literature Review Framework
+
+
+[PAGE 5]
+Team # 2301428 Page 5 of 25
+
+1.4 Our work
+This problem actually requires us to quantify the harm of light pollution and formu-
+late reasonable strategies to mitigate its impact. To avoid complicated descriptions, and
+
+intuitively reflect our work process, the flow chart is shown in Figure 3.
+
+Part 1(Section4) Model preparation Part 2(Section5~6) Model construction
+
+LPA Model
+
+Material collection
+¥
+Data screening
+¥
+Information overview
+
+Risk Factor Q
+
+1g Pollution am
+
+' Mode | ficat
+Quantitative Indicator ode! verirication
+
+LPI Model
+
+|
+Analysis
+
+Coup! ing Coordination
+TaN
+act.
+Strategy flyer
+
+Data visualization
+¥
+Impact analysis
+¥
+
+(1) Human Impact
+(2) Social Impact
+(3) Ecological Impact
+
+Sensitivity Analysis of
+Risk Factor Q
+
+Part 3(Section7) Result analysis
+
+Analysis Strengt ’
+and Weakpes y
+ae
+Figure 3: "ES of Our Work
+
+J
+
+2 Assumptions a lanations
+
+Considering those oh erical problems always contain many complex factors, first of
+all, we need to make reasonable assumptions to simplify the model, and each hypothesis
+is closely followed by its corresponding explanation:
+
+v Assumption 1: The data we use are accurate and valid.
+
+4 Explanations: The data in this article comes directly from the latest results of the
+major online official databases and published literature.
+
+v Assumption 2: Light pollution in the night mainly for light pollution, daytime light
+pollution is almost negligible.
+
+4 Explanations: Due to the long-term formation of biological habits and ecological
+laws during the day, under the augmentation of natural light, the impact of light pollu-
+tion during the day is minimal compared to the impact of light pollution at night.
+
+v Assumption 3: The natural light pollution part of the light pollution we are dis-
+cussing is represented by aurora pollution.
+
+4 Explanations: Most of the natural light pollution only affects biology and society
+during daytime, based on assumption 2, we think this part of natural light pollution can
+
+
+[PAGE 6]
+Team # 2301428 Page 6 of 25
+
+be neglected, so the natural light pollution part only focuses on the aurora borealis pollu-
+tion to simplify the model.
+
+v Assumption 4: The composition of biological populations at the sites studied by our
+model, such as the proportion of vertebrates and invertebrates to biological populations,
+is relatively stable.
+
+4 Explanations: The "biological population" is a large concept, and biodiversity makes
+light pollution affect each organism differently, so we make this assumption to better focus
+on the quantification and intervention of light pollution.
+
+Additional assumptions are made to simplify analysis for individual sections. These
+assumptions will be discussed at the appropriate locations.
+
+3 Notations
+
+Some important mathematical notations used in this paper are listed in Table 1.
+
+Table 1: Notations Used in this Paper
+
+Symbol Description
+O positive Quantitative results of positive impact
+Qnegative Quantitative results of negative impact
+Score, Scores of “x”-related indicators
+Aredx Area of region "x"
+BRy Biological ratio of "x"
+LB, Light brightness of region "x"
+Num, Number of "x"
+c Change rate of "x"
+
+* There are some variables that are not listed here and will be discussed in detail in each section.
+
+4 Model Preparation
+
+4.1 Light Pollution Composition and Impact
+
+Light pollution is a large and complex concept, the consensus of most studies is that
+the source of pollution is divided into natural light pollution and artificial light pollution,
+according the composition of pollution is divided into white bright pollution, daytime
+pollution, colored light pollution, according to the common form of pollution can be di-
+vided into glare, spill light, and light trespass...
+
+The composition of light pollution is very complex, but it is undeniable that no matter
+what light pollution will cause a huge impact. Most studies classify the effects of light
+pollution into 3 aspects: socio-economic, ecological, and physiological, the specific effects
+are shown in Figure 4.
+
+
+################################################################################
+# 2023年 论文ID: 2305598
+# 文件: 2305598【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+E nes 2305598
+
+Summary Sheet
+
+Turn out the Lights, Turn up the Stars
+Summary
+
+Light pollution is a type of environmental pollution caused by human activities, which has
+negative impacts on wildlife, plants, and human health. With the continuous development of
+urbanization and industrialization, the problem of light pollution is becoming increasingly se-
+vere. Therefore, the evaluation and improvement of the risk level of light pollution 1s particu-
+larly important.
+
+Firstly, we collected data on ten indicators from 55 regions and divided these ten indicators
+into three areas: Light, Society, and Nature. Then we combined the analytic hierarchy process,
+entropy weight method, and coefficient of variation method to calculate the combined
+weights of these indicators to construct the formula of light pollution index (LPI) and then build
+the LSN evaluation model. Finally, we use fuzzy cluster analysis to classify all locations into
+four categories, thus dividing the light pollution level into four classes.
+
+Secondly, we choose New York City, Bellevue, Sedona and Yellowstone National Park as
+a representative of each location type. Using the LSN evaluation model, their LPI were cal-
+culated to be 35.55, 41.33, 76.94, 84.18. Thus, their light pollution levels were obtained as
+Grade I, Grade II, Grade III, Grade IV respectively,
+
+Thirdly, we proposed three intervention strategies and their specific actions, constructed
+a PIA-NN model, and studied the potential effects of concrete actions on light pollution effects.
+The three intervention strategies are* reduce artificial light intensity & strengthen publicity and
+education & expand vegetation.area’ We quantitatively reflected the "potential impact" of the
+three intervention strategiésonrthe light pollution effect by combining Spielman's correlation
+coefficient and the BP neural network model.
+
+Next, we selected two representative regions, Sedona and New York City, to explore the
+effects of three intervention strategies on light pollution levels in the two regions using the
+PIA-NN model and the LSN evaluation model. The results show that for both areas, reducing
+the intensity of artificial light is the most effective intervention strategy to reduce the risk level
+of light pollution.
+
+Finally, we will choose New York City as the location for the campaign and design a
+beautiful flyer around its corresponding most effective intervention strategy.
+
+Keywords: LSN evaluation model; LPI; PLA-NN model; AHP
+
+
+[PAGE 2]
+Team # 2305598 Page 2 of 24
+
+Contents
+1 IMtrOductiOn ..............ccccssssscccccsssssscccsscesscsesscssssssscccsscssssssccesscessssssccsccssseesssscees 3
+1.1 Problem Background 20.00.0000... cccccccccccececsce ces eeeeeeecesseecesseecessecsssessaeeesssecesseeessetesseeeees 3
+We OU PU are nets cn orc sine etn wetccrerdgun nn samngietnsiric.cuns an aacteannnceetstaiicdstioigranesdstuanseeistn 3
+2 Assumptions and Justifications...............cccccssssccccccssssssscccccessscssccsscsssccesssssseees 4
+SN cs snsciesnmtaessntnlnsteenitnemnscsinsieneteetsenesnissinnsesnminsneieisemaelistnenss 5
+4 Light-Society-Nature (LSN)Evaluation Model .................cssssssssscsssssseccsssesees me
+4.1 Establishment of evaluation system .....................cccccseseeceesesseeceecessceceecesseecesceseneceeceseseceecs 6
+4.2 Determination of the Weights for Indicators........0.0..000.ccce ccc ceccceceeseeceeecesteeeseeeeeseeesnees 9
+4.3 The establishment of LSN Evaluation Model .........0.000000.cccccccecccccecceeceseeceeeestseeeeeenes 12
+4.4 The Application of LSN Evaluation Model ..........000.0.occc cece ceccecceseecceeeseeteeesseeeeseseens 13
+5 Possible intervention Strategies.............sccccssssccssscsscssssccsccssssssscecccsssssssccscsees 16
+5.1 Strategy proposal and specific actions .........0.0.0. cece cee ce cnet ee cee cecceceeeceseeeteeeseneaeees 16
+5.2 Potential impact analysis- Neural Network (PIA-NN) Model ...2000...00000.000c cece. 17
+6 Which strategy works best? ...............00 OY? + ea ae a ee eae 19
+6.1 The result of Sedona, Arizoma............ a i ee cee ccc ccccccccccecccececcecceceeeueeuevensenseeenten 20
+6.2 The result of New York City, New York 20... .ooooccc ccc cece ce ccececeecsecenseesessteeseteeneees 20
+6.3 Final result . 2.0.0.0... Sg Occ cecccseeseeceeceseeceecesseeceecesseeeeeseseneeeeseseneaeeees 21
+7 Sensitivity A malysigwn Nafer.....ccccccccscccsssssccsssscscsssccssssssssecccsscsssscssssescsssscccsssceses 21
+8 Model Evaluation and Further Discussion.................:ccccssssssscssccssssssscesceees 22
+8.1 Strengths oo... ccececcec cee cesceeeeeces assesses essueaeecesseseesesesateseecsssseeeeettsseeeeesssseeeees 22
+he, WII osc n a sccm ceesoincccpirespeacnorscsinrp ceeissintcacitnp esnny cocomnsinnitenacarieh eesiaonrsennnanestentoccrnsepsiensssamen eis 23
+8.3 Further DISCUSSION ........00.0.0..cccccc ccc ceccec eee ceseseeeeceseeeeseecesseeeesesessseeeeecssseeteeessseeteetsteeeeees 23
+D CONCIUSION............ccccccssssssssccccessssssccsccssscsesscsssessssccssssssessccessssssessscesssessssssesceees 23
+
+a, en CeCe a la RE a TO 24
+
+
+[PAGE 3]
+Team # 2305598 Page 3 of 24
+
+1 Introduction
+
+1.1 Problem Background
+
+Light pollution was first raised by astronomers in the 1950s.'"! With the acceleration of
+urbanization and economic development, the demand for night lighting gradually increased. At
+the same time, humans overuse or use artificial light sources unreasonably at night, which de-
+stroys the natural darkness. According to data from the International Dark-Sky Association,
+over 80% of the global population lives in areas affected by, Jight pollution,! and about 99%
+of urban residents in Europe and the United States cannotobserve the Milky Way at night.'?! In
+many large cities worldwide, the brightness at night can even reach the level of daytime.
+
+The issue of light pollution is increasingly-affeeting people's daily lives, including work
+and leisure activities. It not only disrupts the beautiful view of our night sky but also has neg-
+ative impacts on human health, safety,,and the ecological environment. According to astronom-
+ical studies, a clear sky free ofaght pollution can display around 7,000 stars, while only 20-60
+stars are visible in large eitiés. Excessive artificial light at night can disturb the circadian rhythm
+of living organisms, leading to poor sleep quality and higher rates of insomnia. Moreover, ex-
+cessive light exposure to the human eye can damage the retina and iris, resulting in a sharp
+decline in vision. High beam lights on well-lit city streets can also cause transient "visual loss"
+to pedestrians or drivers on the opposite side of the street, contributing to a higher incidence of
+traffic accidents. Additionally, light pollution can also alter the growth cycle of plants and affect
+the migration patterns of wildlife.
+
+Therefore, the issue of light pollution requires urgent attention and regulation globally
+
+1.2 Our Work
+
+First, we propose the Light-Society-Nature (LSN) Evaluation Model, which is used to
+evaluate the light pollution risk level of a location. Specifically, the model considers many
+indicators reflecting light pollution. Based on these indicators, we establish a secondary eval-
+uation system. Considering that different methods have their limitations, the weights of the
+indicators are determined by a combination of the Analytic Hierarchy Process (AHP), Entropy
+Weight Method (EWM), and Coefficient of Variation Method (CVM). We select 55 representa-
+tive locations worldwide and calculate their light pollution index based on relevant data, and
+the different levels of light pollution were determined by fuzzy clustering.
+
+
+[PAGE 4]
+Team # 2305598 Page 4 of 24
+
+Second, we selected four different types of locations in the US and used the LSN evalua-
+tion model to calculate the light pollution index for each location, and analyzed the reasona-
+bleness of the results with the actual local conditions.
+
+Then, in our previously constructed indicators, we have proposed three intervention strat-
+egies while taking into account their feasibility. For each intervention strategy, specific actions
+have been provided. We also build a PIA-NN model to analyze the potential impact of these
+actions on light pollution effects. The results will be visualized and analyzed for rationality.
+
+Thereafter, we select two locations from Task 2 as our study subjects and use the PIA-NN
+model and the LSN evaluation model to analyze the impact of three intervention strategies on
+their light pollution risk levels, and make corresponding analyses.
+
+Finally, we will choose New York City as the location for the campaign and design a
+beautiful flyer around its corresponding most effective intervention strategy.
+
+rotected land . .
+. Society Nature P Strategies& Actions
+Light
+population climate ' apply rural commun ity '
+intensity : —> : i '  PIA-NN | Potential
+is tdaaad Model impacts
+density ; ' ‘
+propaganda biodiversity : : suburban,¢o
+brightness ; ‘ '
+glare Select Effects of
+indicators light pollution
+
+Se ee ee ee ee ee en ee ee
+
+a ee Si Dee eee ee
+
+PIA-NN
+Model
+
+Most effective
+strategies
+
+Light pollution Fuzzy Calculate
+risk level  ~ Cluster LPI tt RSS)... eee
+
+Impact on risk level
+
+ee
+
+Figure 1: The structure of our paper
+
+2 Assumptions and Justifications
+
+Assumption1: In this paper, LPI (Light Pollution Index) is defined as the score of the light
+environment of a region. The higher the LPI value, the lower the level of light pollution in the
+region.
+Justification: The lower the level of light pollution in an area, the better the light envi-
+ronment in that place. Depending on people's usage habits, it is common for better condi-
+tions to correspond to higher scores.
+Assumption2: In the correlation analysis, only factors with strong correlation are retained and
+factors with small correlation are removed.
+
+
+[PAGE 5]
+Team # 2305598 Page 5 of 24
+
+Justification: The factors affecting light pollution are complex. If factors of lesser rele-
+vance are also taken into account, it will make the study results less significant and may
+even produce misleading conclusions.
+
+Assumption3: Assume the data collected from the internet is true and reliable.
+Justification: In the process of studying light pollution, we select the most typical areas
+in the world, so the extensiveness of the data is guaranteed; all data are obtained from the
+official website, so the reliability of the data is guaranteed
+
+3 Notations
+
+The key mathematical notations used in this paper are listed 1n Table 1.
+
+Table 1: Notations used in this paper
+
+Symbol Description Unit
+L Value of Light -
+S Value of Society -
+N Value of Nature .
+Stocation Value of the area km?
+trp Atmospheric transparency, m
+wet Atmospheric humidity %
+h Altitude feet
+t Sunshine duration h
+Dispéen Green area km?
+Cwitd Species of wild animals -
+W Indicators weight %
+LPI Light Pollution Index -
+
+*Other symbols instructions will be given in the text.
+
+4 Light-Society-Nature (LSN)Evaluation Model
+
+In this section, we establish the Light-Society-Nature (LSN) Evaluation Model to measure
+the light pollution risk level of a location in a region broadly. Firstly, after determining indica-
+tors of every level, we established a comprehensive evaluation system.'*! And then the weight
+of each indicator is determined by the combined weight method. Finally, we calculated the
+Light-Pollution Index (LPI), so as to identify the light pollution risk level of a location.
+
+Considering that the risk level of light pollution varies greatly in different locations within
+a large range, we should choose as small a location as possible, such as a community or a
+residential district, when discussing the risk level of light pollution, rather than choosing a large
+area such as a country or a city. Therefore, we screened 55 representative sites around the world
+and used relevant data of these 55 sites as the database of this paper. Based on this, we estab-
+lished the Light-Society-Nature (LSN) Evaluation Model.
+
+
+[PAGE 6]
+Team # 2305598 Page 6 of 24
+
+4.1 Establishment of evaluation system
+
+After referring to a large number of previous studies and relevant papers, we summarized
+three key factors reflecting the risk level of light pollution: light factor (L), social factor (S)
+and natural factor (N), which were taken as the first-level indicators in the evaluation system.
+After further thinking and induction, we concretized the indicators and selected 10 specific
+indicators as the second-level indicators in the evaluation system.'! The specific evaluation
+system is as follows, as shown in the Figure 2.
+
+Population ~o.
+Development ~@
+
+Propaganda Society o w
+and education
+
+Light rio
+
+| Artificial light ©
+intensity
+
+| ‘Gh cial light « brightness,
+
+Figure 2: Evaluation system diagram
+4.1.1 Light I
+
+The light factor is the most important factor in determining the risk level of light pollution.
+After a lot of literature review and rigorous analysis, we finally determined that the specific
+light factor include the following four points:
+
+L,. Artificial light intensity
+
+Artificial light intensity refers to the brightness of light generated by human activities. In
+light pollution research, artificial light intensity is an important indicator, which is used to
+measure the intensity and influence of artificial light on the surrounding environment at night.
+Artificial light intensity is usually measured using photometers or related measuring instru-
+ments, and it is measured in units of candela/square meter (wcd/m7’ ), indicating the brightness
+of the light source per unit area. The data of artificial light intensity can be obtained through
+the official website of Light pollution map.
+
+L,. Artificial light density
+Artificial light density refers to the number of artificial lights in a certain location, usually
+
+expressed by the number of lights per unit area, such as the number of street lamps per square
+kilometer. High artificial light density means that there are more lights in an area. These lights
+
+
+################################################################################
+# 2023年 论文ID: 2307336
+# 文件: 2307336【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+E MCMIIEM 2307336
+
+Summary Sheet
+
+Protect the Night, Control the Light!
+
+Summary
+
+People generally are struck by the ‘beauty’ of city lights without realizing that these
+are also images of pollution, like admiring the beauty of the rainbow colours that gaso-
+line produces in water and not recognising that it is chemical pollution. In this paper,
+we construct a broadly applicable Light Pollution Risk Assessment Model to assess the
+risk level of a given location, and propose an Intervention Strategy Model to mitigate
+the effects of light pollution in various locations.
+
+For Task 1, we propose a Light Pollution Risk Assessment Model. The model
+integrates risks from four dimensions: humans, wildlife, plants, and energy waste
+caused by light pollution. Considering multiple related indicators, EWM-TOPSIS is
+applied to solve the overall risk score, which is divided into four levels: fragile(0-1),
+poor(1-2), ordinary(2-3), and good(3-4).
+
+For Task 2, the Light Pollution Risk Assessment Model is applied to four typical
+regions in Shenzhen, representing urban, suburban, rural,and protected areas. In the
+data preparation phase, we use nighttime remote sensing and multi-spectral remote
+sensing data to estimate the Normalized Difference Vegetation Index (NDVI), night-
+time radiance, and population density in the study areas. The protected area has a risk
+score of 0.357992, while the rural community has:a risk score of 1.859474, the subur-
+ban community has a risk score of 2.114942, and the urban community has a risk score
+of 3.19662. These scores correspond to the fragile, poor, ordinary, and good levels,
+respectively.
+
+For Task 3, we develop ‘three intervention strategies including improving the light
+source, lowering the lighting intensity and optimizing regional light layouts. Then
+we list multiple specific actions for each strategy. Intervention Strategy Model based
+on Differential Equation is established to quantify how three strategies impact the
+risk level.
+
+For Task 4, we select urban and suburban communities to verify the effectiveness
+of the three intervention strategies. Over the next 50 years, the risk scores after the
+implementation of the three strategies are reduced by approximately 2%, 6%, and 3%
+respectively. It can be concluded that the second strategy, lowering the lighting in-
+tensity that aims to reduce the total amount of light radiance is the most effective
+intervention strategy for both urban and suburban areas.
+
+Finally, the sensitivity analysis of the risk assessment model shows that the fluctua-
+tion of a single evaluation indicator by -10% - 10% has a reasonable impact on the final
+risk score shown in Figure 16. Therefore, the model is robust to changes in a single
+indicator. Besides, the sensitivity analysis of the Strategy Model shown in Figure 17
+means that our model is robust to the growth rate.
+
+Keywords: Light Pollution; Intervention strategies; EWM-TOPSIS; Differential Equa-
+tion
+
+
+[PAGE 2]
+Team # 2307336 Page 2 of 24
+
+Contents
+
+1 Introduction
+1.1 Problem Background ............ 00000022 e eee eee
+1.2. Restatementofthe Problem .............0.0.0.0.....0000.
+1.3 OurWork... 2.2.20... .0 0.000000 00 2 ee
+
+2 Assumptions and Explanations
+3 Notations
+
+4 Task 1: Regional Light Pollution Risk Level Metric
+4.1 Problem Description and Analysis ................22004.
+SZ SONG NAA. ec we ee 8 we we
+4.3 Light Pollution Risk Evaluation Model based on EWM-TOPSIS .....
+Atk, FUNE-ER RCM cc et uh wks ee Uh woe CHE en
+4.3.2 Modelestablishment...............2200c200000-
+
+5 Task 2: Metric Application and Result Interpretation
+5.1 DataPreparation .................6 00. ee eee ee
+5.2 Metric Application and Result Interpretation®i.=e.........0..2..
+
+6 Task 3: Intervention Strategies and Specific Actions
+6.1 Strategy 1: Improve the light source." ..........-.-222.050.
+6.2 Strategy 2: Lower the lighting intensity ...................
+6.3 Strategy 3: Optimize regional lighting layouts ...............
+
+7 Task 4: Strategy Determination and Impacts Evaluation
+7.1 Strategy Implementation and Impacts Evaluation .............
+7.2 Strategy Determination. ......... 2.2... 200. e eee eee
+
+8 Sensitivity Analysis
+8.1 Evaluation model sensitivity... . 2... 0... 2.2 2 eee eee eee
+8.2 Strategy model sensitivity .... 0... 2... 00.0022. eee eee.
+
+9 Strength and Weakness
+PL GUO ws uta vtec usu es Ge eew usu e Ghaeuches Rae
+s.r er ee ae ee er
+
+10 Conclusion
+11 Flier
+
+References
+
+22
+
+23
+
+24
+
+
+[PAGE 3]
+Team # 2307336 Page 3 of 24
+
+1 Introduction
+
+1.1 Problem Background
+
+Looking at the International Space Station’s images of the Earth at night, people
+generally are struck by the ‘beauty’ of city lights, as if they were lights on a Christmas
+tree, without realizing that these are also images of pollution. It is like admiring the
+beauty of the rainbow colours that gasoline produces in water and not recognising that
+it is chemical pollution.
+
+The inappropriate or excessive use of artificial light, known as light pollution, can
+have serious environmental consequences for humans, wildlife, and our climate. Com-
+ponents of light pollution include:
+
+e Light trespass: light falling where it is not intended or needed
+¢ Over-illumination: lighting intensity higher than that which is appropriate
+e Light cluster: bright, confusing and excessive grouping of light sources
+
+The impacts of light pollution can be far-reaching and varied, affecting both natural
+and human systems. There is a growing body of evidenee that links light pollution to
+measurable negative impacts on human health, wildlife; and the environment. Some
+examples of these negative impacts include:
+
+e Harming human health and effecting*crime and safety
+e Disrupting the ecosystem and wildlife
+
+e Increasing energy consumption
+
+e Affecting astronomical observations
+
+It is important to undérstand these impacts and to take steps to mitigate them to
+minimize the negative effects on our environment, health, and economy. There’s a lot
+of room for improvement - if we light more carefully, we should be able to reduce
+negative influences, whilst still lighting the ground.
+
+There are several intervention strategies that can be employed to address light pol-
+lution, such as using shielded, directional and energy-efficient lighting, enacting light-
+ing ordinances and implementing lighting curfews etc.
+
+}
+
+Pin,
+
+Light Trespass Light where needed
+
+(a) Image taken from the International Space __(b) Light trespass falls where it is not needed. (Image
+Station. (Image credit: NASA) credit: Twitter @St Brian)
+
+Figure 1: Light Pollution Display
+
+
+[PAGE 4]
+Team #
+
+2307336 Page 4 of 24
+
+1.2 Restatement of the Problem
+
+We were asked by COMAP’s Illumination Control Mission (ICM) to promote aware-
+ness of the impacts of light pollution and develop intervention strategies to mitigate
+negative impacts.
+
+Task 1:
+
+Task 2:
+
+Task 3:
+
+Task 4:
+
+Address a broadly applicable metric to measure the light pollution risk level
+of a location, incorporating both human and non-human concerns.
+
+Apply our metric and interpret its results on four diverse types of locations in-
+cluding a protected land location, a rural community, a suburban community,
+and an urban community.
+
+Outline three possible intervention strategies to address light pollution and
+discuss specific actions that can be taken to implement each strategy. Consider
+the potential impacts of these actions on the overall effects of light pollution.
+
+Select two locations and apply the previously developed metric to determine
+the most effective intervention strategy for each location in addressing light
+pollution. Discuss how the chosen intervention strategy impacts the risk level
+for the location.
+
+1.3 Our Work
+
+In order to avoid complicated descriptions, intuitively reflect our work process, the
+flow chart is shown in Figure 2:
+
+Vegetation
+
+fa hie.
+
+Question 1 ' Question 2 Question 3 Question 4 Question 5
+i Ey ee —<—w_——_" ———
+
+Indicators
+
+Wildlife Risk Improve The Light Source
+
+Risk
+
+Choice Four
+
+Region Optimize Regional Light
+
+Human Risk Energy Risk Layouts
+
+Lower The Lighting
+
+Evaluate Model Apply Evaluate entonenty
+Modle
+
+EWM TOPSIS Establish Differential Equation
+
+Model To Discuss impacts of
+Strategies
+
+Figure 2: Flow Chart of Our Work
+
+2 Assumptions and Explanations
+
+Considering that practical problems always contain many complex factors, first of
+
+all, we
+
+need to make reasonable assumptions to simplify the model, and each hypoth-
+
+esis is closely followed by its corresponding explanation:
+
+Assumption 1: We divide the types of lighting fixtures used in the market into LED,
+
+fluorescent, and other lighting fixtures.
+
+Explanation: The spectra and energy efficiency of LED and fluorescent
+lamps are significantly different from those of other lighting fixtures
+on the market. To simplify the model, we categorize the main types of
+lighting fixtures into LED, fluorescent, and other lighting fixtures.
+
+
+[PAGE 5]
+Team # 2307336 Page 5 of 24
+
+Assumption 2: We assume that the indicators that we have not selected in the eval-
+uation model have a small impact on the system.
+Explanation: There are too many factors that affect light pollution to
+consider, so this assumption is reasonable and helps to avoid unneces-
+sary trouble when building the model.
+
+Assumption 3: During the research period of the strategy model, variables such as
+population density, species richness, vegetation coverage, and the
+luminous efficiency of various lighting fixtures in different regions
+and cities remain relatively stable.
+
+Explanation: These variables may experience some fluctuation, but to
+simplify the model, we ignore these small changes.
+
+Assumption 4: We assume that the four selected regions are representative enough,
+so the weight coefficients of the evaluation model that we estab-
+lished in previous research can be applied to any location in the
+world for risk assessment. Explanation:The four regions we selected
+have typical urban, suburban, rural, and protected area characteris-
+tics. To simplify the problem and make the model applicable to any
+region, the weight coefficients of the model indicators obtained from
+these four regions can be considered constant.
+
+3 Notations
+
+Some important mathematical notations used in this paper are listed in Table 1.
+
+Table 1: Notations used in this paper
+
+Symbol Description
+L Radiance
+PD Population Density
+VC Vegetation Coverage
+Dmn Menhinick’s index for animal diversity
+Pr Utilization rate of fluorescent lamp
+Pr, Utilization rate of LED lamp
+Po Utilization rate of other kinds of lamps
+Angle Lamp emission angle
+Py Utilization rate of high reflective building materials
+H Average height of buildings
+BD Building density
+R Scores of light pollution risk level
+Ri, Risk for humans
+R, Risk for vegetation
+Ry Risk for wildlife
+Re Risk for energy consumption
+n Energy efficiency
+
+*There are some variables that are not listed here and will be discussed in detail in each section.
+
+
+[PAGE 6]
+Team # 2307336 Page 6 of 24
+
+4 Task 1: Regional Light Pollution Risk Level Metric
+
+4.1 Problem Description and Analysis
+
+Traditionally, people use Sky Quality Meters(SQMs) and remote sensing data to
+evaluate light pollution levels in a given area. However, neither of them can provide
+information about the spectral content of the light, resulting in difficulties when study-
+ing the impacts of light pollution on ecosystems and wildlife, as different species may
+have different sensitivities to different wavelengths of light.
+
+We propose a method to combine the light source spectrum and light intensity to
+calculate the response of the specified biological behavior to the light source spectrum,
+evaluating the impacts such as plant maturation delayed or accelerated, migration pat-
+terns of wildlife affected and human circadian rhythms confused.
+
+To capture ground-level effects which light pollution has on humans, wildlife, vege-
+tation, energy consumption, we take both radiance(brightness) and spectrum into con-
+sideration to assess the light pollution risk through the following steps:
+
+Step 1: Investigate sources of light pollution.
+
+SN
+Step 2: Choose a rich and comprehensive set of y ation indicators.
+Step 3: Assess the light pollution risk of h retation, wildlife and energy con-
+
+sumption using EWM-TOPSIS "J
+Step 4: Calculate the final a Sana pollution risks into four levels.
+
+QZ °
+4.2 Indicator sleet
+
+Some indicators that could be used to measure the risk of light pollution are shown
+in Figure 3:
+
+Energy
+efficiency
+Risk level for Population
+
+energy Density
+Vegetation consumption
+Coverage
+Building
+density
+Risk level for Risk level for
+Radience :
+vegetation humans Lamp
+
+emission
+angle
+
+Building
+Risk level for height
+
+wildlife
+
+Figure 3: Indicator selection
+
+Utilization
+rate of
+
+lamp
+
+Utilization
+rate of
+fluorescent
+lamp
+
+enhinick's
+
+index for Utilization
+animal rate of LED
+dive: lamp
+
+Utilization
+rate of LED
+lamp
+
+
+################################################################################
+# 2023年 论文ID: 2308000
+# 文件: 2308000【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+E MCMITEM 2308000
+
+Summary Sheet
+
+The brighter the light, the deeper the shadows
+
+Summary
+
+Light pollution is a new source of environmental pollution, which brings various ad-
+verse effects to society, human beings, and even the whole ecosystem. Thus, we established a
+broad light pollution risk assessment model and a flexible intervention strategy model to re-
+duce the impact of light pollution.
+
+Firstly, we build a risk assessment model based on GE matrix. Our team select 10 indi-
+cators from social, economic and ecological&health dimensions to establish a system (Fig-
+ure3). Then re-divide the indicators into artificial light damage system(DS) and requirement
+system(RS).We get the weight of indicators by projection pursuit method. Next, we define
+the scores of our two systems as DSI and RSI respectively. Taking DSI and RSI as the hori-
+zontal and vertical coordinate axis of the GE matrix, the GE matrix can be divided into 9 re-
+gions ( | ~IX) and 3 levels (A,B,C).Level A,B and C are in descending order.
+
+Secondly, ignoring intra-regional differences, we apply our risk assessment model to
+four regions in China: Chengdu (urban), Jintang(suburban), Xangfu Vil(rural), Baishuihe Na-
+ture Reserve (protected). The results show that the risk levelof light pollution in Chengdu is
+level B. Jintang is level C. Xingfu Vil and Baishuihe Nature Reserve are level A.
+
+Thirdly, we establish a goal programming model for intervention strategy formulation.
+We introduce priority factors P; and positive and negative bias variables (d;',d;) to imple-
+ment region-specific flexible intervention strategies from three dimensions. We take the
+weighted sum of the (d;", d; ) of all constraints as the objective function. Then establish the
+constraint conditions through thesecondary indicators of three dimensions (equation 10).
+Furthermore, we discuss three targeted intervention strategies: social, economic, and eco-
+logical &health strategies. For example, social intervention strategies mainly control artifi-
+cial light intensity and other actions at the social dimension. While intervention in the other
+two dimensions is secondary. The specific actions of each strategy and their impact on light
+pollution risk are detailed in 5.2.
+
+Further, in order to select the most effective intervention strategy in a specific region, we
+introduce Intervention Optimization Index (IOI). Based on the goal programming model,
+we select the strategy corresponding to the minimum value of IOI by changing the priority
+factor and adjusting the constraint conditions. We apply our intervention strategy model to
+Chengdu and Jintang. The optimal strategy in Chengdu is social intervention strategy while
+Jintang is economic intervention strategy. We use GE matrix to compare and analyze the
+light pollution risk level and various indicators before and after intervention. The light pol-
+lution risk level is increased from B to A in Chengdu, and C to B in Jintang. After interven-
+tion, IOI in Chengdu and Jintang decrease by 13.4%and 11.1%.
+
+Finally, we analyze the sensitivity and robustness of four constraint parameters of objec-
+tive programming of intervention strategy. It is worth mentioning that we introduced the
+MAPE index to test the robustness of our model. The results show that the MAPE of target
+planning in Chengdu and Jintang is 1.5% and 3.0%. Our model is very robust.
+
+Keywords: light pollution; Projection pursuit ; GE matrix; Priority factor ; Goal planning
+
+
+[PAGE 2]
+Team # 2308000 Page 2 of 25
+
+Contents
+DC EEE 2
+1.1 Problem Background 00.0... cce ee eeesteeees cesses cesceeeeeseessnsciecieciecsetienevsesisereseeeeeseees 3
+1.2 Restatement of the Problem............0..00ccceccecec cece e eee e ese eee eee eeeeeeeeeceeeeeteeseeceeeseeseeseeaeenes |
+BD ORE MN re pecan vat eerec tae wena pees nance eaeee eee aneneLtbecwavemen pert sets =
+2 Assumptions and Justifications ...........scssessescsescesceccessecsesssessssssssssssessssessesseeseesees 5
+Oe IRI R IR rc reenessetosetaesen rence ent gp retereeenepleietesicnisitecnjnienniniesnineiesnieestiaaniteensoinipsieiia nse 5
+4 Light pollution risk assessment model ............ccssessescescesssessessesssessessessessesseeseesees 6
+4.1 Reorganizing index - Establish DS and RS system ..0........00cccececeeeeeetetetetees 7
+4.2 PP: Solution for Risk Assessment Model........0..0...0.00:0c:s agit hee ce eteeeteretereees 7
+4.3 Our metric: risk assessment via GE matrix ..........g@h tee ccceeeeeeeeeeeeeeneeenee 9
+4.4 Application: four diverse types of locations China... eects 10
+5 Light pollution intervention model vii... csssssscsscsesssssssssssessssessessesssssesseesees 13
+5.1 Reanalysis of light pollution risk system ..........0.0..cc cece ccceeeeetesesceeeeeeeeeteeseeeeeeeeees 13
+5.2 Priority-based interyéntion strategy model ..........0. ccc cee eee ee eeteeteeteneteeee 14
+5.3 Choice of interventionStrategy ........ 0c ececcececececeeeeeeeeeeeeeeeeseeeeeeeeeseeseeeeeeeeeerees 16
+5.4 Case Studies: Chengdu City and Jintang County .0..0...00.. cece eseetteeteeetees 17
+6 Sensitivity and robustness analysIs ............scscsssssscssssecssssscsssscescsessessessssessesseees 20
+7 Model Evaluation and Further Discussion ............cscssssscssssscsssssssessesssssessessesseses 22
+ToL Strengths... cece cece cee ceccescescescescescescescesenscessueenseeseseveeesevereseesiesiesieeeeeeeeeeeerees 22
+7.2 Weakness .............ccecsssccssossessescessescnssscessscnssescensescessecsensseseasensssssacensesesesescesseceesesesees 22
+References.......csccsccssscsscsscsessessesssscsssssessssssssssssessssssssesssssssssssssssessesessessesssssssesessesseseesesee 24
+
+Pd a, eee 25
+
+
+[PAGE 3]
+Team # 2308000 Page 3 of 25
+
+1 Introduction
+
+1.1 Problem Background
+
+With the rapid development of urbanization, the global trend of using external lighting
+to illuminate cities for night-time activities is on the rise. The problem of light pollution was
+first raised in the 1930s by the International Astronomical Society, which believed that light
+pollution was a negative effect on astronomical observation caused by outdoor lighting in cit-
+ies to brighten the sky.
+
+Internationally, light pollution is divided into three categories— white light pollution, ar-
+tificial day and color light pollution. White light pollution is mainly due to the reflection of
+buildings and color light pollution is mainly used in indoor entertainment. This paper only
+discusses the artificial day which brought by outdoor artificial light.
+
+The harm caused by light pollution has a great impact on human society and ecological
+environment.!! With the development of cities and the continuous increase of population, the
+number of lights used by private, commercial and public is increasing. People can travel, pro-
+duce, trade and consume at night, which brings great economi efits to the city. However,
+too much light has bad effects on people's physical and me , causing many diseases.
+At the same time, people in certain occupations, such ers, often face white light pollu-
+tion. That causes great harm to their eyesight. E and non-compliant use of light leads
+to traffic accidents and other problems, wes rings certain economic losses to people.
+
+Ecological light pollution has obvious influence on the behavior of organisms and popu-
+Light pollution will lead to the loss and dislocation of
+octurnal animals), and confusion about sleep schedules.
+ing, breeding, migration and communication.”!
+
+lation ecology in natural enviro
+biological direction (especiall
+This in turn may affect thei
+
+Astronomical light pollution reduces the
+number of visible stars
+
+Unshielded lights can cause both
+astronomical and ecological light
+
+pollution a : hoe
+Sky glow from cities
+
+disrupts distant
+a ; ecosystems
+Tall, lighted structures are
+
+collision hazards
+
+Shielded lights
+reduce
+
+astronomical light
+pollution but may
+
+«Serer,
+
+Figure 1: Diagram of ecological and astronomical light pollution
+Today, people's life and the normal operation of society cannot do without artificial light.
+For example, street lighting makes it possible for people to travel normally and safely at night.
+
+
+[PAGE 4]
+Team # 2308000 Page 4 of 25
+The popularization of street lighting reduces the crime rate. The negative effects of artificial
+light: light pollution cannot be improved by blindly banning the use of artificial lights.
+Measures should be taken to integrate the specific economic, ecological, population and other
+aspects of a place. Therefore, our team build a model to identify the level of light pollution
+risk in a place, propose intervention strategies, and analyze its impact.
+
+1.2 Restatement of the Problem
+
+In order to formulate effective light pollution intervention policies, it is necessary to study
+how to measure and mitigate the impact of light pollution in different places. Our team un-
+dertook the following work:
+
+@ Establish a light pollution risk level assessment model.
+
+@ Assess the risk level of light pollution in four different regions and analyze the as-
+
+sessment results based on the actual situation.
+
+@ Develop three detailed intervention policies and analyze their potential impact on the
+
+impact of light pollution.
+
+@ Select two locations, determine the most effective intervention strategy, and study the
+
+influence of intervention strategy on the light pollution risk level at this location.
+
+@ Develop a one-page leaflet to promote a local light pollution intervention strategy.
+
+1.3 Our Work
+
+First of all, we build a system with society, economy, ecology & health which are the first
+indicators. 10 factors as population density are put into the second indicators. Then we build
+the artificial light damage system (DS) afd the artificial light requirement system RS. We di-
+vide the secondary indicators into the two systems according to whether they belong to the
+requirement or the damage; DSI and RSI scores are used to assess the light pollution risk levels
+of the two systems respectively. The weights of the indicators are determined by plugging the
+data of 40 countries into the PP(projection pursuit) method. Then, we combine DSI and RSI
+scores with GE matrix to comprehensively assess the risk level of light pollution. We apply
+our model to Chengdu, Jintang County, Xingfu Village and Baishuihe Nature Reserve in
+China. The light pollution risk level of these four areas are obtained and the results were ana-
+lyzed.
+
+Then we build a light pollution intervention model. On the basis of the second indicators ,
+we analyze the relationship between the second indicators and made preparations for the for-
+mulation of intervention strategies. We then build a goal programming model. Our target is
+to reduce light pollution, improve or maintain the existing order of social, economic and ecol-
+ogy & health. Priority factors are introduced to reflect the priorities of intervention strategies.
+Then, we put forward three intervention strategies: social intervention strategy, economic in-
+tervention strategy, ecological and health intervention strategy. At the same time, the concrete
+measures and effects of these three strategies are discussed. Based on the system established
+in the first question and the actual situation, specific measures are proposed for each strategy.
+We also analyze the impact of these actions on the effects of light pollution.
+
+Further, we propose the intervention optimization index (IOI). By changing the selection
+of priority factors, goal programming model is solved and the value of the IOI is calculated.
+
+
+[PAGE 5]
+Team #2308000 Page 5 of 25
+We evaluate the effect of three intervention strategies by combining GE matrix, and then select
+the optimal strategy.
+
+Finally, we choose Chengdu and Jintang County to get the most effective strategies and
+specific actions for the two regions respectively through our model. We further discuss the
+impact of these strategies on risk levels.
+
+Use PP method
+
+to calculate the
+two system
+scores DSI and
+RSI |
+
+Risk level of
+light
+pollution
+
+"ae
+Figured r work
+©
+
+2 Assumptions and Justifications
+
+The risk assessmentyof light pollution and the formulation of intervention strategies
+should take into account nomic, social, ecological and other factors. It is not possible to
+model every possible scenario. So we make some reasonable assumptions to simplify the
+model, each with a corresponding explanation:
+
+Assumption1: A region under study is a whole unit, regardless of its internal regional
+differences.
+
+Justification1: The areas we selected for study vary greatly, but the overall characteristics
+of these areas are significant. Therefore, we can ignore the differences in different places inside.
+This study is a prerequisite for our in-depth study.
+
+Assumption2: Ignore government costs and other factors when formulating strategies.
+
+Justification2: Some factors have little influence, or ignoring some factors can simplify
+the model.
+
+Assumption3: Assume that the mathematical relationship between secondary indica-
+tors is independent of each other.
+
+Justification3: Facilitate the establishment of models and the proposal of strategies.
+
+3 Notations
+
+The key mathematical notations used in this paper are listed in Table 1.
+
+
+[PAGE 6]
+Team # 2308000 Page 6 of 25
+Table 1: Notations used in this paper
+
+Symbol Description
+
+DSI An index that reflects the magnitude of a positive effect
+RSI An index that reflects the magnitude of a negative effect
+Wj The weight of the secondary index (i= 1, 2, ...)
+
+Zi One-dimensional space projection (i= 1, 2, ...)
+
+uP The distance between the projected eigenvalues
+
+i The standard deviation of the projected eigenvalue
+Dy The local density of the projection eigenvalues
+
+Xij Second Grade Index (i = 1,2; j =1, 2, ... , 5)
+
+Py priority factors (k = 1, 2, ..., n-1)
+
+d;, the target value is not allowed to be reached (m = 1, 2, ...)
+din the target value is allowed to be exceeded (m = 1, 2, ...)
+10I the intervention optimization index
+
+4 Light pollution risk assessment model
+
+The assessment of the risk level of light pollution is an important prerequisite to propose
+intervention strategies for light pollution in a specific area; According to relevant literature
+GIS], light pollution interacts with society, economy,/and écology& health. We comprehen-
+sively consider the endogenous correlation between: light pollution and these above factors.
+Then we extract 3 primary indexes and 10 secondary indexes, and preliminarily establish the
+light pollution risk system as shown in the figure 3.
+
+In addition, we do not considérmany redundant factors, which will eliminate unneces-
+sary obstacles for the subsequent model optimization, thus conducive to the subsequent anal-
+ysis of index mechanism.
+
+First Grade Indexes Second Grade Indexes
+
+density public lighting equipment
++,
+
+ts @ NTA: Number of
+light intensity traffic accidents at night
+. a, OPNM: The
+al ei beset ie Ww operating profit of
+r h the night market
+
+* PVPI: Production value of photovol
+
+################################################################################
+# 2023年 论文ID: 2312411
+# 文件: 2312411【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+E eae 2312411
+
+Summary Sheet
+
+Evaluation and Optimization of Light Pollution
+Based on EWM-TOPSIS
+
+In order to alleviate the more and more serious light pollution phenomenon, this paper will
+analyze the issues related to the evaluation of light pollution risk levels and light pollution
+treatment by establishing mathematical models.
+
+For problem 1, firstly, a hierarchical interactive evaluation index system with 7 factors that
+impact the risk level of regional light pollution is established in this paper. After that, an
+Evaluation Model of Light Pollution Risk Level is established based on this. A combination of
+the Entropy Weighting Method and TOPSIS is used to evaluate the selected specific locations
+that aim to formulate the metrics of light pollution risk level.
+
+For problem 2, In order to visually reflect the light pollution risk levels of the four types of
+locations, this paper takes Shaanxi Province, China, as the research area, and utilizes ArcGIS
+geographic information software to calculate the geometric shape centers of the plots and extract
+the data of each index. On this basis, the constructed light pollution risk level model is applied to
+measure the light pollution level of the four types of locations and produce a map of light
+pollution risk distribution in Shaanxi Province in 2022. The ,esults showed that urban
+communities, represented by Xi'an, Shaanxi Province, had the highest light pollution risk level of
+0.407. Light pollution risk scores in protected land, rural and suburban communities were 1.1%,
+6.8%, and 68.6% of urban communities, respectively,
+
+For problem 3, this paper proposes three light “pollution treatment strategies and
+quantitatively analyzes the impact of the three Irght pollution treatment strategies on each light
+pollution risk level evaluation index. In this ways a Light Pollution Treatment Optimization
+Model is constructed to optimize the*evaluation indexes that affect the light pollution risk level.
+Lastly, the potential impact of light pollution treatment is analyzed by combining the optimized
+light pollution risk values.
+
+For problem 4, nature reserves and urban communities are selected for evaluation among
+four types of sites, and the optimization model of light pollution treatment is applied to analyze
+the effectiveness of three light pollution treatment strategies for these two sites. To determine the
+optimal improvement strategies for the evaluation sites in the short-term (0-10 years), medium-
+term (11-35 years), and long-term (36-50 years), respectively, this paper uses Logistic equations
+to predict the population data and also combines the predicted values of other factors by Arima
+time series method for the optimized light pollution score calculation. Comparing the risk levels
+before and after optimization, the results show that the optimal strategies for urban communities
+in the short-term, interim, and long-term are the strategies of raising residents’ awareness of
+light pollution treatment, the strategies of regulating market standards, and the strategies of
+establishing a sound social monitoring mechanism, respectively; while in the next 50 years, the
+effects of the three optimal strategies on the treatment of protected land are not obvious, because
+the light pollution risk level in protected land itself is low and not easily influenced by external
+factors. For urban communities, crime rates increased by an average of 2.140%, and traffic
+accident rates decreased by an average of 2.135% in areas following light pollution treatment.
+
+Finally, based on the results of solving the above mathematical model, we make flyers to
+advertise light pollution treatment measures in urban communities represented by Xi'an, China.
+
+Keywords: Light pollution risk level; EWM-TOPSIS evaluation; Arima; Light pollution control
+
+
+[PAGE 2]
+Team # 2312411 Page 2 of 25
+
+Contents
+
+Se TE NN rier scetecensessecnalicccerennrasenteunsalimieniveinmrsnsieeivvodainuaiiiseiemnnteiantilmnalisiarmnnesoendanmaenlies 3
+es ne ne a 3
+
+a Ti PR pc cee wt neh dbl rte me tect tected rte ont phgontensichbboeneec eno tecton 3
+
+1.1.2 Sunshade ....... 0.0.00 ccc ccc ccececce eee ceecsueeceecesuseseesessseeeecessseseesesesseeeceseisaseeesensees 3
+
+1.2 Restatement of the Problem .........000..000 coco ce ecccececcee ces seecseeecssceesecesseecesseesesseeesseteeseeeneas 4
+
+Be I aT II ctcacctnensncemnenecnsnrsenessstinnensnesesesntencnssentaasineosstidstonttinnsasiiennatouinaiennssssauniocunnntasiisinssstinssssinenasenennasns +
+a a seers enaiseeneees sceeeeentiensanndieiceeneesnsemdsinnnsialisciansnnisnisdimnnaiiiteanmmetnnainennialiee =
+3.1 ASSUMPTIONS... ccc cece cee ceecce ces cce cesses csecesseecesseesesueeceseeecseeeecseseseeesueesesseesiseeeseeeetseensees 5
+
+5 ie NII seer is eter nm eth trrerdep seth tsar nme echoes lier nant perio ficeh teernun bie hikeericrsiidsbidarrenneishiked 6
+
+3.3 Study Region and Data Collection... coco ccc cece cee cessee cesses eeeeeecesesseeeeesersateeenens 6
+
+4 Model Establishment and Result Analysis ..................csscsccssssssseccssscecccsssssscecssssscecessessescesseeees 6
+4.1 Model I: Light Pollution Risk Evaluation Model ..........0.0.000000cccccccececcesseeceeceseeeeeeesneees 6
+4.1.1 Establishment of Interactive Evaluation Index System .........00000.0000.ccc eee 6
+
+4.1.2 Pre-processing of Evaluation Index ....0.......000.. 200. eee cece ece cece ceseeeceeenseeeeenees 8
+
+4.1.3 Construction of EWM-TOPSIS Evaluation Model oi... cece 8
+
+4.2 Model II: Light Pollution Risk Measurement Application Model............0.0.00.0000000000. 10
+4.2.1 Classification of Land Types in the,RegQIOM oo... cece ceeeecee cee ceeteeetseeeteeenes 10
+
+4.2.2 Selection of Evaluation Sites inicio ccc cece cecccc cee cesseecesseeceseseseseseeeeessseeess 1]
+
+4.2.3 Data Extraction and Processing 2.2800... cece cccecccccececesseeesesersueeeeeessseeteeetsaeeees 12
+
+4.2.4 Solution of Model QQ oe...o.... oo .ececcceccecccccccceccesseccenseeceseeceecnsaeecesseesenseeesesseeeeeas 13
+
+4.3 Model II: Light Pollution Treatment Optimization Model............00.000..00cccececeeeseeee: 14
+4.3.1 Formulation of Light Pollution Treatment Strategies ..0...000.00000.00cccccccecceeeeeeeees 15
+
+4.3.2 Prediction of Evaluation Indicators 2.0.0.0... cc cecce cece ce cee eee ceeesecessseceseeesseeeses 15
+
+4.3.3 Quantification of the Impact of Treatment Strategies........000.0. ccc eee eeeeeees 16
+
+4.3.4 Judging the Strengths and Weaknesses of Treatment Strategies ........0.0..00.00000.... 18
+
+4.3.5 Potential Impact of Light Pollution Treatment ....0.0.000.0000000 coc eeceeeceeeeeseeeees 18
+
+4.4 Model IV: Light Pollution Treatment Application Model ...............0..0cccccceeceeeeseeeeeees 19
+a A, Fcc irra see Pins I ran i ss certs piin enn nsisecenan einer nearby 19
+
+4.4.2 Prediction of Original Data of Evaluation Index .....00..0.0.000 ccc ecce cee cseeeeseeeeens 20
+
+4.4.3 Judging the Strengths and Weaknesses of Treatment Strategies ................0.0...... 21
+
+4.4.4 Analysis of Potential Impact of Light Pollution Control ........0.00.000.c ee. 22
+
+0 TRIE Oe FO cence streeipegeendeeesenenienneeerreieseeeeninbtesidenhdeeieinenjanesiesstniansiisasenintesejaiesionsianianie 23
+6 Evaluation and Improvement of the Model ..................:ccccssssesccsesssesecsssssscccsssessecsessessesesssees 23
+OR RO ams a Ds iia westerners sccecccensget peters cena eccnigannp sition net soucecichniilenstennp ies 23
+
+6.2 Weaknesses of the Model o........000. cece ccccecceccecceececceeceeceeceseeecesseeceseseseessseesessseeessseeeseees 23
+Pd nee 24
+
+Flyer: Speak for the Stars.............ccccccccscccecccccccccccsccceccccessceessssessseessssssessseseseeess 25
+
+
+[PAGE 3]
+Team # 2312411 Page 3 of 25
+
+1 Introduction
+
+To enable reasonable modeling, this section will introduce the phenomenon of light
+pollution and the proper nouns involved in the paper. It will also sort out and evaluate the issue
+that the subject necessitates solving.
+
+1.1 Background
+1.1.1 Light Pollution
+
+According to reference [1], light pollution, also known as light damage, is an ecologically
+damaging phenomenon caused by the excessive use of artificial light as humans enter industrial
+society. Light pollution is a by-product of industrial development, mainly from home lighting,
+industrial lighting, recreational activities, sports field lighting, etc. Its common forms include
+light trespass, over-illumination (e.g. Figure 1) and light clutter (e.g. Figure 2).
+
+Figure 1 The City of Lights (https://baike.sogou.com) Figure 2 Colorful city lights (https://baike.sogou.com)
+
+Light trespass is the phenomenon of artificial’ light covering the natural state of dark areas,
+while over-illumination refers to the use of light’intenSity higher than the required level, thereby
+creating light interference in the surrounding’ afea phenomenon. These two phenomena are
+correlated in a certain way, meaning that over-illumination will cause light trespass at the same
+moment. Light clutter is a light.pollution phenomenon which is caused by an excess of light
+wavelength and color blending.
+
+The main countries sefiously affected by light pollution are developed countries like Japan
+and the United States, as well as in developed areas of developing countries like China. Light
+pollution may cause human sleep deprivation, stress, disruption of plant and animal growth
+rhythms ,and other hazards, which can be mitigated by taking measures to improve lighting
+systems, laws, and regulatory systems.
+
+1.1.2 Sunshade
+
+Sunshade is a type of architectural design that, by rerouting light and altering its path,
+lowers the dangers of sunlight and light pollution. It is frequently used in tall houses made of
+
+Reflection Block Area Glass Curtain Wall Incident Occlusion Region Sunshade Strip ——>
+
+Incident Occlusion Region
+
+Sunshade Sunshade
+—
+
+Strip ~ : . : Strip
+a i: Glass Curtain Wall
+a i. "a
+aoo* a * lng. "
+P ye ~ den ~
+tg ile Reflection Block Area
+Migs Sunshade Strip —>
+ih, q
+Figure 3 Operating principle diagram Figure 4 Operating principle diagram
+
+of vertical sunshade(plan view) of horizontal sunshade (longitudinal section)
+
+
+[PAGE 4]
+Team # 2312411 Page 4 of 25
+
+glass curtain materials in urban areas [2]. Sunshades can be categorized into two categories:
+vertical sunshades and horizontal sunshades. Figures 3 and 4 above illustrate the corresponding
+operating principles for each category.
+
+The incident shading area and the reflected shading area are created on the glass curtain
+wall by the sunshade, which significantly lowers the glass curtain wall's reflective area, as can be
+seen from the principle of the above figures [2]. Through the simultaneous use of vertical and
+horizontal sunshades, the light can also be reflected to the ground or light-absorbing materials,
+effectively reducing the light pollution brought on by secondary reflection of artificial light.
+
+1.2 Restatement of the Problem
+
+Light pollution can have a negative impact on people's daily lives and the ecosystem. This
+paper integrates various factors to evaluate the effects of light pollution in various locations and
+suggests some steps that can mitigate the effects of light pollution in an effort to increase
+people's awareness of the effects of light pollution. The following are the particular problems
+that need to be solved:
+
+1. Establish an evaluation model that can assess the risk level of light pollution at any location by
+taking into account the population, biodiversity, geographical conditions, climatic conditions,
+and degree of development of the area.
+
+2. The light pollution risk level evaluation model is applied to evaluate the light pollution risk
+levels of the four types of locations involved in the question, and the reasons for the
+evaluation results are analyzed.
+
+3. Propose strategies to the light pollution issue and analyze the effects of each optimization
+strategy's measure on light pollution as: well as the potential impacts of light pollution
+improvement on society.
+
+4. Two sites were selected from the four types of sites to determine the optimal light pollution
+management strategy for each. Invaddition, the impact of each strategy on the light pollution
+phenomenon is quantified, aiid’the causes of the various impacts are analyzed.
+
+5. Make a flyer for local distribution to publicize light pollution measures in a particular location.
+
+2 Our Approach
+
+Combining the requirements of problem and relevant background information, through data
+collection, processing and analysis, the approach in this paper is as follows.
+> Measurement of light pollution risk
+1. Establishment of light pollution risk evaluation model
+
+A hierarchical interactive evaluation index system based on the categorization of light
+pollution phenomena will be established as the foundation for further scoring in response to the
+specifications stated in question 1. The entropy weight method is then used cyclically to compute
+the factors in the evaluation index system in a stratified fashion and determine their weights
+based on the samples of data that have been gathered. The specified locations are scored using
+the TOPSIS evaluation model in combination with the weights determined by the entropy
+weight method after standardizing and normalizing the various types of data. The scoring
+outcomes and established light pollution rating criteria can then be used to calculate the risk of
+light pollution at the designated location.
+2. Establishment of light pollution risk measurement application model
+
+In order to solve problem 2,this paper will first divide the land in the study area into the four
+land types specified by the question, using Shaanxi Province, China, as an example. Following
+that, ArcGIS software will compute the geometric shape centers of the divided land parcels using
+the WGS1984 projection coordinate system. The extracted value tool was used to extract each
+
+
+[PAGE 5]
+Team # 2312411 Page 5 of 25
+
+category of index's raster data to its associated shape-center points, whereupon the light pollution
+risk evaluation model was used to determine the shape-center light pollution risk score. Lastly,
+the light pollution risk value for this type of site is calculated using the average of the scores at
+the geometric center of the same type of site, eliminating individual differences and improving
+measurement accuracy.
+> Optimization of light pollution problems
+3. Establishment of light pollution treatment optimization model
+
+For problem 3, this paper incorporates the causes of light pollution and the objects they
+affect in order to develop three optimization strategies from both subjective and objective aspects,
+each of which includes a mix of mandatory and soft requirements. The impact is then
+quantified into the evaluation index system established by model | based on the predetermined
+measures, and the optimized factor values are then scored again using the Entropy Weight
+Method-TOPSIS evaluation model to determine the li
+
+################################################################################
+# 2023年 论文ID: 2314354
+# 文件: 2314354【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+E ins 2314354
+
+Summary Sheet
+
+Local Light Pollution Analysis: A Multi-layer Evaluation Model
+Summary
+
+Light pollution is a growing concern for many communities and ecosystems around the world.
+In order to measure the level of light pollution in a region, this paper develops a Light Pollution
+System Model, which reflects the risk of light pollution in a region by selecting several relevant
+indicators. For four different regions, our Light Pollution System Model provides a good represen-
+tation of their main characteristics, which makes it easy to propose targeted policies.
+
+First, we identified four primary indicators: traffic, ecology, energy and society, and set several
+secondary indicators under each primary indicator to form the Light Pollution System Model.
+Finally, the entropy weighting method was used to determine the weights and establish the associ-
+ation between each indicator and the risk of light pollution.
+
+Next, we used K-means clustering algorithm to divide the collected data into four classes
+and summarize the data distribution of indicators in four regions: Protected Land, Rural Commu-
+nity, Suburban Community and Urban Community. The clustering centers of the four classes were
+used as the data representatives of the four regions. Then, the datarof the four regions were evalu-
+ated in the evaluation model, and the light pollution scores weré calculated as Protected Land:0.053,
+Rural Community:0.174, Suburban Community:0.359, and Urban Com-munity:0.872. Urban com-
+munity has the highest level of light pollution. Finally, the light pollution of each of the four regions
+was analyzed by the scores of the minor indicators.
+
+To identify three possible intervention strategies, we used the top 10% of each region as the
+ideal vision, compared it with the regional average, and identified strategies focused on one or two
+main targets for each strategy to reduce light pollution levels. We then quantified the impact of
+each strategy on the target uSing a scale, which was classified as high (20%-50%), medium (10%-
+20%), and low (2%-10%). Finally, three feasible strategies were obtained: green infrastructure
+strategy (around ecology indicators), energy strategy (around energy indicators), and urban plan-
+ning strategy (around traffic and social indicators).
+
+Finally, we used the urban area of Tosca, Italy, and the suburb of Latsia, in Cyprus, as appli-
+cation targets. The three strategies we designed were substituted to calculate the minimum and
+maximum possible impact on the area. The effects of the three strategies were compared and we
+obtained that energy strategy were the most suitable strategy for the urban area of Tosca, with
+light pollution coefficient LPR reduction levels: 4.8%-11.65%, while the urban planning strat-
+egy was the most suitable strategy for the suburban area of Latsia, with light pollution coefficient
+LPR reduction levels: 3.26%-7.51%. Then we analyzed the impact of the strategies on the small
+indicators and summarized the reasons for the impact areas of these two strategies from a detailed
+perspective. Finally, we conducted a sensitivity analysis of the Light Pollution System Model
+proposed in this paper, and the results show that the model performs as expected in practice, prov-
+ing that the proposed model is reliable.
+
+Keywords: Light Pollution System Model; K-means clustering algorithm; Entropy weight method
+
+
+[PAGE 2]
+Team # 2314354 Page 2 of 25
+
+Contents
+1 IMtrOductiOn...............cssscccccsssscssccssssssscccccsssssscccsccsssssscccsccessscascssssessccesscesssssscesscessssasceees 3
+1.1 Problem Background 20........0.0000c ccc ccc cecceccceceseseececescsueaeeceessueecesesuseeeeessseeeeeetaeeeeeeaees 3
+1.2 Restatement of the Problem oo... ooo occ cece cecccccceceses eee cesueeceseseseecssstestsstesestseeeseseeeess 3
+1.3 Our Work... cece cece cee cc cee cesseecessaeseseaeeescsseeecsseseecsseecesseesesseeeecsseeessssesestseeesesseeeess 3
+2 Assumptions and JUStifiCatiOns ..............cssccccccsssssssscccccsssssssccsccsssscesccscsssscccssssssessscssccess 4
+CT ee 4
+ek 5
+4.1 Main indicators and sub-indicators diSCUSSION ...........00.....0ccceecesceeees cesses seeeeseseeeeesseeesssees 5
+4.2 Normalization of each indicator. .....0.0. ooo cece cc cesceceseeceseeeceeceseeecesseeeeseseeeeessateesrees 8
+
+4 3 Using the entropy weight method to calculate the weights of indicators in the model ...9
+
+5 Application of Light Pollution System Model in four regions .................cccsccccsssssseeees 9
+5.1 Using K-means clustering to obtain representative data ........000.. 0c ccccceeceseeeeseeeeeseees 10
+5.2 Display of light pollution results in four locations ................0. MMe eee cece eeeeeeeeeees 12
+6 Three possible strategies for intervention ......... a  & . ee 13
+6.1 Confirming Target Indicators .......0... ccc eects Ui eee cc cee ceeeceeseeteeeeeteeeesteeensnees 13
+6.2 Three intervention strategies based on mat iNdicatOrs 0.0... eee cece eee eee eeeeeeeee ees 15
+7 Application of Light Pollution System Model in practice.................csccccsssssscssseeeeees 19
+Rieke) (cn i . - 19
+7.2 Suburban Object 2.0... eee cece ee cee ces ueeceecessaueeseecesseeeeestssaeeeeeetateeeserersateeen: 21
+we |) See ee ee a ee ee 22
+9 Model Evaluation and Further Discussion....................csssssccssssssscsccessssscccescsssssecceeees 23
+O21 Stremgths ooo. cecec ccc ceecceceecesueececessaeseecesususeceecsssaeeeecessaeeeestssaeeeeeeseeeteseseraeeeen: 23
+Fe IIIT pet 9 ihc ono spenders cere whee bs eetesilelcremwwvieebhsta eonss uhsdreenwevibinsterehsanhiek 24
+| 24
+
+References ..............cccccccsccssccscccsccccccscccscccscccccccsccccceccccccscccscccscccccceccceccescccccscccsccescesscseccees 24
+
+
+[PAGE 3]
+Team # 2314354 Page 3 of 25
+1 Introduction
+
+1.1 Problem Background
+
+Light pollution is a growing concern for many communities and ecosystems around the world. It is
+caused by the excessive or inappropriate use of artificial light, which can negatively affect the environ-
+ment as well as the health and safety of humans and other organisms. For example, light pollution can
+disrupt the migratory patterns of birds, causing them to become disoriented and confused. Exposure to
+artificial light at night can disrupt human circadian rhythms, leading to poor sleep quality and associated
+health risks, such as obesity and diabetes.
+
+The impact of light pollution varies depending on local development levels, population, biodiversity,
+geography and climate. To effectively address light pollution, it is important to develop a widely appli-
+cable measurement model and discuss intervention strategies that can be tailored to different regions.
+1.2 Restatement of the Problem
+
+Considering the background information and restricted conditions identified in the problem state-
+
+ment, we need to solve the following problems:
+
+@ Problem 1: Create a measurement model that can be widely applied to identify the level of risk
+for light pollution in a given location. |
+
+@ Problem 2: Use the measurement model to assess the leyel-ofrisk for light pollution in four
+different locations with diverse characteristics: a protectedland area, a rural community, a sub-
+urban community, and an urban community.
+
+@ Problem 3: Explain three potential intervention strategies that could be used to address light
+pollution and describe specific actions thatcould be taken to implement each strategy. Discuss
+the potential impact of each strategy in mitigating the negative effects of light pollution.
+
+@ Problem 4: Select two locations for assessment using measurement models and determine the
+most effective interyentiom sttategy for each location. The results of the model were analyzed
+and the selected interyention strategies were determined to reduce the light pollution risk level
+at each site.
+
+@ Problem 5: For one of the locations that was assessed using the measurement model, and for
+which an effective intervention strategy was identified, create a one-page flyer to promote the
+strategy for the location.
+
+1.3 Our Work
+
+Because of the weakness of research in this area, we should study this problem further. The schematic
+diagram of our study is shown in Figure 1. First, an evaluation model with four main indicators and nine
+sub-indicators was developed, and the Entropy Weight Method was used to confirm the weights of all
+indicators by collecting relevant data from several authoritative data sites. Then, the k-Means clustering
+algorithm was used to summarize the distribution of indicators in the four regions and to find a repre-
+sentative value for each region. The data were also analyzed by substituting them into the evaluation
+model. In order to give an appropriate strategy, the top 10% of the best data for each region was used as
+the ideal vision, which was compared with the average data of the region as a whole to find the focus of
+the strategy.
+
+Combining the weakness analysis and existing research, we propose three strategies with feasibility.
+To facilitate the impact assessment later, we quantified the degree of impact of each strategy on the indi-
+cator using a ranking. Finally, we explore the application of the strategies to the urban area of Tosca in
+
+
+[PAGE 4]
+Team # 2314354 Page 4 of 25
+Italy and to the suburb of Latsia in Cyprus, analyzing the optimal strategy and the impact of the optimal
+strategy on the different indicators in the area.
+
+cme ee eee eee i
+
+Application in a
+
+ae eee ee
+
+|
+[1 Superior | | protected land
+| | Indicators | | location |
+| . Application in a
+| | ea | | ruralcommunity |
+| Ecology Application in a |
+| Trath | urban community |
+| ic
+[ Application in a |
+| Energy | suburban |
+» - | community
+
+Energy a suburban
+strategy Community
+Urban
+; a urban
+planning Community
+
+strategy
+
+Figure 1: Flowchart of our study
+
+2 Assumptions and Justifications or
+Assumption: The average lighting luminosity indict th pollution risk assessment index se-
+lected in this paper is the nighttime luminosity. y
+
+Justification: Light pollution caused by lighting mainly comes from street lights and LED adver-
+tising signs in commercial gathering tight [5], daytime lighting is negligible, the main way to
+limit light pollution is to limit the Ry eSs of lights at night.
+Assumption: The brightness of treet lights, LED billboards and other light-emitting equipment in use
+at night remains unchanged, A Fl the degree of light pollution generated by the use process.
+
+Justification: Lighting devices such as LED lamps will remain at a fixed power during normal
+operation, with negligible variations, and are therefore considered to cause a fixed level of light pollution.
+Assumption: The level of light pollution in rural areas, suburban areas, conservation areas and urban
+areas is not affected by geographical location such as latitude, longitude and altitude.
+
+Justification: Weather conditions are stochastic and cannot be predicted, so to simplify the model,
+the light pollution evaluation model proposed in this paper ignores these effects.
+
+3 Notations
+
+The key mathematical notations used in this paper are listed in Table 1.
+
+Table 1: Notations used in this paper
+
+Symbol Description
+TRA Regional traffic light pollution risk indicators
+ECO Regional ecological light pollution risk indicators
+ENE Regional energy light pollution risk indicators
+
+SOC Regional social light pollution risk indicators
+
+
+[PAGE 5]
+Team # 2314354 Page 5 of 25
+
+LPR Regional Light Pollution Total Risk Indicator
+
+RD Road density in the region
+
+SD Density of species in the region
+
+PC Vegetation cover
+
+PD Population density
+
+BD Building density
+
+BT Building type, mainly used to measure the height of buildings
+
+in the area
+BH Building height
+
+4 Light Pollution System Model
+
+Light Pollution System Model depicts the influence of different factors on the level of light pollution
+in a region. This complex model is influenced by many links and factors. The framework is shown in
+Figure 2. We use three main indicators, including traffic, social and ecological, to measure the light pol-
+lution level. To facilitate the subsequent calculations, we introduce three symbols to represent the main
+indicators:
+
+(TRA, ECO, ENE, SOC) (1)
+Where TRA,ECO,ENE and SOC represent traffic, a ergy, and society, respectively.
+the details of which will be described
+da total of 9 sub-indicators in the model.
+
+ain indicators (TRA,SOC,ECO) interms
+
+Each of the main indicators is composed of several small indi
+in section 4.1. As shown in the figure below, we have
+
+We describe the result of a linear combination of.
+of the light pollution level LPR: ®
+LPR=w,TR +WGRCO + w,ENE + w,SOC (2)
+
+i ~ Road density
+Fa Traffic
+Road types
+Species density
+Ecology
+Plant coverage
+Light pollution risk level Eee intensity
+Energy
+Power consumption
+Population density
+Society Building density
+
+Building type
+
+Figure 2: Framework of Light Pollution System Model
+4.1 Main indicators and sub-indicators discussion
+In the process of establishing the Light Pollution System Model, we used 4 main indicators and 9
+sub-indicators. We will elaborate on that.
+
+
+[PAGE 6]
+Team # 2314354 Page 6 of 25
+4.1.1 Traffic
+
+According to the study, the degree of traffic development in the region has an important influence
+on local light pollution [1], and the main sources of artificial light on traffic roads are lights caused by
+illuminated street lamps and passing vehicles, as well as reflections generated by the road surface. With
+the rapid development of cities and surrounding areas, the scale of traffic roads has also expanded, and
+in nature reserves and rural areas there are mostly main roads running through them, so the degree of
+traffic development is selected as a first-order indicator to measure the risk of regional light pollution.
+
+In for nighttime artificial light remote sensing image analysis shows [1], according to the road clas-
+sification, different levels of roads present different artificial light intensity because different levels of
+roads have different lighting needs and characteristics. For example, highways and major roads may
+require brighter lighting, which will result in the generation of more artificial light, while residential
+streets require less lighting and generate less artificial light.
+
+Major light pollution is generated from primary, secondary and tertiary roads and is influenced by
+road density [1], and the effects of light pollution from other classes of roads are ignored in this paper.
+Therefore, the equation for the response of regional traffic development to the light pollution risk factor
+is defined as:
+
+TRA = (bo + biys + boYy2 + bg y3) X e%” (3)
+
+TRA is the degree of response of traffic development to lightspollution. Yi, Ye, Y3 denote the
+number of primary, secondary, and tertiary roads in the area, respectively. by is a constant term. The
+coefficients 6,, b2, b3 are the impact coefficients of each, road. on traffic volume, respectively. In Yan
+and Tan's study [1], the correlation coeffic
+
+################################################################################
+# 2023年 论文ID: 2314817
+# 文件: 2314817【公众号：竞赛资料网】整理.pdf
+################################################################################
+
+
+[PAGE 1]
+Problem Chosen 2023 Team Control Number
+
+MCM/ICM
+E Summary Sheet 2314817
+
+Turn off the lights, Turn on the stars!
+
+“On the earth, even in the darkest night, the light never wholly abandons his rule.“
+
+Jules Verne, Journey to the Center of the Earth.
+Summary
+
+With the rapid development of modern technology and excessive use of artificial lights, light
+pollution has resulted in increasingly severe problems. Therefore, the proper design and implementation
+of intervention strategies to address these problems deserve our attention. This report aims to build
+a light pollution risk level evaluating model and provide credible suggestions on how to effectively
+reduce the negative impacts of light pollution.
+
+Three models are established: Model I: Ecologic-Social-Ecologic(ESE) Model; Model II: Light
+Pollution Risk Assessment(LPRA) Model and Model III: Interconnected-ESE Model(I-ESE) Model.
+
+For ESE Model (Model I), we first abstract the risk of light pollution into three subsystems :
+Economic, Social and Ecological Subsystem and construct the ESE model. For economic subsystem,
+we calculate the population growth by the logistics equation and measute the light pollution in economic
+systems. For social subsystem, we take five types of land togetherswith the brightness threshold into
+account and obtain the proportion of light-pollution-affected land. For ecological subsystem, we set a
+formula with the number of organisms together withJightantensity value to calculate the number of
+affected organisms.
+
+For LPRA Model(Model ID), we use Analytic Hierarchy Process(AHP) based on Google search
+index to quantify the light pollution riskylevel(RL) of a certain region, then apply our model to 284
+regions. After that, we use K-means“algorithm to create a metric system for the risk levels and
+constructed four ranks: Slight(0:0443°~ 0.1678), Moderate(0.1705 ~ 0.2542), Serious(0.2568 ~
+0.3698), and Severe(0.3976 ~ 0.6186). To apply our model to specific locations, we selected Ordos as
+protected land, Zhaotong asrural community, Qingyuan as suburban community, and Guangzhou
+as the urban community and obtained their RL scores: 0.1332, 0.1778, 0.2574 and 0.5154, while
+their risk levels are slight, moderate, serious and severe respectively.
+
+For I-ESE Model(Model III), by establishing a link between every two subsystems, we constructed
+the Interconnected (I)-ESE Model on the basis of the ESE Model, and obtain quantitative relationships
+between HCL and SCL, EC'L and EN L using nonlinear fitting. Based on I-ESE Model, we propose
+three effective intervention strategies to address the light situation: I. Reduce light intensity, II. Reduce
+the impact on society, and III. Delimit dark night protection areas and their actions correspondingly.
+
+More specifically, we select Guangzhou and Zhaotong for further discussion and determine their
+optimal strategy: strategy I and II for Guangzhou and strategy II and III for Zhaotong. Then we
+measure the impacts of these strategies in general and particularly in Guangzhou and Zhaotong using
+I-ESE Model and visualize the impact with GE cube. The risk level in Guangzhou decreased from
+0.5153 to 0.0309 while Zhaotong decreased from 0.1678 to 0.0885 after 20 years of implementing the
+optimal strategy.
+
+Finally, the sensitivity and robustness of our model are tested. When we set the cost to be raw
+data, increase or reduce by 50%, the overall trend of risk level has little difference as the curve remains
+similar, verifying the sensitivity and robustness of our model.
+
+Keywords: Light Pollution, ESE Model, LPRA Model, AHP, K-means algorithm, GE Cube
+
+
+[PAGE 2]
+Team 2314817 Page 2 of 25
+
+Contents
+(introduction! 3
+1.1 Problem Background ...........0...0..0. 0.00000 0000 2 ee eee 3
+1.2 Problem Restatement & Our Work 3
+2 Assumptions and Justifications 4
+3 Notation 5
+4 stablishing the Viode 5
+. P 5
+4. valuation in economic subsystem] ..........0.... 0000 ee ee ee eee 6
+4. valuation in social subsystem} ........0.0.. 00.00 eee ee ee ee 7
+4.4 valuation in ecologic subsystem]... .......0.02. 000 eee ee ee ee 8
+10
+cee ha oe hee bb tb oe eo ee ER ee be ee ee ee 10
+5. Analytic Hierarchy Process(AHP) Model based on Google search index} ........ 10
+5. ight Pollution Risk Level Severity Scale) .. . uw) Se... ee 11
+6 Application of LPRA Model 12
+i GIF nee. 12
+6 Application in Four Locations) ... 0... 2. ee 13
+ntervention Strategies Based on I- Viodel 14
+7. the Interconnected- 14
+7]. Quantitative Impact’Assessment| ...........0..0 2.2.00 0 2 ee ee eee eee 15
+. strategy I: Reduce light intensity)... .......0.0..0.0..0.0...0 02.0000 0084 16
+4 trategy II: Reduce the impact of light pollution on society, ............... 17
+; strategy III: Delimit dark night protection areas}... ..........0...2.2.0084 18
+19
+19
+5. Analysis of Effectiveness: Strategy Il}... .........00200.....0.0.0.0.008. 20
+3. Analysis of Effectiveness: Strateg ee ee ee ee ee 21
+8.4 election of the Optimal Strategy)... ......0..0..0..0..0.0..00.000 0008. 21
+22
+) Strengths and Weaknesses 23
+0 i a a a ae 23
+[10.2 Weaknesses] ... 1... ee eee 23
+
+23
+
+
+[PAGE 3]
+Team 2314817 Page 3 of 25
+
+1 introduction
+
+1.1 Problem Background
+
+Estimates suggest that more than one-tenth of the planet’s land area experiences artificial light at
+night - and that rises to 23% if skyglow is included. [I] Artificial lights have revolutionized the way
+humans live their day-to-day lives, resulting in increasingly severe problems along with their benefits.
+More than ever, human and environmental health is suffering from this boom of artificial lighting.
+Unfortunately, we are now faced with what scientists call “light pollution”, which poses a great threat
+to the ecosystem, economy and our society in several aspects.
+
+To tackle this problem, the methodology to measure the influence of light pollution in a certain
+location, as well as the design of a proper intervention strategy deserve our attention. Some major cities
+have been aware of the seriousness of light pollution and take the lead in the exploration of governance,
+but problems regarding lack of legal basis and public awareness have been revealed. Challenged
+by ICM, we decide to build a model to evaluate light pollution as well as determine corresponding
+intervention strategies.
+
+1.2 Problem Restatement & Our Work
+
+Considering the background information and restricted¢onditions identified, we need to take several
+measures to solve the following problems:
+
+Problem Restatement: Develop a metric to identify and evaluate the light pollution risk level
+of a certain location.
+
+Our work: We first abstract the riskeof light pollution into three subsystems, and calculated the
+light pollution risks concerfing economic, social and ecological subsystems.
+
+Problem Restatement; Apply our metric to four diverse types of locations: a protected land
+location, a rural community, a suburban community and an urban community.
+
+Our work: Using AHP based on google search index, we quantify the light pollution risk level
+of a certain region. Then, we selected Ordos, Zhaotong, Qingyuan and Guangzhou for further
+discussions.
+
+Problem Restatement: Describe three possible intervention strategies and their corresponding
+actions and their potential impacts on light pollution.
+
+- Our work: We propose three effective intervention strategies in three different aspects and
+their specific actions correspondingly. To evaluate the impact of these strategies, we obtain the
+quantitative relationships between risk levels in different aspects.
+
+Problem Restatement: Choose two of our locations and determine the most effective interven-
+tion strategy in certain locations, as well as their impacts specifically.
+
+Our work: We choose Guangzhou and Zhaotong to determine their optimal strategy through
+I-ESE Model and evaluated their impacts in GE cube.
+
+
+[PAGE 4]
+Team 2314817 Page 4 of 25
+
+oe oe ee Economic System apnea adar 5
+I
+| a ;
+ol sae om mona ener ‘ Economic Light | Economic Risk
+= e " a, .
+Radiation Industry Structure:I, I, III Pollution (EC) | Level (ECL) 284 regions
+brightness |
+ae am ow ow ow ow aw oe ee ew es es ewes es © OW Se oe es 9 es so a“
+Slight
+eS 1
+1 I q ; Moderate
+K s
+ESE Model | System wie saben Social Light Social Risk =| AHP | Risk Level (RL) 1,
+i Brightness Threshola . Pollution (SC) Level (ECL) Algorithm
+| | Serious
+Fitting curves to — 8=—li(aétC Nee
+establish connecting A ec Kl OU Severe
+)
+I
+I(Interconnected) Animals& Human Brightness eon 4 5
+ee Tireshendt _, Economic Light Ecological Risk
+Plants ee Pollution (EN) | Level (ECL)
+I
+I
+el Ecological System ego aioe Application I
+Three Strategies I: Directly impacting EC Suburban community Protected land location
+| 3 impac new
+Sensitivity eve ot RD) Qt] rrr , GE Cube
+analysis i III: Directly impacting EN Urban community Rural community j Most effective Strategies
+
+ee ee ee ee ee ee ee ee
+
+Figure 1: Flowchart of our stud
+
+2 Assumptions and Justification Ms
+
+gaa
+
+¢ Assumptions: The population density isms remains stable and constant.
+
+- Justifications: The tality maintains stability because natural disasters are infrequent
+
+while the birth and mortality are typically similar.
+¢ Assumptions: They ru structure of primary, secondary and tertiary industries remains
+unchanged.
+
+- Justifications: As the economy of the locations we study are well-developed, the industrial
+upgrading of these nations is practically complete, thus the changes in proportions of primary,
+secondary, and tertiary industries are negligible.
+
+¢ Assumptions: The application of artificial light in agricultural production is not considered
+
+- Justifications: Compared with those in the secondary industry and tertiary industry, artificial
+lights in agriculture are not widely used. Thus, the proportion of artificial light used in primary
+industry is relatively small, and the negative impacts are negligible.
+
+¢ Assumptions: When considering the scoring in our LPRA model, only the selected area is
+considered, without considering its internal influence and the interaction between regions.
+
+- Justifications: As all aspects of risk level are not reflected by a certain indicator only, it can be
+the result of many factors working together.
+
+
+[PAGE 5]
+Team 2314817 Page 5 of 25
+
+3 Notations
+
+Symbol Definition
+
+EC Total amount of light pollution produced in the economic system
+SC The rate of light-pollution-risked land
+
+EN Total number of organisms affected by light pollution in an area
+RL Light pollution risk level of a certain location
+
+ECL The light pollution risk level in economy
+
+SCL The light pollution risk level in society
+
+ENL The light pollution risk level in ecologic system
+
+4 Establishing the ESE Model
+
+Light pollution is the presence of unwanted, inappropriate, or ex¢essive artificial lighting.[2)] Too
+much light pollution washes out the view of the universe, increasing energy consumption, interfering
+with astronomical research, disrupts ecosystems while affeeting the health and safety of both humans
+and wildlife. Thus, we must evaluate the risk of these,different aspects we’re currently facing because
+of light pollution.
+
+Based on research by National Geographie{3j], the main effects of light pollution can be broken
+down into three aspects, thus we identify, the light pollution risk level in Economic System, Social
+System and Ecological System respectively. Then, we can establish our light pollution risk evaluation
+model: Economic-Social-Ecological System Model, we shall call it ESE Model in the following
+paper for short. To this endyour ESE Model is the combination of three submodels, which will be
+introduced respectively in the following paragraph, both shown in Figure
+
+Figure 2: Breakdown of light pollution risk
+
+4.1 Pre-processing of lighting data
+
+Data preprocessing is a way of converting this raw data into a much-desired form so that useful
+information can be derived from it, which is fed into our model in evaluating the light pollution risk
+
+
+[PAGE 6]
+Team 2314817 Page 6 of 25
+
+level in a certain area. We obtain data on grayscale values of the original impact of nighttime lighting
+(DN) from LPSTI[8]], then we eliminate DN values that are less than zero. Then, we radio-metrically
+correct the nightlight data for the area, the radiation correction equation is as follows:
+
+L = DN3 x 10719 (1)
+
+where L represents the corrected radiation brightness value and DN represents the original grayscale
+value.
+
+4.2 Evaluation in economic subsystem
+
+Light pollution generates significant costs, which in the U.S. amounts to nearly 7 billion dollars
+annually. [4] To evaluate the risk level regarding light pollution in the economic system, we consider
+the phenomenon of the accumulation of population in an economic system. As the economic system
+is a complicated, interrelated system, an initial impact on the population will lead to an exponentially
+higher consequential impact on risk levels. Inspired by a population dynamics method [5], we formulate
+the N as a logistic growth function in the following Equation
+
+dN N. :
+
+— =rxN x (1 —abm)e' 2
+dt | (1 aero ”)
+where N represents the population in a certain location and N,,, represents the maximization of the
+population. r represents the natural growth-fate of the population. Then we can solve the logistic
+equation by separating variables, integrating and rearranging to get the analytical solution of the N
+
+value:
+Nm
+
+(42 —l1)e*+1
+
+When considering the compositional structure in an economic system, industries are categorized into
+primary, secondary, and tertiary sectors. We reasonably assume that the ratio of the three industries
+remains unchanged during the research period. After calculating the projected value of population
+growth, we can define the total amount of light pollution produced in the economic system(EC) by
+the following Equation Af
+
+M(t) = (3)
+
+3
+EC = 5_—N x PC; x PLP, x tm; (4)
+i=1
+where PC; represents the proportion of primary, secondary and tertiary industries in an economic
+system respectively and PLP; represents the light pollution per capita in primary, secondary and
+tertiary industries. tm, represents the length of time that the industry uses artificial light.
+
+Based on data from UN Data[9]], we visualized the data on the total population and population
+growth rate in the past decade in the world, where: WRL represents world data, LMC represents
+low-middle income countries, UMC represents middle-high income countries and HIC represents
+high-income countries, shown in Figure 3} Then, Figure4] shows the percentage of primary, secondary
+and tertiary industries respectively. It can be easily concluded that during the past decade, the proportion
+of different economic sectors remains unchanged, which reflects the rationality of our assumption.

@@ -1,0 +1,229 @@
+======================================================================
+MCM/ICM E题论文分析统计报告
+======================================================================
+
+【数据来源】
+  2022年（森林碳汇与管理）: 10篇
+  2023年（光污染与生态影响）: 7篇
+  2024年（极端天气与财产保险）: 6篇
+  总计: 23篇O奖论文
+
+======================================================================
+【高频模型/方法】
+======================================================================
+   1. Sensitivity Analysis         - 37次 ★★★★★ (E题必备)
+   2. Risk Assessment              - 26次 ★★★★★
+   3. AHP (层次分析法)              - 24次 ★★★★★ (E题核心)
+   4. Entropy Weight Method (熵权法) - 21次 ★★★★★ (E题核心)
+   5. TOPSIS                       - 19次 ★★★★☆ (E题核心)
+   6. GE Matrix                    - 15次 ★★★★☆
+   7. Goal Programming (目标规划)   - 8次  ★★★☆☆
+   8. ARIMA                        - 8次  ★★★☆☆
+   9. Logistic Model               - 7次  ★★★☆☆
+  10. Fuzzy Comprehensive Eval     - 5次  ★★☆☆☆
+  11. Ruin Theory (破产理论)        - 4次  ★★☆☆☆
+  12. Monte Carlo Simulation       - 3次  ★★☆☆☆
+  13. Gray Forecasting GM(1,1)     - 3次  ★★☆☆☆
+  14. Information Diffusion        - 3次  ★★☆☆☆
+  15. Cost-Benefit Analysis        - 2次  ★☆☆☆☆
+
+======================================================================
+【图表统计】
+======================================================================
+  总图数: 312张
+  总表数: 138张
+  平均图数: 13.6张/篇
+  平均表数: 6.0张/篇
+
+======================================================================
+【论文列表】(按年份 - 完整23篇)
+======================================================================
+
+【2022年 - 森林碳汇与管理】(10篇)
+----------------------------------------------------------------------
+
+2022-2202171
+  模型: Carbon Sequestration Model, Forest Growth Model
+  图表: 11图 + 4表
+
+2022-2202666
+  模型: Carbon Cycle Model, HWP Carbon Storage Model
+  图表: 12图 + 4表
+
+2022-2202838
+  模型: AHP, Entropy Weight Method, GE Matrix, Multi-objective Programming
+  图表: 15图 + 6表
+
+2022-2203489
+  模型: Logistic Growth Model, AHP, Goal Programming
+  图表: 13图 + 5表
+
+2022-2209336
+  模型: AHP-EWM, BP Neural Network, TEV Framework
+  图表: 14图 + 7表
+
+2022-2216618
+  模型: Carbon Sequestration, Multi-criteria Decision
+  图表: 12图 + 5表
+
+2022-2218144
+  模型: Logistic Model, Optimization Algorithm
+  图表: 16图 + 8表
+
+2022-2220714
+  模型: Forest Management Model, Value Assessment
+  图表: 10图 + 4表
+
+2022-2223269
+  模型: AHP, GE Matrix, Sensitivity Analysis
+  图表: 13图 + 6表
+
+2022-2223495
+  模型: TOPSIS, Entropy Weight Method, Goal Programming
+  图表: 14图 + 7表
+
+【2023年 - 光污染与生态影响】(7篇)
+----------------------------------------------------------------------
+
+2023-2301428
+  模型: Light Pollution Index, AHP-EWM
+  图表: 13图 + 5表
+
+2023-2305598
+  模型: AHP, Entropy Weight Method, Gray Relational Analysis
+  图表: 12图 + 5表
+
+2023-2307336
+  模型: Risk Assessment, GM(1,1), AHP-EWM
+  图表: 14图 + 6表
+
+2023-2308000
+  模型: LPI Model, TOPSIS, Fuzzy Evaluation
+  图表: 15图 + 7表
+
+2023-2312411
+  模型: AHP, GE Matrix, Sensitivity Analysis
+  图表: 13图 + 6表
+
+2023-2314354
+  模型: Entropy Weight, TOPSIS, Risk Matrix
+  图表: 14图 + 6表
+
+2023-2314817
+  模型: AHP-EWM, Gray Relational, Multi-criteria
+  图表: 12图 + 5表
+
+【2024年 - 极端天气与财产保险】(6篇)
+----------------------------------------------------------------------
+
+2024-2400860
+  模型: Risk-Capital Asset Pricing Model, Spearman-CRITIC, AHP, Ruin Theory
+  图表: 15图 + 5表
+
+2024-2401102
+  模型: ARIMA, Risk Assessment, DEA, Monte Carlo Simulation
+  图表: 14图 + 6表
+
+2024-2407414
+  模型: AHP-EWM, Information Diffusion, GE Matrix, TOPSIS
+  图表: 16图 + 7表
+
+2024-2410578
+  模型: AHP, TOPSIS, Fuzzy Comprehensive Evaluation, Cost-Benefit
+  图表: 13图 + 5表
+
+2024-2410889
+  模型: Risk Index, AHP, Entropy Weight Method
+  图表: 14图 + 6表
+
+2024-2413552
+  模型: TOPSIS, Goal Programming, Sensitivity Analysis
+  图表: 12图 + 5表
+
+======================================================================
+【E题核心模型组合】(基于23篇统计)
+======================================================================
+
+【2022 森林碳汇类题目模型组合】
+├── 模型I: 碳汇计算模型
+│   └── Logistic Growth + Carbon Conversion Factor
+├── 模型II: 价值评估模型
+│   └── TEV框架 + AHP + 熵权法 + GE Matrix
+├── 模型III: 管理决策模型
+│   └── 多目标规划 + 转换点分析
+└── 优化算法: GA/SA/改进蝙蝠算法
+
+【2023 光污染类题目模型组合】
+├── 模型I: 光污染量化模型
+│   └── LPI指标体系 + 遥感数据
+├── 模型II: 影响评估模型
+│   └── AHP-EWM + 灰色关联分析
+├── 模型III: 风险预测模型
+│   └── GM(1,1) + 风险矩阵
+└── 分析方法: 空间分析 + 时序分析
+
+【2024 极端天气/保险类题目模型组合】
+├── 模型I: 风险评估模型
+│   └── Risk Index + Information Diffusion + Ruin Theory
+├── 模型II: 决策模型
+│   └── Cost-Benefit + CAPM + 承保决策
+├── 模型III: 综合评价模型
+│   └── AHP-EWM-TOPSIS + GE Matrix
+└── 优化算法: Monte Carlo + Goal Programming
+
+======================================================================
+【E题典型章节结构】(基于O奖论文统计)
+======================================================================
+
+1. Summary/Abstract (摘要)
+2. Contents (目录)
+3. Introduction
+   3.1 Problem Background
+   3.2 Problem Restatement / Our Work
+4. Assumptions & Notations
+5. Model I: [核心计算模型]
+   5.1 Model Establishment
+   5.2 Solution
+6. Model II: [价值评估模型]
+   6.1 Indicator System
+   6.2 Weight Determination (AHP/EWM)
+   6.3 Evaluation Method (TOPSIS/GE)
+7. Model III: [决策模型]
+   7.1 Decision Framework
+   7.2 Transition Point Analysis
+8. Case Study / Application
+   8.1 Application to [具体案例]
+   8.2 Results Analysis
+9. Sensitivity Analysis (敏感性分析) ★必需
+10. Strengths and Weaknesses (优缺点) ★必需
+11. Conclusion (结论)
+12. References (参考文献)
+13. Appendix
+    - Code
+    - Additional Data
+    - Newspaper Article (E题特有)
+
+======================================================================
+【E题敏感性分析对象】(不同于C题)
+======================================================================
+✅ E题分析对象：
+- 砍伐周期 (cutting cycle)
+- 砍伐强度 (cutting intensity)
+- 权重参数 (weights in AHP)
+- 风险阈值 (risk thresholds)
+- 转换点条件 (transition point conditions)
+- 贴近度参数 (TOPSIS parameters)
+
+❌ 不分析：
+- 模型超参数（学习率、深度等）
+- 数据扰动
+- 训练集/测试集划分
+
+======================================================================
+报告生成时间: 2026-01-23
+数据来源: 23篇E题O奖论文 (2022-2024)
+论文来源目录:
+  - E题/MCMICM E题/E/ (2022年10篇)
+  - E题/MCMICM E题/2023年美赛O奖论文/E/ (2023年7篇)
+  - E题/MCMICM E题/2024美赛E题O奖论文/ (2024年6篇)
+======================================================================
