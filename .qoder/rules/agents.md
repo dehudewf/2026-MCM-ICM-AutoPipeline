@@ -1427,6 +1427,7 @@ quick_commands:
   knowledge_commands:
     - "@knowledge:model 检索{关键词}"
     - "@knowledge:paper 检索{结构}"
+    - "@knowledge:paper:arxiv 搜索{英文关键词}"  # ← arxiv-mcp-server
     - "@knowledge:viz 检索{图表类型}"
     - "@knowledge:data 检索{数据类型}"
 
@@ -1434,6 +1435,46 @@ quick_commands:
     - "@strategist → @redcell 审题后攻击"
     - "@executor → @redcell 实现后审核"
     - "@redcell → @executor 攻击后修复"
+```
+
+---
+
+## MCP Server Integration (MCP服务器集成)
+
+```yaml
+mcp_servers:
+  arxiv_mcp_server:
+    name: "arxiv-mcp-server"
+    location: "arxiv-mcp-server"
+    purpose: "@knowledge:paper 文献检索后端"
+    
+    tools:
+      - name: "search_arxiv"
+        description: "搜索arXiv论文"
+        usage: "@knowledge:paper:arxiv 搜索 'Olympic medal prediction ensemble'"
+        
+      - name: "download_arxiv_pdf"
+        description: "下载PDF到知识库/arxiv_papers/"
+        
+      - name: "parse_pdf_to_markdown"
+        description: "解析PDF并翻译为中文Markdown"
+        
+      - name: "process_arxiv_paper"
+        description: "完整流程：搜索→下载→解析→翻译"
+    
+    env_config:
+      WORK_DIR: "知识库/arxiv_papers"
+      SILICONFLOW_API_KEY: "required"
+    
+    integration_with_agents:
+      strategist: "创新路径文献调研"
+      executor: "方法论参考"
+      narrator: "文献综述写作"
+    
+    safety_rules:
+      - "仅用于文献参考，不导入数值到论文"
+      - "所有统计数值仍必须来自本地代码执行"
+      - "不依赖MCP进行运行时数据获取"
 ```
 
 </agent_system>

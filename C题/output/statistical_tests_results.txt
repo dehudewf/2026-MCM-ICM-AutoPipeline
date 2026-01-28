@@ -1,0 +1,42 @@
+======================================================================
+STATISTICAL TESTS RESULTS FOR MCM PAPER
+======================================================================
+
+1. EVENTS-MEDALS REGRESSION
+----------------------------------------
+   Coefficient (β₁):     3.2622
+   Intercept (β₀):       -34.4558
+   Pearson R²:           0.9904
+   Spearman ρ:           0.9848
+   Spearman p-value:     0.000000
+   F-statistic:          822.21
+   F p-value:            0.000000
+   t-statistic (β₁):     28.67
+   t p-value:            0.000000
+   Standard Error (β₁):  0.1138
+   95% CI for β₁:        [2.9998, 3.5245]
+
+2. VIF ANALYSIS
+----------------------------------------
+   total_lag1          : 27.49
+   total_lag2          : 19.48
+   total_lag3          : 11.44
+   total_ma3           : 152.89
+   total_ma5           : 129.13
+   total_std3          : 9.14
+   total_std5          : 8.64
+   total_growth        : 1.74
+
+3. COACHING EFFECT T-TESTS
+----------------------------------------
+   Kenya:
+     Pre:  6.78 ± 2.86
+     Post: 12.60 ± 2.30
+     t=4.15, p=0.0019
+     Cohen's d=2.17
+
+   Jamaica:
+     Pre:  3.55 ± 2.38
+     Post: 9.17 ± 3.13
+     t=3.84, p=0.0047
+     Cohen's d=2.12

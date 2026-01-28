@@ -1,0 +1,84 @@
+================================================================================
+OLYMPIC MEDAL PREDICTION - COMPREHENSIVE ANALYSIS REPORT
+2028 Los Angeles Olympics
+================================================================================
+
+1. DATA SUMMARY
+----------------------------------------
+Total Records: 1435
+Time Range: 1896 - 2024
+Unique Countries: 210
+Number of Olympics: 30
+
+2. TOP HISTORICAL PERFORMERS
+----------------------------------------
+ 1. United States               2583 total medals
+ 2. Great Britain                944 total medals
+ 3. Soviet Union                 907 total medals
+ 4. France                       792 total medals
+ 5. China                        727 total medals
+ 6. Germany                      680 total medals
+ 7. Italy                        591 total medals
+ 8. Australia                    573 total medals
+ 9. Japan                        508 total medals
+10. Hungary                      494 total medals
+
+3. MODEL PERFORMANCE
+----------------------------------------
+Model                 RMSE        MAE         R²
+---------------------------------------------
+XGBoost               1.65       0.94      0.993
+LightGBM              2.17       1.22      0.988
+RandomForest          2.45       1.45      0.985
+
+4. 2028 PREDICTIONS (Current Countries Only)
+----------------------------------------
+Rank  Country                        Gold       Total              95% CI
+---------------------------------------------------------------------------
+1     United States                    37         124         [119 - 126]
+6     China                            27          88           [87 - 90]
+8     France                           18          60           [57 - 62]
+9     Great Britain                    17          58           [55 - 59]
+10    Russia                           17          57           [57 - 59]
+12    Australia                        15          51           [49 - 52]
+14    Japan                            14          47           [46 - 48]
+18    Italy                            11          38           [36 - 39]
+19    Germany                          10          34           [34 - 34]
+21    South Korea                       9          31           [30 - 32]
+20    Netherlands                       9          31           [30 - 32]
+22    Canada                            8          25           [24 - 25]
+27    New Zealand                       6          20           [20 - 20]
+29    Brazil                            6          19           [19 - 20]
+31    Hungary                           5          18           [18 - 18]
+32    Spain                             5          17           [17 - 18]
+40    Kenya                             3          10           [10 - 10]
+45    Poland                            3           9             [9 - 9]
+48    Cuba                              3           9             [8 - 9]
+60    Jamaica                           2           7             [7 - 8]
+
+5. KEY INSIGHTS
+----------------------------------------
+• United States benefits from ~20% host country advantage
+• China and Great Britain expected to maintain strong performance
+• European countries showing stable medal counts
+• Model ensemble provides more robust predictions
+• Historical trends suggest top 5 countries remain stable
+
+6. METHODOLOGY
+----------------------------------------
+Models Used:
+  - XGBoost (Gradient Boosting)
+  - LightGBM (Light Gradient Boosting)
+  - Random Forest
+  - Weighted Ensemble Combination
+
+Features Engineered:
+  - Lagged medal counts (1, 2, 3 Olympics ago)
+  - Rolling averages
+  - Trend indicators
+  - Host country effect
+  - Year-over-year changes
+
+================================================================================
+Report generated successfully.
+================================================================================

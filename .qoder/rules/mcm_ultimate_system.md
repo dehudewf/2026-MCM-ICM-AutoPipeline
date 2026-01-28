@@ -42,8 +42,10 @@ knowledge_base:
   
   # 可视化参考
   visualization:
-    - path: "知识库/可视化知识库.csv"
-      usage: "图表类型选择"
+    - path: "C题/知识库/C题可视化知识库.csv"
+      usage: "C题图表类型选择 (92种可视化: ARIMA/LSTM/XGBoost/聚类/回归)"
+    - path: "E题/知识库/E题可视化知识库.csv"
+      usage: "E题图表类型选择 (72种可视化: AHP/TOPSIS/DEA/风险评估)"
     - path: ".kiro/steering/生成图的提示词.txt"
       usage: "Nano Banana生图提示词"
   
@@ -74,7 +76,8 @@ knowledge_base:
 @knowledge:paper → 检索MCMICM/中的O奖论文结构
 
 # 调用可视化
-@knowledge:viz → 检索知识库/可视化知识库.csv
+@knowledge:viz → 检索C题/知识库/C题可视化知识库.csv (C题专用)
+@knowledge:viz → 检索E题/知识库/E题可视化知识库.csv (E题专用)
 
 # 调用数据源
 @knowledge:data → 检索.kiro/steering/data-sources-and-brainstorm.md
