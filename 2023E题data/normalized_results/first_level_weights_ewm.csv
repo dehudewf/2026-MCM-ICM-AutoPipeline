@@ -1,0 +1,5 @@
+﻿category,category_name,weight
+human_health,人类健康影响,0.12192952241998949
+social_impact,社会影响,0.12409598358222397
+ecological_impact,生态影响,0.26162384504271835
+energy_factor,能源因素,0.4923506489550682

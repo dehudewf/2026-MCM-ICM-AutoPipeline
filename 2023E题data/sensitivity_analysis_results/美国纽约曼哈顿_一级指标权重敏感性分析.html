@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美国纽约曼哈顿 - 一级指标权重敏感性分析</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin: 30px 0;
+        }
+        .info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .info h3 {
+            margin-top: 0;
+            color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>美国纽约曼哈顿 - 一级指标权重敏感性分析</h1>
+        
+        <div class="info">
+            <h3>分析说明</h3>
+            <p>本图表展示了在±10%范围内波动各一级指标权重时，耦合协调度的变化情况。</p>
+            <p><strong>横轴：</strong>权重波动百分比（-10% 到 +10%）</p>
+            <p><strong>纵轴：</strong>耦合协调度 D 值</p>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="sensitivityChart"></canvas>
+        </div>
+    </div>
+    
+    <script>
+        const ctx = document.getElementById('sensitivityChart').getContext('2d');
+        const sensitivityChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["-10.0%", "-9.0%", "-8.0%", "-7.0%", "-6.0%", "-5.0%", "-4.0%", "-3.0%", "-2.0%", "-1.0%", "0.0%", "1.0%", "2.0%", "3.0%", "4.0%", "5.0%", "6.0%", "7.0%", "8.0%", "9.0%", "10.0%"],
+                datasets: [{"label": "人类健康影响", "data": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "borderColor": "#FF6384", "backgroundColor": "#FF638433", "fill": false, "tension": 0.1}, {"label": "社会影响", "data": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "borderColor": "#36A2EB", "backgroundColor": "#36A2EB33", "fill": false, "tension": 0.1}, {"label": "生态影响", "data": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "borderColor": "#FFCE56", "backgroundColor": "#FFCE5633", "fill": false, "tension": 0.1}, {"label": "能源因素", "data": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], "borderColor": "#4BC0C0", "backgroundColor": "#4BC0C033", "fill": false, "tension": 0.1}]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '一级指标权重波动对耦合协调度的影响',
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false,
+                        callbacks: {
+                            title: function(context) {
+                                return '权重波动: ' + context[0].label;
+                            },
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y.toFixed(4);
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: '权重波动百分比',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: true
+                        }
+                    },
+                    y: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: '耦合协调度 D 值',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: true
+                        },
+                        min: 0.0000,
+                        max: 0.0100,
+                        ticks: {
+                            stepSize: 0.0020
+                        }
+                    }
+                },
+                interaction: {
+                    mode: 'index',
+                    intersect: false
+                }
+            }
+        });
+    </script>
+</body>
+</html>

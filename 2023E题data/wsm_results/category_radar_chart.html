@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四个地点光污染影响评估 - 雷达图</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'SimHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 1400px;
+            width: 100%;
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 600px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .info-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-card h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .info-card ul {
+            list-style: none;
+        }
+
+        .info-card li {
+            color: #555;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .info-card li:before {
+            content: "●";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .legend-label {
+            color: #333;
+            font-size: 1em;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .chart-container {
+                height: 450px;
+            }
+
+            .info-panel {
+                grid: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .chart-container {
+                height: 350px;
+            }
+
+            .legend {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>四个地点光污染影响评估对比</h1>
+            <p>基于WSM模型的一级指标得分分析</p>
+            <p style="font-size: 0.9em; color: #999;">数据来源：真实地点WSM评价结果</p>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(54, 162, 235, 0.6); border: 2px solid rgb(54, 162, 235);"></div>
+                <span class="legend-label">美国大峡谷国家公园</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(255, 99, 132, 0.6); border: 2px solid rgb(255, 99, 132);"></div>
+                <span class="legend-label">中国西部小镇</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(255, 206, 86, 0.6); border: 2px solid rgb(255, 206, 86);"></div>
+                <span class="legend-label">伦敦周边住宅区</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: rgba(75, 192, 192, 0.6); border: 2px solid rgb(75, 192, 192);"></div>
+                <span class="legend-label">美国纽约曼哈顿</span>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="radarChart"></canvas>
+        </div>
+
+        <div class="info-panel">
+            <div class="info-card">
+                <h3>📊 图表说明</h3>
+                <ul>
+                    <li>雷达图展示四个地点在四个一级指标上的表现</li>
+                    <li>面积越大，表示该地点在该维度得分越高</li>
+                    <li>每个维度得分范围：0-0.3</li>
+                    <li>基于WSM线性加权综合评价模型计算</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>🎯 一级指标说明</h3>
+                <ul>
+                    <li><strong>人类健康影响</strong>：光污染对人类健康的影响程度</li>
+                    <li><strong>社会影响</strong>：光污染对社会发展的影响</li>
+                    <li><strong>生态影响</strong>：光污染对生态环境的影响</li>
+                    <li><strong>能源因素</strong>：照明能耗和系统效率</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>💡 关键发现</h3>
+                <ul>
+                    <li>大峡谷：生态和健康得分最高</li>
+                    <li>西部小镇：各项指标表现均衡</li>
+                    <li>伦敦郊区：社会发展水平较高</li>
+                    <li>纽约曼哈顿：光污染影响最严重</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('radarChart').getContext('2d');
+
+        const radarData = {
+            labels: ['人类健康影响', '社会影响', '生态影响', '能源因素'],
+            datasets: [
+                {
+                    label: '美国大峡谷国家公园',
+                    data: [0.2713, 0.1398, 0.2716, 0.0924],
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgb(54, 162, 235)',
+                    borderWidth: 3,
+                    pointBackgroundColor: 'rgb(54, 162, 235)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(54, 162, 235)',
+                    pointRadius: 5,
+                    pointHoverRadius: 8,
+                    pointBorderWidth: 2
+                },
+                {
+                    label: '中国西部小镇',
+                    data: [0.1988, 0.1214, 0.1657, 0.0941],
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    borderWidth: 3,
+                    pointBackgroundColor: 'rgb(255, 99, 132)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(255, 99, 132)',
+                    pointRadius: 5,
+                    pointHoverRadius: 8,
+                    pointBorderWidth: 2
+                },
+                {
+                    label: '伦敦周边住宅区',
+                    data: [0.1150, 0.1190, 0.0849, 0.1017],
+                    backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                    borderColor: 'rgb(255, 206, 86)',
+                    borderWidth: 3,
+                    pointBackgroundColor: 'rgb(255, 206, 86)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(255, 206, 86)',
+                    pointRadius: 5,
+                    pointHoverRadius: 8,
+                    pointBorderWidth: 2
+                },
+                {
+                    label: '美国纽约曼哈顿',
+                    data: [0.0000, 0.1361, 0.0000, 0.0888],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    borderWidth: 3,
+                    pointBackgroundColor: 'rgb(75, 192, 192)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(75, 192, 192)',
+                    pointRadius: 5,
+                    pointHoverRadius: 8,
+                    pointBorderWidth: 2
+                }
+            ]
+        };
+
+        const config = {
+            type: 'radar',
+            data: radarData,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '四个地点光污染影响评估对比',
+                        font: {
+                            size: 24,
+                            weight: 'bold',
+                            family: "'Microsoft YaHei', sans-serif"
+                        },
+                        color: '#333',
+                        padding: {
+                            top: 10,
+                            bottom: 30
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: {
+                            font: {
+                                size: 14,
+                                family: "'Microsoft YaHei', sans-serif"
+                            },
+                            color: '#333',
+                            padding: 20,
+                            usePointStyle: true,
+                            pointStyle: 'circle'
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        titleFont: {
+                            size: 16,
+                            weight: 'bold',
+                            family: "'Microsoft YaHei', sans-serif"
+                        },
+                        bodyFont: {
+                            size: 14,
+                            family: "'Microsoft YaHei', sans-serif"
+                        },
+                        padding: 15,
+                        cornerRadius: 10,
+                        displayColors: true,
+                        callbacks: {
+                            label: function(context) {
+                                const label = context.dataset.label || '';
+                                const value = context.parsed.r;
+                                const dimension = context.label;
+                                return `${dimension}: ${value.toFixed(4)}`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    r: {
+                        beginAtZero: true,
+                        max: 0.3,
+                        min: 0,
+                        ticks: {
+                            stepSize: 0.05,
+                            backdropColor: 'rgba(255, 255, 255, 0.75)',
+                            color: '#666',
+                            font: {
+                                size: 12,
+                                family: "'Microsoft YaHei', sans-serif"
+                            },
+                            callback: function(value) {
+                                return value.toFixed(2);
+                            }
+                        },
+                        pointLabels: {
+                            font: {
+                                size: 16,
+                                weight: 'bold',
+                                family: "'Microsoft YaHei', sans-serif"
+                            },
+                            color: '#333',
+                            padding: 15
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.1)',
+                            lineWidth: 1
+                        },
+                        angleLines: {
+                            color: 'rgba(0, 0, 0, 0.1)',
+                            lineWidth: 1
+                        }
+                    }
+                },
+                elements: {
+                    line: {
+                        tension: 0.3
+                    }
+                },
+                animation: {
+                    duration: 1500,
+                    easing: 'easeInOutQuart'
+                }
+            }
+        };
+
+        const radarChart = new Chart(ctx, config);
+
+        window.addEventListener('resize', function() {
+            radarChart.resize();
+        });
+    </script>
+</body>
+</html>

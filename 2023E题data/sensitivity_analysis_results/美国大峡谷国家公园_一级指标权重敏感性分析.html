@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美国大峡谷国家公园 - 一级指标权重敏感性分析</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin: 30px 0;
+        }
+        .info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .info h3 {
+            margin-top: 0;
+            color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>美国大峡谷国家公园 - 一级指标权重敏感性分析</h1>
+        
+        <div class="info">
+            <h3>分析说明</h3>
+            <p>本图表展示了在±10%范围内波动各一级指标权重时，耦合协调度的变化情况。</p>
+            <p><strong>横轴：</strong>权重波动百分比（-10% 到 +10%）</p>
+            <p><strong>纵轴：</strong>耦合协调度 D 值</p>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="sensitivityChart"></canvas>
+        </div>
+    </div>
+    
+    <script>
+        const ctx = document.getElementById('sensitivityChart').getContext('2d');
+        const sensitivityChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["-10.0%", "-9.0%", "-8.0%", "-7.0%", "-6.0%", "-5.0%", "-4.0%", "-3.0%", "-2.0%", "-1.0%", "0.0%", "1.0%", "2.0%", "3.0%", "4.0%", "5.0%", "6.0%", "7.0%", "8.0%", "9.0%", "10.0%"],
+                datasets: [{"label": "人类健康影响", "data": [0.3846637402488367, 0.3850861326811126, 0.3855118502061951, 0.38594093303102656, 0.38637342202399966, 0.38680935872879557, 0.3872487853785749, 0.3876917449105307, 0.3881382809808171, 0.3885884379798623, 0.38904226104807993, 0.38949979609198876, 0.38996108980075556, 0.39042618966317283, 0.3908951439850847, 0.39136800190727666, 0.3918448134238417, 0.39232562940103893, 0.3928105015966605, 0.39329948267992226, 0.3937926262518957], "borderColor": "#FF6384", "backgroundColor": "#FF638433", "fill": false, "tension": 0.1}, {"label": "社会影响", "data": [0.38672139803857325, 0.3869448032854188, 0.3871700729324048, 0.3873972305319016, 0.3876263000364819, 0.38785730580749406, 0.38809027262385576, 0.38832522569107825, 0.3885621906505255, 0.38880119358891674, 0.38904226104807993, 0.38928542003496364, 0.3895306980319149, 0.3897781230072332, 0.390027723426006, 0.3902795282612393, 0.3905335670052873, 0.3907898696815955, 0.3910484668567643, 0.39130938965294376, 0.3915726697605722], "borderColor": "#36A2EB", "backgroundColor": "#36A2EB33", "fill": false, "tension": 0.1}, {"label": "生态影响", "data": [0.38196391601049545, 0.38266192647079394, 0.3833620836622793, 0.38406440102943096, 0.3847688921304022, 0.3854755706382838, 0.38618445034238585, 0.38689554514953567, 0.3876088690853947, 0.38832443629579266, 0.38904226104807993, 0.3897623577324989, 0.39048474086357393, 0.3912094250815207, 0.3919364251536748, 0.39266575597594033, 0.39339743257425863, 0.39413147010609745, 0.3948678838619609, 0.3956066892669208, 0.3963479018821691], "borderColor": "#FFCE56", "backgroundColor": "#FFCE5633", "fill": false, "tension": 0.1}, {"label": "能源因素", "data": [0.3947698444574041, 0.3941814820245219, 0.3935966759478625, 0.3930153921637569, 0.39243759705808173, 0.39186325745869244, 0.39129234062801055, 0.3907248142557627, 0.3901606464518669, 0.38959980573946223, 0.38904226104807993, 0.38848798170695137, 0.3879369374384493, 0.387389098351661, 0.3868444349360886, 0.3863029180554737, 0.3857645189417445, 0.38522920918908204, 0.3846969607481018, 0.38416774592014985, 0.3836415373517093], "borderColor": "#4BC0C0", "backgroundColor": "#4BC0C033", "fill": false, "tension": 0.1}]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '一级指标权重波动对耦合协调度的影响',
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            font: {
+                                size: 12
+                            }
+                        }
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false,
+                        callbacks: {
+                            title: function(context) {
+                                return '权重波动: ' + context[0].label;
+                            },
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y.toFixed(4);
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: '权重波动百分比',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: true
+                        }
+                    },
+                    y: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: '耦合协调度 D 值',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: true
+                        },
+                        min: 0.3791,
+                        max: 0.3992,
+                        ticks: {
+                            stepSize: 0.0040
+                        }
+                    }
+                },
+                interaction: {
+                    mode: 'index',
+                    intersect: false
+                }
+            }
+        });
+    </script>
+</body>
+</html>

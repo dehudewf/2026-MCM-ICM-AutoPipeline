@@ -1,0 +1,8 @@
+耦合协调度D值范围,协调等级,英文名称,描述
+0.9 < D <= 1.0,优质协调,Excellent Coordination,系统间协调性极佳，发展高度均衡
+0.8 < D <= 0.9,良好协调,Good Coordination,系统间协调性良好，发展较为均衡
+0.7 < D <= 0.8,中级协调,Intermediate Coordination,系统间协调性中等，发展基本均衡
+0.6 < D <= 0.7,初级协调,Primary Coordination,系统间协调性一般，发展存在一定差异
+0.5 < D <= 0.6,勉强协调,Reluctant Coordination,系统间协调性较差，发展差异较大
+0.4 < D <= 0.5,濒临失调,On the Verge of Imbalance,系统间协调性很差，发展严重失衡
+0.0 <= D <= 0.4,失调,Imbalance,系统间完全失调，发展极度失衡

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美国大峡谷国家公园 - 节能效率参数η敏感性分析</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin: 30px 0;
+        }
+        .info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .info h3 {
+            margin-top: 0;
+            color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>美国大峡谷国家公园 - 节能效率参数η敏感性分析</h1>
+        
+        <div class="info">
+            <h3>分析说明</h3>
+            <p>本图表展示了在±10%范围内波动节能效率参数η时，耦合协调度的变化情况。</p>
+            <p><strong>横轴：</strong>η参数波动百分比（-10% 到 +10%）</p>
+            <p><strong>纵轴：</strong>耦合协调度 D 值</p>
+        </div>
+        
+        
+        
+        <div class="chart-container">
+            <canvas id="sensitivityChart"></canvas>
+        </div>
+    </div>
+    
+    <script>
+        const ctx = document.getElementById('sensitivityChart').getContext('2d');
+        const sensitivityChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["-10.0%", "-9.0%", "-8.0%", "-7.0%", "-6.0%", "-5.0%", "-4.0%", "-3.0%", "-2.0%", "-1.0%", "0.0%", "1.0%", "2.0%", "3.0%", "4.0%", "5.0%", "6.0%", "7.0%", "8.0%", "9.0%", "10.0%"],
+                datasets: [{
+                    label: '耦合协调度 D',
+                    data: [0.4136188264234799, 0.41419052368961934, 0.41475675005294343, 0.4153176164886484, 0.4158732305571647, 0.4164236965442806, 0.41696911559410743, 0.4175095858353232, 0.4180452025010996, 0.41857605804308906, 0.41910224223982356, 0.4196238422998519, 0.4201409429599193, 0.42065362657847477, 0.42116197322477195, 0.4216660607638091, 0.422165964937343, 0.4226617594411915, 0.42315351599902823, 0.4236413044328599, 0.4241251927303635],
+                    borderColor: '#36A2EB',
+                    backgroundColor: '#36A2EB33',
+                    fill: true,
+                    tension: 0.1,
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: '节能效率参数η波动对耦合协调度的影响',
+                        font: {
+                            size: 18,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false,
+                        callbacks: {
+                            title: function(context) {
+                                return 'η波动: ' + context[0].label;
+                            },
+                            label: function(context) {
+                                const etaValues = ["0.4500", "0.4550", "0.4600", "0.4650", "0.4700", "0.4750", "0.4800", "0.4850", "0.4900", "0.4950", "0.5000", "0.5050", "0.5100", "0.5150", "0.5200", "0.5250", "0.5300", "0.5350", "0.5400", "0.5450", "0.5500"];
+                                return 'η值: ' + etaValues[context.dataIndex] + ' | 耦合协调度: ' + context.parsed.y.toFixed(4);
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: 'η参数波动百分比',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: true
+                        }
+                    },
+                    y: {
+                        display: true,
+                        title: {
+                            display: true,
+                            text: '耦合协调度 D 值',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        },
+                        grid: {
+                            display: true
+                        },
+                        min: 0.4036,
+                        max: 0.4341,
+                        ticks: {
+                            stepSize: 0.0061
+                        }
+                    }
+                },
+                interaction: {
+                    mode: 'index',
+                    intersect: false
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿Region,Region_Name,Region_Type,H1_circadian_rhythm_disorder,H2_metabolic_obesity_index,H3_visual_function_impairment,H4_psychological_emotional,S1_population_density,S2_social_development_level,S3_traffic_accident_rate,S4_crime_rate,N1_vegetation_coverage,N2_biodiversity_index,N3_climate_humidity_transparency,N4_geographic_sunlight_elevation,E1_lighting_energy_per_area,E2_lighting_system_efficiency
+Grand_Canyon_National_Park,美国大峡谷国家公园,受保护区域,0.12,0.18,0.15,0.1,2.5,0.45,1.2,25,0.85,0.88,0.92,0.9,15,0.55
+Western_China_Town,中国西部小镇,农村社区,0.28,0.35,0.32,0.25,85.0,0.52,4.5,120,0.58,0.62,0.68,0.72,65,0.62
+London_Suburban,伦敦周边住宅区,郊区社区,0.52,0.48,0.45,0.48,850.0,0.78,7.8,320,0.35,0.38,0.58,0.55,145,0.75
+Manhattan_NYC,美国纽约曼哈顿,城市社区,0.82,0.75,0.68,0.72,28500.0,0.92,12.5,650,0.12,0.18,0.42,0.38,285,0.88

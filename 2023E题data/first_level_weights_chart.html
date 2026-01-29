@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一级指标权重分布图</title>
+    
+    <!-- 引入Chart.js库 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+    
+    <style>
+        /* 全局样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', 'SimHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* 主容器 */
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        /* 标题样式 */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        /* 图表容器 */
+        .chart-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 饼图区域 */
+        .pie-chart-wrapper {
+            flex: 1;
+            min-width: 400px;
+            max-width: 600px;
+            position: relative;
+        }
+
+        /* 数据表格区域 */
+        .data-table-wrapper {
+            flex: 1;
+            min-width: 350px;
+            max-width: 500px;
+        }
+
+        .data-table-wrapper h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        /* 表格样式 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        tbody tr:hover {
+            background-color: #f5f5f5;
+            transition: background-color 0.3s;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* 权重百分比样式 */
+        .weight-bar {
+            display: inline-block;
+            height: 20px;
+            border-radius: 10px;
+            margin-left: 10px;
+            transition: width 0.5s ease;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .chart-container {
+                flex-direction: column;
+            }
+
+            .pie-chart-wrapper,
+            .data-table-wrapper {
+                min-width: 100%;
+                max-width: 100%;
+            }
+
+            th, td {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .header p {
+                font-size: 0.9em;
+            }
+
+            th, td {
+                padding: 8px;
+                font-size: 0.85em;
+            }
+        }
+
+        /* 图例样式 */
+        .custom-legend {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 15px;
+            background: #f8f9fa;
+            border-radius: 20px;
+            transition: transform 0.3s;
+        }
+
+        .legend-item:hover {
+            transform: scale(1.05);
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .legend-text {
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        /* 统计信息 */
+        .stats-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stats-info h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .stats-info p {
+            color: #666;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 页面标题 -->
+        <div class="header">
+            <h1>一级指标权重分布</h1>
+            <p>基于EWM熵权法计算的光污染影响评估一级指标权重</p>
+        </div>
+
+        <!-- 图表和数据表格容器 -->
+        <div class="chart-container">
+            <!-- 饼图区域 -->
+            <div class="pie-chart-wrapper">
+                <canvas id="weightsChart"></canvas>
+            </div>
+
+            <!-- 数据表格区域 -->
+            <div class="data-table-wrapper">
+                <h2>权重详情</h2>
+                <table id="weightsTable">
+                    <thead>
+                        <tr>
+                            <th>排名</th>
+                            <th>一级指标</th>
+                            <th>权重</th>
+                            <th>占比</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- 数据将通过JavaScript动态插入 -->
+                    </tbody>
+                </table>
+
+                <!-- 统计信息 -->
+                <div class="stats-info">
+                    <h3>统计摘要</h3>
+                    <p>总指标数: 4</p>
+                    <p>权重总和: 1.0000</p>
+                    <p>最高权重: 能源因素 (49.24%)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 一级指标权重数据配置
+        const weightsData = [
+            {
+                category: '能源因素',
+                categoryEn: 'energy_factor',
+                weight: 0.4924,
+                percentage: 49.24,
+                entropy: 0.9476,
+                diversity: 0.0524,
+                color: '#FF6384',
+                description: '包含单位面积照明能耗和照明系统效率'
+            },
+            {
+                category: '生态影响',
+                categoryEn: 'ecological_impact',
+                weight: 0.2616,
+                percentage: 26.16,
+                entropy: 0.9721,
+                diversity: 0.0279,
+                color: '#36A2EB',
+                description: '包含植被覆盖率、生物多样性、气候和地理因素'
+            },
+            {
+                category: '社会影响',
+                categoryEn: 'social_impact',
+                weight: 0.1241,
+                percentage: 12.41,
+                entropy: 0.9868,
+                diversity: 0.0132,
+                color: '#FFCE56',
+                description: '包含人口密度、社会发展水平、交通事故率和犯罪率'
+            },
+            {
+                category: '人类健康影响',
+                categoryEn: 'human_health',
+                weight: 0.1219,
+                percentage: 12.19,
+                entropy: 0.9870,
+                diversity: 0.0130,
+                color: '#4BC0C0',
+                description: '包含昼夜节律失调、代谢与肥胖、视功能损害和心理情绪'
+            }
+        ];
+
+        // 初始化图表
+        function initChart() {
+            const ctx = document.getElementById('weightsChart').getContext('2d');
+
+            // 创建饼图
+            const chart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: weightsData.map(d => d.category),
+                    datasets: [{
+                        label: '权重',
+                        data: weightsData.map(d => d.weight),
+                        backgroundColor: weightsData.map(d => d.color),
+                        borderColor: '#ffffff',
+                        borderWidth: 3,
+                        hoverOffset: 15
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        // 标题配置
+                        title: {
+                            display: true,
+                            text: '一级指标权重分布',
+                            font: {
+                                size: 18,
+                                weight: 'bold',
+                                family: 'Microsoft YaHei'
+                            },
+                            padding: 20,
+                            color: '#333'
+                        },
+                        // 图例配置
+                        legend: {
+                            display: true,
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                font: {
+                                    size: 14,
+                                    family: 'Microsoft YaHei'
+                                },
+                                generateLabels: function(chart) {
+                                    const data = chart.data;
+                                    return data.labels.map((label, i) => {
+                                        const value = data.datasets[0].data[i];
+                                        const percentage = weightsData[i].percentage;
+                                        return {
+                                            text: `${label} (${percentage.toFixed(2)}%)`,
+                                            fillStyle: data.datasets[0].backgroundColor[i],
+                                            hidden: false,
+                                            index: i
+                                        };
+                                    });
+                                }
+                            }
+                        },
+                        // 工具提示配置（鼠标悬停显示详细数据）
+                        tooltip: {
+                            enabled: true,
+                            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                            titleFont: {
+                                size: 16,
+                                weight: 'bold',
+                                family: 'Microsoft YaHei'
+                            },
+                            bodyFont: {
+                                size: 14,
+                                family: 'Microsoft YaHei'
+                            },
+                            padding: 15,
+                            cornerRadius: 8,
+                            displayColors: true,
+                            callbacks: {
+                                title: function(context) {
+                                    const index = context[0].dataIndex;
+                                    return weightsData[index].category;
+                                },
+                                label: function(context) {
+                                    const index = context.dataIndex;
+                                    const data = weightsData[index];
+                                    return [
+                                        `权重: ${data.weight.toFixed(4)}`,
+                                        `占比: ${data.percentage.toFixed(2)}%`,
+                                        `信息熵: ${data.entropy.toFixed(4)}`,
+                                        `差异系数: ${data.diversity.toFixed(4)}`,
+                                        '',
+                                        `说明: ${data.description}`
+                                    ];
+                                }
+                            }
+                        }
+                    },
+                    // 动画配置
+                    animation: {
+                        animateRotate: true,
+                        animateScale: true,
+                        duration: 1500,
+                        easing: 'easeOutQuart'
+                    },
+                    // 布局配置
+                    layout: {
+                        padding: {
+                            top: 20,
+                            bottom: 20,
+                            left: 20,
+                            right: 20
+                        }
+                    }
+                }
+            });
+
+            return chart;
+        }
+
+        // 填充数据表格
+        function populateTable() {
+            const tableBody = document.getElementById('tableBody');
+            
+            weightsData.forEach((item, index) => {
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>
+                        <strong>${item.category}</strong>
+                        <br>
+                        <small style="color: #666;">${item.categoryEn}</small>
+                    </td>
+                    <td>
+                        ${item.weight.toFixed(4)}
+                        <span class="weight-bar" style="width: ${item.percentage}px; background-color: ${item.color};"></span>
+                    </td>
+                    <td>
+                        <strong>${item.percentage.toFixed(2)}%</strong>
+                    </td>
+                `;
+                
+                // 添加鼠标悬停效果
+                row.addEventListener('mouseenter', () => {
+                    row.style.backgroundColor = '#e8f4f8';
+                });
+                
+                row.addEventListener('mouseleave', () => {
+                    row.style.backgroundColor = '';
+                });
+                
+                tableBody.appendChild(row);
+            });
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化图表
+            const chart = initChart();
+            
+            // 填充表格
+            populateTable();
+            
+            // 添加页面加载动画
+            document.querySelector('.container').style.opacity = '0';
+            document.querySelector('.container').style.transform = 'translateY(20px)';
+            
+            setTimeout(() => {
+                document.querySelector('.container').style.transition = 'all 0.6s ease';
+                document.querySelector('.container').style.opacity = '1';
+                document.querySelector('.container').style.transform = 'translateY(0)';
+            }, 100);
+        });
+
+        // 窗口大小改变时重新调整图表
+        window.addEventListener('resize', function() {
+            // Chart.js会自动处理响应式调整
+            console.log('窗口大小已调整');
+        });
+    </script>
+</body>
+</html>
