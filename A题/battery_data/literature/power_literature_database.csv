@@ -1,0 +1,19 @@
+Component,Power_W,Load_Condition,Device,Source,DOI,Year,Notes
+Screen,0.4,Low brightness (20%),Generic smartphone,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,LCD display measurement
+Screen,1.2,Medium brightness (50%),Generic smartphone,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Typical usage scenario
+Screen,2.8,High brightness (100%),Generic smartphone,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Outdoor/sunlight mode
+CPU,0.1,Idle (0-5% load),ARM Cortex-A8,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Deep sleep not included
+CPU,0.4,Light load (20%),ARM Cortex-A8,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Web browsing typical
+CPU,0.9,Full load (100%),ARM Cortex-A8,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Stress test scenario
+GPU,0.05,Idle,Generic mobile GPU,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,2D rendering only
+GPU,1.5,3D gaming (high),Generic mobile GPU,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Modern GPUs higher (2-3W)
+WiFi,0.02,Idle (connected),Generic 802.11n,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Power save mode enabled
+WiFi,0.6,Active (data transfer),Generic 802.11n,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Streaming/download scenario
+3G/4G,0.3,Idle (connected),Generic cellular modem,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,No data transfer
+3G/4G,1.2,Active (data transfer),Generic cellular modem,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Varies with signal strength
+GPS,0.5,Active (tracking),Generic GPS receiver,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Continuous position updates
+Speaker,0.3,Medium volume,Generic smartphone,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Loudspeaker playback
+Earphones,0.1,Medium volume,Generic smartphone,Carroll & Heiser 2010,10.1109/ISPASS.2010.5452045,2010,Wired earphone output
+Background_sync,0.05,Per app sync event,Android smartphone,Ma et al. 2013,10.1145/2462456.2464460,2013,Email/social media sync
+Location_services,0.15,Network-based (no GPS),Android smartphone,Ma et al. 2013,10.1145/2462456.2464460,2013,WiFi/cell tower triangulation
+Push_notifications,0.03,Per notification received,Android smartphone,Ma et al. 2013,10.1145/2462456.2464460,2013,Wake lock duration ~2 seconds
