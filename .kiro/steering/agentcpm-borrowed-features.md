@@ -181,7 +181,7 @@ class MCMTemplateEngine:
 # Usage Example
 engine = MCMTemplateEngine()
 
-# Your REAL model results (from C题/output/)
+# Your REAL model results (from A题/output/)
 model_results = {
     "Task 1": {
         "USA_medals": "113 (95% CI: 105-121)",
@@ -436,7 +436,7 @@ class MCMSectionFactory:
        section = MCMSectionFactory.create_abstract()
     
     2. 准备真实数据:
-       model_results = load_from("C题/output/predictions_2028.csv")
+       model_results = load_from("A题/output/predictions.csv")
     
     3. 渲染模板:
        prompt = template_engine.render("mcm_abstract.jinja", model_results=model_results)
@@ -451,7 +451,7 @@ class MCMSectionFactory:
          "content": content,
          "validation_results": section.validate(content),
          "iterations_used": section.generation_count,
-         "data_source": "C题/output/predictions_2028.csv"
+         "data_source": "A题/output/predictions.csv"
        }
        ```
 
@@ -483,7 +483,7 @@ class MCMSectionFactory:
 | `templates/mcm_sensitivity.jinja` | Sensitivity 模板 | 需创建 |
 | `src/template_engine.py` | Jinja2 引擎封装 | 需创建 |
 | `src/mcm_section.py` | MCMSection 类 | 需创建 |
-| `data/model_results.json` | 模型结果数据 | 从 C题/output/ 导出 |
+| `data/model_results.json` | 模型结果数据 | 从 A题/output/ 导出 |
 
 ---
 

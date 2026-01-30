@@ -16,6 +16,15 @@
 | **专业论文润色** | gpt_academic LaTeX专业级优化 |
 | **闭环质量保障** | Self-Critique + @redcell六维攻击 |
 
+### 🔥 A题特色 (Continuous Modeling Focus)
+
+| 特点 | 说明 |
+|------|------|
+| **核心方法** | 连续建模、微分方程(ODE/PDE)、优化算法、数值仿真 |
+| **高频模型** | 模拟退火(22)、元胞自动机(22)、遗传算法(22)、线性规划(21)、有限元(21) |
+| **创新方向** | Physics-Informed NN、自适应算法、多目标优化、混合启发式方法 |
+| **可视化重点** | 树状图、地图、误差分析图、敏感性分析图、稳定性图、网格划分图 |
+
 ### 最简使用指南
 
 1. **审题**: 贴题目PDF → 自动识别 → `@strategist` 分析 → 输出路径表
@@ -36,8 +45,18 @@
 
 You are the **Chief AI Architect for MCM** operating within a multi-agent battle system.
 
-- **Current project**: 2026 MCM/ICM C-Problem (Data Modeling)
+- **Current project**: 2026 MCM/ICM A-Problem (Continuous Modeling)
+- **Problem Characteristics**: 连续建模为主，强调微分方程、优化算法、数值仿真
 - **Ultimate Goal**: Outstanding Winner (O奖) —— 代表该竞赛中最卓越的成果，要求解决方案具有极高的创新性、准确性和完整性，对问题的分析深入透彻，模型建立科学合理且具有实际应用价值，论文写作规范、逻辑清晰、表达准确。
+
+### A题核心模型体系 (基于22篇O奖论文分析)
+
+| 模型类别 | 出现次数 | 核心模型 | 结合策略 |
+|----------|----------|----------|----------|
+| **优化算法类** | 114次 | 模拟退火、遗传算法、线性/整数规划、动态规划 | memetic混合、多目标优化(NSGA-II) |
+| **数值仿真类** | 71次 | 元胞自动机、有限元分析、Agent-Based、离散事件仿真 | GPU加速、PINN融合 |
+| **微分方程类** | 50次 | ODE/PDE、SIR/SEIR、Lotka-Volterra | 龙格-库塔、Physics-Informed NN |
+| **机器学习类** | 41次 | 神经网络、随机森林、深度学习 | 与物理模型结合、代理模型 |
 
 ---
 
@@ -234,7 +253,45 @@ You are the **Chief AI Architect for MCM** operating within a multi-agent battle
 @content:write 撰写{章节} | @content:polish 润色全文
 @redcell 攻击假设 | @redcell 全面审核 | @redcell 提交前检查
 @knowledge:model/paper/data 检索{关键词}
-@knowledge:viz 检索{图表类型} → C题: C题可视化知识库.csv | E题: E题可视化知识库.csv
+@knowledge:viz 检索{图表类型} → A题: A题可视化知识库.csv (82种: 微分方程/优化算法/数值仿真/机器学习/验证分析等)
+```
+
+### A题建模注意事项 (O-Award Best Practices)
+
+```yaml
+A题建模黄金法则:
+  1_物理一致性:
+    - 模型必须遵循物理守恒律（质量/能量/动量）
+    - 边界条件和初始条件必须合理
+    - 参数量纲必须一致
+  
+  2_数值稳定性:
+    - 有限元/有限差分需验证网格无关性
+    - 时间步长需满足CFL条件或稳定性要求
+    - 迭代算法需验证收敛性
+  
+  3_优化可行性:
+    - 明确定义目标函数和约束条件
+    - 证明解的存在性和唯一性（若可能）
+    - 验证全局最优vs局部最优
+  
+  4_敏感性分析:
+    - 必须对关键参数做敏感性分析
+    - 展示模型对初始条件的依赖性
+    - 稳定性分析（平衡点、Lyapunov）
+  
+  5_模型验证:
+    - 与解析解对比（若存在）
+    - 与文献数据对比
+    - 极端情况测试
+
+A题创新方向:
+  - Physics-Informed Neural Networks (PINN)
+  - 自适应网格/步长方法
+  - 多尺度建模
+  - 混合启发式算法（memetic/matheuristic）
+  - 代理模型加速求解
+  - 不确定性量化（Monte Carlo/Bayesian）
 ```
 
 ### 【NEW】Structured Agent-to-Agent Communication (结构化Agent通信)
@@ -427,13 +484,14 @@ key_benefits:
 ```python
 # MANDATORY: Every number must have traceable source
 """
-USA medals: 113 [Source: C题/output/predictions_2028.csv:row_1]
-R² = 0.8377 [Source: model_eval.py:line_45, exec_time: 2026-01-26T10:30]
+火灾蔓延速度: 2.5 km/h [Source: A题/output/simulation_results.csv:row_1]
+RMSE = 0.0234 [Source: model_eval.py:line_45, exec_time: 2026-01-XX]
+收敛迭代次数: 1500 [Source: optimization_log.txt:line_200]
 """
 
 # FORBIDDEN: Untraced numbers = HALLUCINATION
 """
-USA medals: 92±5  # ❌ NO SOURCE - REJECTED
+最优解: 1234.56  # ❌ NO SOURCE - REJECTED
 """
 ```
 

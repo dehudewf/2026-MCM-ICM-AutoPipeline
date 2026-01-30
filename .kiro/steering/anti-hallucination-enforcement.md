@@ -17,7 +17,7 @@
 ```python
 # MANDATORY: Every numerical output must follow this format
 """
-USA predicted medals: 113 [Source: C题/output/predictions_2028.csv:row_1]
+USA predicted medals: 113 [Source: A题/output/predictions_2028.csv:row_1]
 R² = 0.8377 [Source: model_evaluation.py:line_45, executed at 2026-01-26T10:30:00]
 RMSE = 4.23 [Source: model_evaluation.py:line_47]
 """
@@ -534,8 +534,8 @@ class ContinuousValidator:
 @executor_write_with_validation:
   1. Load allowed data sources:
      validator = TracedOutputValidator([
-       "C题/output/predictions_2028.csv",
-       "C题/output/model_metrics.json"
+       "A题/output/predictions_2028.csv",
+       "A题/output/model_metrics.json"
      ])
   
   2. Initialize continuous validator:
@@ -579,8 +579,8 @@ from pathlib import Path
 
 # 1. Define allowed sources
 sources = [
-    "C题/output/predictions_2028.csv",
-    "C题/output/sensitivity_results.json"
+    "A题/output/predictions_2028.csv",
+    "A题/output/sensitivity_results.json"
 ]
 
 # 2. Create validator
