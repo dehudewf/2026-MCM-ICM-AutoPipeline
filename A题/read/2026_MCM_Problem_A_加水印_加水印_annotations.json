@@ -1,0 +1,1015 @@
+{
+  "source_pdf": "2026_MCM_Problem_A_加水印_加水印.pdf",
+  "total_pages": 3,
+  "total_annotations": 59,
+  "mapped_data": [
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "这里是相互作用，协调的说法",
+        "author": "微信用户",
+        "date": "D:20260130140517+08'00'",
+        "position": [
+          383.641,
+          475.74,
+          437.641,
+          490.32
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130120637+08'00'",
+        "position": [
+          399.819,
+          387.02,
+          586.019,
+          490.32
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Text",
+        "content": "",
+        "author": "微信用户",
+        "date": "D:20260130120639+08'00'",
+        "position": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130120639+08'00'",
+        "position": [
+          399.819,
+          -103.3,
+          586.019,
+          0.0
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "除了底层的影响，环境的影响（gpu，操作系统指令集，架构等等）其他的还有啥影响",
+        "author": "微信用户",
+        "date": "D:20260130120819+08'00'",
+        "position": [
+          277.98,
+          444.0,
+          397.62,
+          458.58
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130120711+08'00'",
+        "position": [
+          399.819,
+          355.28,
+          586.019,
+          458.58
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Text",
+        "content": "",
+        "author": "微信用户",
+        "date": "D:20260130120736+08'00'",
+        "position": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130120736+08'00'",
+        "position": [
+          399.819,
+          -103.3,
+          586.019,
+          0.0
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "温度的影响",
+        "author": "微信用户",
+        "date": "D:20260130121253+08'00'",
+        "position": [
+          446.58,
+          444.0,
+          495.156,
+          458.58
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121253+08'00'",
+        "position": [
+          399.819,
+          355.28,
+          586.019,
+          458.58
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Text",
+        "content": "",
+        "author": "微信用户",
+        "date": "D:20260130121253+08'00'",
+        "position": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121253+08'00'",
+        "position": [
+          399.819,
+          -103.3,
+          586.019,
+          0.0
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "关键词1",
+        "author": "微信用户",
+        "date": "D:20260130121328+08'00'",
+        "position": [
+          212.34,
+          475.74,
+          313.933,
+          490.32
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121323+08'00'",
+        "position": [
+          492.608,
+          387.02,
+          678.808,
+          490.32
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "返回值",
+        "author": "微信用户",
+        "date": "D:20260130134903+08'00'",
+        "position": [
+          72.0,
+          358.68,
+          100.74,
+          373.26
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121345+08'00'",
+        "position": [
+          425.862,
+          269.96,
+          612.062,
+          373.26
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "预测值",
+        "author": "微信用户",
+        "date": "D:20260130134906+08'00'",
+        "position": [
+          145.32,
+          342.78,
+          181.68,
+          357.36
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121443+08'00'",
+        "position": [
+          443.847,
+          254.06,
+          630.047,
+          357.36
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "必须有一个明确的、可解释的连续时间数学模型（continuous-time model）作为核心骨架。\n数据只能用来 支持模型参数估计或验证模型合理性\n\n只画出SOC随时间下降的曲线❌ 没有模型；→ 不满足要求的方程，使用私有数据（如自己手机测的数据）未公开❌ 若用自测数据，需上传至GitHub等平台，并注明链接；\n用LSTM预测SOC，但没写任何微分方程❌ 黑箱模型",
+        "author": "微信用户",
+        "date": "D:20260130135326+08'00'",
+        "position": [
+          108.0,
+          172.08,
+          265.008,
+          186.66
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 1,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130134850+08'00'",
+        "position": [
+          612.105,
+          83.36,
+          798.305,
+          186.66
+        ]
+      },
+      "page_text_snippet": "...r task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model t...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM \nProblem A: Modeling Smartphone Battery Drain  \n \n Smartphones  are indispensable tools in modern life, yet their battery behavior often seems \nunpredictable. On some days a phone may last the whole day; on other days it drains rapidly \nbefore lunch. Although some users attribute this to “heavy use,” the true drivers of battery  \ndepletion are more complex. Power  consumption  depends on the interplay of screen size and \nbrightness, processor  load, network activity, and background applications that continue drawing \nenergy even when the device appears idle. Environmental conditions such as temperature further \ncomplicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat\nunder sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has \nbeen charged during its lifetime. \nYour task is to develop a continuous -time mathematical model  of a smartphone’s battery that \nreturns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This \nwill be used to  predict the remaining time -to-empty  under different conditions. You should \nassume that the phone has a lithium -ion battery.  \n \nRequirements:  \n1. Continuous -Time Model: Develop a model to  represent the state of charge using a \n \n continuous-time equation or system of equations. You may want to begin with the \nsimplest reasonable description of battery drain and then extend it to incorporate \nadditional contributors such as screen usage, processor load, network connections, GPS \nusage, and other background tasks. \nData as support, not substitute: You may collect or use data for parameter estimation \nand validation. If open datasets are limited, you may use published measurements or \nspecifications (with proper citation), provided parameters are clearly justified and \nvalidated for plausibility.  However, projects based solely on discrete curve fitting, time-\nstep regression, or black -box machine learning without an explicit continuous -time \nmodel will not satisfy this problem’s requirements. All data used must be well \ndocumented and freely available, and the data must be free for use under an open license.  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Link",
+        "content": "",
+        "author": "Unknown",
+        "date": "",
+        "position": [
+          105.75,
+          83.436,
+          180.234,
+          98.0962
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "扩展到更加复杂的情景下",
+        "author": "微信用户",
+        "date": "D:20260130121857+08'00'",
+        "position": [
+          327.72,
+          319.38,
+          423.708,
+          333.96
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121846+08'00'",
+        "position": [
+          426.503,
+          230.66,
+          612.703,
+          333.96
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "摘要部分的关键点",
+        "author": "微信用户",
+        "date": "D:20260130121924+08'00'",
+        "position": [
+          126.0,
+          290.064,
+          456.66,
+          318.06
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130121917+08'00'",
+        "position": [
+          407.507,
+          214.76,
+          593.707,
+          318.06
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "这里的使用模式具体指的是什么，玩游戏/刷网页  还是在不同时间场景下的使用模式\n等用户在不同情境下的典型手机使用行为组合，包括：\n\n功能维度：玩游戏、刷网页、看视频、打电话、拍照\n时间维度：白天通勤、晚上睡觉前、会议中、运动时\n环境维度：室内/室外、强信号区/弱信号区、高温/低温\n系统状态：Wi-Fi/4G/5G、GPS开启、蓝牙连接等",
+        "author": "微信用户",
+        "date": "D:20260130142304+08'00'",
+        "position": [
+          142.38,
+          547.5,
+          510.3,
+          562.08
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130132525+08'00'",
+        "position": [
+          612.105,
+          458.78,
+          798.305,
+          562.08
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "如何理解可实践性：\n\n对比现有方案如：“相比当前‘定时关机’策略，本建议通过实时负载预测，节能效率提高23%”\n\n提出分级策略：“轻度用户：仅优化亮度；重度用户：启用全栈节能模式”\n\n考虑用户体验：“避免频繁弹窗提醒，采用渐进式提示（如图标变灰）”\n\n推广到其他设备本框架可迁移至智能手表、平板等便携设备，只需调整参数”\n\n用户能不能做？ → 能（比如调亮度）\n做了有没有用？ → 有用（比如多用30分钟）\n别人能不能用？ → 能（通用性）\n能不能证明？ → 能（用模型或数据支撑）",
+        "author": "微信用户",
+        "date": "D:20260130142336+08'00'",
+        "position": [
+          337.38,
+          515.76,
+          390.66,
+          530.34
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130132652+08'00'",
+        "position": [
+          612.105,
+          427.04,
+          798.305,
+          530.34
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "建议其一：对手机用户",
+        "author": "微信用户",
+        "date": "D:20260130133407+08'00'",
+        "position": [
+          108.0,
+          499.92,
+          177.636,
+          514.5
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130133353+08'00'",
+        "position": [
+          612.105,
+          411.2,
+          798.305,
+          514.5
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "建议其二：对操作系统",
+        "author": "微信用户",
+        "date": "D:20260130133432+08'00'",
+        "position": [
+          315.36,
+          468.18,
+          408.902,
+          482.76
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130133415+08'00'",
+        "position": [
+          612.105,
+          379.46,
+          798.305,
+          482.76
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Underline",
+        "content": "电池老化",
+        "author": "微信用户",
+        "date": "D:20260130133458+08'00'",
+        "position": [
+          462.379,
+          447.739,
+          525.437,
+          471.401
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130133449+08'00'",
+        "position": [
+          612.105,
+          363.56,
+          798.305,
+          466.86
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "如何评定这里的最大程度？\n模型输出中进行定量分析与排序？\n1.基于功耗敏感性分析---“降低屏幕亮度 是对功耗影响最大的单一操作，其敏感度最高。”\n\n2.模拟不同场景下的续航延长效果。 考虑综合成本与可行性（实际最大价值）“最大改进” 不仅指节能最多，还应结合 模型量化结果、现实可行性、用户体验 综合判定。\n\n3.在本题中，降低屏幕亮度 是物理上节能最强的操作，而 关闭后台任务 是实践中最易推广的方案。",
+        "author": "微信用户",
+        "date": "D:20260130142314+08'00'",
+        "position": [
+          108.0,
+          468.18,
+          472.62,
+          498.6
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130133652+08'00'",
+        "position": [
+          612.105,
+          395.3,
+          798.305,
+          498.6
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "更有效，那是不是要进行一个对比",
+        "author": "微信用户",
+        "date": "D:20260130134147+08'00'",
+        "position": [
+          463.203,
+          468.18,
+          490.923,
+          482.76
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130134135+08'00'",
+        "position": [
+          612.105,
+          379.46,
+          798.305,
+          482.76
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "不同的电池的电量做的横坐标一个图，使用场景一个图，以及他们结合的一个图（可考虑）",
+        "author": "微信用户",
+        "date": "D:20260130142122+08'00'",
+        "position": [
+          234.3,
+          690.36,
+          397.32,
+          704.94
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130134225+08'00'",
+        "position": [
+          612.105,
+          601.64,
+          798.305,
+          704.94
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "好或不好的",
+        "author": "微信用户",
+        "date": "D:20260130134246+08'00'",
+        "position": [
+          154.38,
+          658.62,
+          225.36,
+          673.2
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130134239+08'00'",
+        "position": [
+          612.105,
+          569.9,
+          798.305,
+          673.2
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "具体",
+        "author": "微信用户",
+        "date": "D:20260130134302+08'00'",
+        "position": [
+          144.0,
+          626.88,
+          181.368,
+          641.46
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130134300+08'00'",
+        "position": [
+          612.105,
+          538.16,
+          798.305,
+          641.46
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "最大，要有比较",
+        "author": "微信用户",
+        "date": "D:20260130134321+08'00'",
+        "position": [
+          347.7,
+          610.98,
+          443.883,
+          625.56
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 2,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130134313+08'00'",
+        "position": [
+          612.105,
+          522.26,
+          798.305,
+          625.56
+        ]
+      },
+      "page_text_snippet": "...ng network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing eq...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-\nempty under various initial charge levels and usage scenarios. Compare predictions to \nobserved or plausible behavior, quantify uncertainty, and identify where the model \nperforms well or poorly.  \n○ Show how your model explains differences in these outcomes and identify the \nspecific drivers of rapid battery drain in each case.  \n○ Which activities or conditions produce the greatest reductions in battery life?  \nWhich ones change the model surprisingly little?  \n \n3. Sensitivity and Assumptions: Examine how your predictions vary after making changes \nin your modeling assumptions, parameter values, and fluctuations in usage patterns.  \n \n4. Recommendations: Translate your findings into practical recommendations  for a \ncellphone user. For example, which  user behaviors —such as reducing brightness, \ndisabling background tasks, or switching network modes— yield the largest \nimprovements in battery life? How might an operating system implement more effective \npower-saving strategies based on insights from your model? Consider how battery aging \nreduces effective capacity or how your modeling framework could generalize to other \nportable devices.  \n \nYour report should present:   \n● A clear description of your model and governing equations.  \n● The assumptions and rationale behind your design choices.  \n● Parameter estimation methods and validation results.  \n● A discussion of strengths, limitations, and possible extensions.  \n● An executive-style summary highlighting main results, insights, and \nrecommendations.  \n \nImportant:  Your model must be grounded in clearly defined physical or mechanical  reasoning; \ndiscrete curve fitting or other mathematical forms  that are disconnected from an explicit \ncontinuous-time description of battery behavior will not satisfy the requirements. Projects that \nrely solely on discrete curve fitting or statistical regression without a clearly formulated \ncontinuous -time model  will not satisfy the requirements of this problem.  \n \nYour PDF solution of no more than 25 total pages should include:  \n• One-page Summary Sheet.  \n• Table of Contents.  \n• Your complete solution.  \n• In-text Citations and A Reference List.  \n• AI Use Report  (If used does not count toward the 25- page limit.)  \n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Link",
+        "content": "",
+        "author": "Unknown",
+        "date": "",
+        "position": [
+          483.057,
+          649.963,
+          532.148,
+          665.672
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Link",
+        "content": "",
+        "author": "Unknown",
+        "date": "",
+        "position": [
+          67.4185,
+          636.218,
+          139.419,
+          649.963
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "智能手机 是一种集成了通信模块（如射频收发器）、计算核心（CPU/GPU）、存储单元、传感器阵列（加速度计、陀螺仪等）、显示系统及电源管理系统的便携式电子设备。\n\n能量转换过程：电能 → 机械能（振动）、光能（屏幕）、热能（发热）、电磁波（通信）。\n\n系统边界：由电池、处理器、屏幕、通信模块等组成，构成一个封闭的能量流系统。\n\n状态变量：包括 CPU 负载、屏幕亮度、网络活动状态、GPS 是否开启等。\n\n输入输出：\n输入：用户指令、网络数据包、传感器信号\n输出：显示内容、声音、通信信号、热量",
+        "author": "微信用户",
+        "date": "D:20260130142512+08'00'",
+        "position": [
+          72.0,
+          562.02,
+          139.357,
+          576.6
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130123112+08'00'",
+        "position": [
+          431.459,
+          473.3,
+          617.659,
+          576.6
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "测量边界：通常指整机功耗（含所有子系统），也可拆解为子系统级（如 CPU、GPU、屏幕）\n\n是否包含热损失？ 是 —— 所有非有用功都转化为热能（焦耳热），属于损耗项。\n\n功耗定义为设备从电池中提取电能的速率，单位为瓦特（W）。\n\n在本模型中，我们将功耗视为时间的函数，并假设其由各子系统功耗线性叠加而成。”",
+        "author": "微信用户",
+        "date": "D:20260130142547+08'00'",
+        "position": [
+          72.0,
+          514.38,
+          177.073,
+          528.96
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130123518+08'00'",
+        "position": [
+          612.105,
+          425.66,
+          798.305,
+          528.96
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "处理器负载是指在某一时刻，处理器执行任务所占用的计算资源比例，反映其工作强度。\n\n它是一个 无量纲的归一化指标，取值范围为 [0,1]，其中：0：空闲状态（无任务）\n1：满负荷运行（持续使用最大性能）\n\n\n是否包括 GPU？ 通常不包括，除非特别说明。建议明确：“本文中的处理器负载仅指 CPU 核心的综合负载。”\n\n如何获取？ 实际中可通过 top 命令、Android 的 dumpsys 或专用工具（如 Perfetto）获得。\n",
+        "author": "微信用户",
+        "date": "D:20260130142539+08'00'",
+        "position": [
+          72.0,
+          466.8,
+          155.615,
+          481.38
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130132119+08'00'",
+        "position": [
+          612.105,
+          378.08,
+          798.305,
+          481.38
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "SOC 不等于剩余续航时间！它是 能量状态指标，不是时间预测。\n\n非线性关系：锂电池的电压-SOC 曲线呈非线性，尤其在低 SOC 区域变化剧烈。\n\n受温度、老化、充放电历史影响：真实 SOC 需结合 卡尔曼滤波 或 安时积分法 估算。",
+        "author": "微信用户",
+        "date": "D:20260130132317+08'00'",
+        "position": [
+          72.624,
+          435.06,
+          191.616,
+          449.64
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130132307+08'00'",
+        "position": [
+          612.105,
+          346.34,
+          798.305,
+          449.64
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Highlight",
+        "content": "这不是一个物理量，而是一个 预测性指标，依赖于当前功耗模式。\n\n关键问题：当前功耗是否代表未来？若用户行为突变（如打开游戏），预测会失效。\n\n因此，“剩余电量”是 基于当前负载的短期预测，具有不确定性。",
+        "author": "微信用户",
+        "date": "D:20260130141909+08'00'",
+        "position": [
+          72.432,
+          387.42,
+          151.38,
+          402.0
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    },
+    {
+      "page": 3,
+      "annotation": {
+        "type": "/Popup",
+        "content": "",
+        "author": "Unknown",
+        "date": "D:20260130132432+08'00'",
+        "position": [
+          612.105,
+          298.7,
+          798.305,
+          402.0
+        ]
+      },
+      "page_text_snippet": "...You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use poli...",
+      "full_page_text": "| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢\nÇå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£\n.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý\n£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£\nÌ½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä\n½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£\n¿ÉÀ©Õ¹·½Ïò  \n- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£\n- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£\n- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£\n- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You \nmay use up to 25 total pages for all your solution work and any additional information you want \nto include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. \nWe permit the careful use of AI such as ChatGPT, although it is not necessary to create a \nsolution to this problem. If you choose to utilize a generative AI, you must follow the COMAP \nAI use policy . This will result in an add itional AI use report that you must add to the end of your \nPDF solution file and does not count toward the 25 total page limit for your solution.\nGlossary\nSmartphone: is a mobile device that combines the functionality of a traditional cell phone with \nadvanced computing capabilities.\nPower Consumption: the rate at which a device uses electrical energy from its battery or power \nsource.\nProcessor Load:  the actual amount of work being done by the processor at a given moment.\nState of Charge (SOC): a measure of how much energy remains in a battery compared to its full \ncapacity, expressed as a percentage.\nTime-to-Empty :the estimated amount of time remaining before a battery is completely \ndischarged.\nÌ½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£\n"
+    }
+  ],
+  "metadata": {
+    "extractor_version": "1.0",
+    "content_pages": 3,
+    "annotations_count": 59
+  }
+}

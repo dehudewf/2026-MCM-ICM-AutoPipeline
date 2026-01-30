@@ -34,3 +34,5 @@ Thumbs.db
 
 # Logs
 *.log
+# Large files (GitHub limit 100MB)
+*.mat

@@ -1,0 +1,451 @@
+Country,Country_Code,Year,Value,Indicator_Code,Indicator_Name
+Australia,AUS,2024,8190032382.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2023,7767880136.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2022,7827261971.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2021,6310404299.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2020,5590752219.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2019,6336480016.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2018,5241784852.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2017,4902492267.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2016,5379738452.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2015,5091394845.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2014,5459155781.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2013,5342736393.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2012,5468098058.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2011,5601419629.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2010,4556153586.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2024,36001612663.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2023,41530542798.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2022,36895712941.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2021,35218428012.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2020,30705829277.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2019,36788635481.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2018,30480481649.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2017,26938349605.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2016,26203266317.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2015,28242770992.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2014,28787810893.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2013,32182263706.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2012,33113402476.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2011,27501347864.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Canada,CAN,2010,26567981070.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2024,1076634941.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2023,1841775193.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2022,1400540500.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2021,1264185464.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2020,1368060499.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2019,672148298.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2018,667789266.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2017,634869020.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2016,720871030.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2015,580229395.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2014,731680359.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2013,696431125.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2012,578366368.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2011,554621392.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Chile,CHL,2010,541804285.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2024,856764726389.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2023,825045389470.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2022,924393316669.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2021,936394581135.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2020,757483821706.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2019,715336038300.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2018,731389331452.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2017,654254700212.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2016,594754428555.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2015,652412308349.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2014,654030643704.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2013,656130321776.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2012,594110243099.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2011,540460754934.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+China,CHN,2010,474737980237.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2024,,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2023,9864324.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2022,17597529.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2021,4658514.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2020,17461774.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2019,32092118.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2018,26163468.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2017,9340030.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2016,5559878.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2015,63192320.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2014,,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2013,,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2012,,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2011,,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Congo, Dem. Rep.",COD,2010,,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2024,246637611895.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2023,260043024452.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2022,245975238590.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2021,211942359477.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2020,182393711293.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2019,208177564289.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2018,209762237943.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2017,195727088512.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2016,205114885619.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2015,199465124309.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2014,215660926664.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2013,209304933980.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2012,202541990943.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2011,202328061352.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Germany,DEU,2010,179620897366.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2024,10407239550.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2023,10509333468.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2022,10339847555.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2021,7492179183.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2020,6408750621.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2019,6281290684.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2018,6382145126.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2017,5971620053.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2016,5415731582.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2015,5891714980.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2014,6619076393.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2013,6567489793.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2012,7360679507.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2011,7401356876.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Indonesia,IDN,2010,7193215376.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2024,102451366263.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2023,102601446852.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2022,113492876284.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2021,116695460286.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2020,102929600738.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2019,104081423307.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2018,110919852153.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2017,106357714667.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2016,99260695081.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2015,98394425742.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2014,107543978073.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2013,111257955701.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2012,129463812214.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2011,133397946551.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Japan,JPN,2010,130091252319.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2024,216203069107.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2023,164678173896.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2022,209651189631.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2021,203986068635.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2020,163074029188.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2019,153549664196.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2018,192788494176.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2017,166656272251.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2016,135906055229.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2015,147046540245.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2014,149062381047.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2013,143485221079.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2012,130675945808.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2011,133617297921.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+"Korea, Rep.",KOR,2010,132322493748.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2024,232906639404.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2023,208514376770.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2022,191876058536.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2021,169281833346.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2020,141612133157.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2019,154028528002.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2018,153893519793.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2017,154602417969.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2016,173983447240.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2015,175321672223.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2014,176029439000.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2013,169309014696.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2012,169157788627.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2011,166559643396.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+United States,USA,2010,166133836217.0,TX.VAL.TECH.CD,High_Tech_Exports_USD
+Australia,AUS,2024,25.1586416457084,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2023,25.2582777120781,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2022,25.8318704116272,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2021,22.3940766008599,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2020,21.4757898705835,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2019,21.2199332352628,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2018,18.1371018191307,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2017,18.0967924595604,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2016,20.6275044745549,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2015,19.6921472541598,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2014,18.9961304703814,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2013,18.0075143774834,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2012,17.2855553325245,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2011,17.9516177655559,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2010,16.5133012608061,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2024,16.7779029827711,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2023,16.3717954388263,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2022,15.1489765380468,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2021,16.33762888714,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2020,16.7587089775244,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2019,17.1309209127166,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2018,15.4222842964733,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2017,14.3488055729531,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2016,14.0996116936098,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2015,14.8286795335378,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2014,14.6664530922053,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2013,15.4941329115402,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2012,15.6186928492244,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2011,14.7126429740351,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Canada,CAN,2010,15.5005412945327,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2024,8.31650307450688,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2023,10.7195633423709,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2022,6.93672684116693,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2021,12.4417748590856,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2020,15.9750583433893,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2019,7.63288202076965,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2018,6.91141099413123,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2017,7.1060964752424,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2016,8.42437955941115,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2015,6.72253052606446,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2014,7.09179365119211,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2013,6.69462231509352,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2012,5.4362793557559,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2011,5.1208381746501,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Chile,CHL,2010,6.23958186648753,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2024,26.2777380479223,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2023,26.5682136542881,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2022,27.7650612563156,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2021,30.2190732796596,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2020,31.2766154241293,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2019,30.8186302968419,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2018,31.5481478595353,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2017,30.9118639785891,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2016,30.2545232296357,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2015,30.4312672747562,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2014,29.7037271802947,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2013,31.5855813292794,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2012,30.8618085179503,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2011,30.5004796644425,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+China,CHN,2010,32.1501169663397,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2024,,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2023,0.199611665225369,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2022,0.723158681595087,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2021,0.0782346689876282,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2020,0.506820617005321,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2019,0.782215715734939,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2018,0.246252589446654,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2017,0.18434368848256,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2016,0.310225164953757,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2015,2.60447930484844,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2014,,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2013,,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2012,,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2011,,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Congo, Dem. Rep.",COD,2010,,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2024,17.9772990379432,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2023,17.7818374796623,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2022,17.4981505573659,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2021,15.3851048227765,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2020,15.5031959869375,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2019,16.3869405629417,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2018,15.7474335584013,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2017,15.850578794452,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2016,18.0827014214761,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2015,17.8243752766447,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2014,17.2097149731509,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2013,17.2979906043683,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2012,17.2272861923698,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2011,16.3417186285114,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Germany,DEU,2010,16.8896855327149,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2024,8.71104390371756,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2023,9.08308687782522,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2022,8.30819306709832,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2021,7.20354863986269,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2020,8.4247469855579,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2019,8.09206094724751,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2018,8.21299200751234,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2017,8.44632702628773,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2016,7.99860974921307,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2015,8.88987824359938,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2014,9.32850761968047,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2013,9.67606262852233,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2012,10.871757163658,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2011,10.8171407679199,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Indonesia,IDN,2010,12.3118145549136,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2024,17.5547415163067,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2023,17.1028060703212,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2022,18.2592615351902,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2021,18.0039913482614,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2020,18.6333487896777,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2019,17.0303844450023,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2018,17.2970528139362,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2017,17.5942774665502,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2016,17.620423854837,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2015,18.0454889300336,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2014,17.7805347199635,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2013,17.7587589107099,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2012,18.2382479591573,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2011,18.392253763449,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Japan,JPN,2010,19.1226872782363,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2024,36.2582559366674,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2023,30.2762799912651,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2022,36.118278931217,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2021,36.014503674486,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2020,35.6022265413283,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2019,32.4050621736765,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2018,36.3912233579129,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2017,32.546316460744,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2016,30.5250266717443,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2015,31.2119270912605,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2014,30.0608682657817,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2013,29.8181999078998,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2012,28.2220757644767,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2011,28.2133210437189,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+"Korea, Rep.",KOR,2010,32.1343974843399,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2024,24.322982844202,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2023,21.8459878355521,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2022,20.5789833007379,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2021,19.9014614131792,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2020,19.4939761609452,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2019,18.6853939276571,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2018,18.4842699258676,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2017,19.2659699620243,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2016,22.4192942002286,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2015,21.3904480368657,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2014,20.4843982208576,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2013,20.188635370966,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2012,20.174250704896,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2011,20.624916162211,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+United States,USA,2010,22.6194775165319,TX.VAL.TECH.MF.ZS,High_Tech_Pct_Manufactured_Exports
+Australia,AUS,2024,36.2641353501553,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2023,37.9839441686945,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2022,42.5725570561367,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2021,38.8326417356959,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2020,34.6984435892602,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2019,35.2250251981782,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2018,34.3638645983702,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2017,34.5566356606503,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2016,32.0880496334806,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2015,29.1998300964504,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2014,32.3682404723974,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2013,31.2628205054939,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2012,33.3358364239858,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2011,36.7395646468253,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Australia,AUS,2010,35.9435184474478,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2024,50.9421126642333,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2023,52.498650612043,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2022,54.2542909309574,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2021,50.233765598658,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2020,49.0283557788146,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2019,52.2909233942246,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2018,53.4054025083593,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2017,52.4061119575519,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2016,52.5480211402878,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2015,53.9788783234743,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2014,52.6993805378041,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2013,50.5846585159737,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2012,50.9683375525714,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2011,51.0211014884086,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Canada,CAN,2010,48.8561066181089,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2024,55.538374619944,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2023,53.1184530380403,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2022,67.4469042565795,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2021,59.3018871077669,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2020,52.444051161518,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2019,49.8226533030541,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2018,50.5145105937982,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2017,48.5427963375166,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2016,48.16381541128,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2015,51.3189595344577,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2014,56.9873796176495,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2013,56.2818325475018,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2012,59.1196062514428,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2011,62.1097149183926,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Chile,CHL,2010,60.0392877133367,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2024,32.8725442955454,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2023,32.4897051121724,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2022,34.1268831728628,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2021,32.9388706646147,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2020,31.0468619247254,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2019,31.4408685570406,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2018,32.6726005659031,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2017,32.7586731962493,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2016,32.1713447236719,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2015,35.0420964662159,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2014,40.2970877714012,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2013,42.6864616980176,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2012,44.5846032544886,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2011,47.4710669450398,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+China,CHN,2010,48.0253507277558,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2024,79.6198698932935,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2023,76.250304592039,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2022,38.452283235949,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2021,48.4633715321819,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2020,45.3353993133057,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2019,47.4043616070329,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2018,59.8671827765435,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2017,48.2157565155276,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2016,32.8625034132415,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2015,41.6953146281903,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2014,39.1156040123686,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2013,35.8256634434883,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2012,41.2929076748154,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2011,45.846566941816,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Congo, Dem. Rep.",COD,2010,40.5601574097202,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2024,66.2339063515856,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2023,69.4811881622081,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2022,77.6023364738259,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2021,69.7735523112544,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2020,64.8073191224544,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2019,68.7743018854817,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2018,70.1501380731818,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2017,69.3453961084741,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2016,67.5664210244945,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2015,69.4093104548607,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2014,68.1335453293576,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2013,68.9856470567479,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2012,71.0684531004814,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2011,71.3691617488637,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Germany,DEU,2010,66.734220465645,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2024,35.6918258937083,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2023,35.060805361656,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2022,40.1353593394075,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2021,36.0465660932167,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2020,28.7924654801673,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2019,30.2885389121745,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2018,35.3873235837501,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2017,32.0726652469865,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2016,30.0622174988969,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2015,34.0430457181503,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2014,39.7918868988307,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2013,40.4571216414938,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2012,41.5879194268413,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2011,42.6591466662609,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Indonesia,IDN,2010,38.8616435497468,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2024,36.0141993215173,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2023,35.6752275693452,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2022,38.5694814811889,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2021,30.2632101477705,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2020,25.2624024576207,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2019,27.8726595023013,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2018,29.4914920208195,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2017,27.7929466620361,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2016,25.0371845121216,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2015,28.6402218544727,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2014,30.6802678466938,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2013,29.7038664141366,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2012,26.8544885084931,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2011,26.9296384890184,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+Japan,JPN,2010,25.4178634806429,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2024,70.1388647642219,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2023,69.1021983041469,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2022,78.6364345660289,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2021,64.8449882301012,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2020,56.1979074626573,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2019,59.7115180327613,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2018,62.4947836718703,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2017,61.5234472799593,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2016,57.0951906853125,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2015,62.5811006895775,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2014,70.5961953507289,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2013,74.9451954074323,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2012,79.9386023823032,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2011,82.5969036741403,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+"Korea, Rep.",KOR,2010,74.7462746775877,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2024,18.8672542761173,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2023,19.0028709672646,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2022,21.2338999523793,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2021,20.1140801891357,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2020,18.1945908264603,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2019,19.6932355967522,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2018,20.835684306495,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2017,20.3043624062811,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2016,19.7975023057101,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2015,20.9703869632651,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2014,22.9796165163713,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2013,23.2061311993934,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2012,23.8847891768546,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2011,24.0294700679637,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP
+United States,USA,2010,21.5807473802282,TG.VAL.TOTL.GD.ZS,Merchandise_Trade_Pct_GDP

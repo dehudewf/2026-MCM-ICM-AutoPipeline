@@ -1,0 +1,608 @@
+PDF Annotations with Precise 1:1 Mapping
+Source: 2026_MCM_Problem_A_加水印_加水印.pdf
+================================================================================
+
+
+================================================================================
+PAGE 1
+================================================================================
+
+[Page 1 - 20 annotations]
+
+[1] /Highlight
+    被批注的主体: "e interplay"
+    批注内容: "这里是相互作用，协调的说法"
+    批注人: 微信用户
+    日期: D:20260130140517+08'00'
+
+[2] /Popup
+    被批注的主体: "nterplay of screen size and 
+cations that continue drawing 
+s such as temperature further 
+eather and may overheat
+y its history and how it has"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130120637+08'00'
+
+[3] /Text
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: 微信用户
+    日期: D:20260130120639+08'00'
+
+[4] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130120639+08'00'
+
+[5] /Highlight
+    被批注的主体: "Environmental condition"
+    批注内容: "除了底层的影响，环境的影响（gpu，操作系统指令集，架构等等）其他的还有啥影响"
+    批注人: 微信用户
+    日期: D:20260130120819+08'00'
+
+[6] /Popup
+    被批注的主体: "s such as temperature further 
+eather and may overheat
+y its history and how it has 
+a smartphone’s battery that 
+tic usage conditions. This"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130120711+08'00'
+
+[7] /Text
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: 微信用户
+    日期: D:20260130120736+08'00'
+
+[8] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130120736+08'00'
+
+[9] /Highlight
+    被批注的主体: "emperatur"
+    批注内容: "温度的影响"
+    批注人: 微信用户
+    日期: D:20260130121253+08'00'
+
+[10] /Popup
+    被批注的主体: "s such as temperature further 
+eather and may overheat
+y its history and how it has 
+a smartphone’s battery that 
+tic usage conditions. This"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121253+08'00'
+
+[11] /Text
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: 微信用户
+    日期: D:20260130121253+08'00'
+
+[12] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121253+08'00'
+
+[13] /Highlight
+    被批注的主体: "Power consumption"
+    批注内容: "关键词1"
+    批注人: 微信用户
+    日期: D:20260130121328+08'00'
+
+[14] /Popup
+    被批注的主体: "ze and 
+e drawing 
+re further 
+rheat
+w it has"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121323+08'00'
+
+[15] /Highlight
+    被批注的主体: "return"
+    批注内容: "返回值"
+    批注人: 微信用户
+    日期: D:20260130134903+08'00'
+
+[16] /Popup
+    被批注的主体: "age conditions. This 
+itions. You should 
+of charge using a"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121345+08'00'
+
+[17] /Highlight
+    被批注的主体: "predict"
+    批注内容: "预测值"
+    批注人: 微信用户
+    日期: D:20260130134906+08'00'
+
+[18] /Popup
+    被批注的主体: "ns. You should 
+charge using a 
+egin with the"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121443+08'00'
+
+[19] /Highlight
+    被批注的主体: "Data as support, not substitute"
+    批注内容: "必须有一个明确的、可解释的连续时间数学模型（continuous-time model）作为核心骨架。
+数据只能用来 支持模型参数估计或验证模型合理性
+
+只画出SOC随时间下降的曲线❌ 没有模型；→ 不满足要求的方程，使用私有数据（如自己手机测的数据）未公开❌ 若用自测数据，需上传至GitHub等平台，并注明链接；
+用LSTM预测SOC，但没写任何微分方程❌ 黑箱模型"
+    批注人: 微信用户
+    日期: D:20260130135326+08'00'
+
+[20] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130134850+08'00'
+
+
+--------------------------------------------------------------------------------
+
+[Full Page Text]
+| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2026 MCM 
+Problem A: Modeling Smartphone Battery Drain  
+ 
+ Smartphones  are indispensable tools in modern life, yet their battery behavior often seems 
+unpredictable. On some days a phone may last the whole day; on other days it drains rapidly 
+before lunch. Although some users attribute this to “heavy use,” the true drivers of battery  
+depletion are more complex. Power  consumption  depends on the interplay of screen size and 
+brightness, processor  load, network activity, and background applications that continue drawing 
+energy even when the device appears idle. Environmental conditions such as temperature further 
+complicate  matters:  some  batteries  lose effective  capacity  in cold weather  and may overheat
+under sustained heavy use. A battery’s  behavior  is also influenced  by its history  and how it has 
+been charged during its lifetime. 
+Your task is to develop a continuous -time mathematical model  of a smartphone’s battery that 
+returns the state of charge  (SOC)  as a function of time  under realistic usage conditions. This 
+will be used to  predict the remaining time -to-empty  under different conditions. You should 
+assume that the phone has a lithium -ion battery.  
+ 
+Requirements:  
+1. Continuous -Time Model: Develop a model to  represent the state of charge using a 
+ 
+ continuous-time equation or system of equations. You may want to begin with the 
+simplest reasonable description of battery drain and then extend it to incorporate 
+additional contributors such as screen usage, processor load, network connections, GPS 
+usage, and other background tasks. 
+Data as support, not substitute: You may collect or use data for parameter estimation 
+and validation. If open datasets are limited, you may use published measurements or 
+specifications (with proper citation), provided parameters are clearly justified and 
+validated for plausibility.  However, projects based solely on discrete curve fitting, time-
+step regression, or black -box machine learning without an explicit continuous -time 
+model will not satisfy this problem’s requirements. All data used must be well 
+documented and freely available, and the data must be free for use under an open license.  
+
+
+
+================================================================================
+PAGE 2
+================================================================================
+
+[Page 2 - 27 annotations]
+
+[1] /Link
+    被批注的主体: "AI Use Report"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: 
+
+[2] /Highlight
+    被批注的主体: "possible extensions"
+    批注内容: "扩展到更加复杂的情景下"
+    批注人: 微信用户
+    日期: D:20260130121857+08'00'
+
+[3] /Popup
+    被批注的主体: "s, and 
+mechanical reasoning; 
+om an explicit 
+ements Projects that"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121846+08'00'
+
+[4] /Highlight
+    被批注的主体: "An executive-style summary highlighting main results, insights, and 
+recommendations."
+    批注内容: "摘要部分的关键点"
+    批注人: 微信用户
+    日期: D:20260130121924+08'00'
+
+[5] /Popup
+    被批注的主体: "ights, and 
+l or mechanical reasoning; 
+ed from an explicit 
+quirements. Projects that 
+clearly formulated"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130121917+08'00'
+
+[6] /Highlight
+    被批注的主体: "modeling assumptions, parameter values, and fluctuations in usage patterns."
+    批注内容: "这里的使用模式具体指的是什么，玩游戏/刷网页  还是在不同时间场景下的使用模式
+等用户在不同情境下的典型手机使用行为组合，包括：
+
+功能维度：玩游戏、刷网页、看视频、打电话、拍照
+时间维度：白天通勤、晚上睡觉前、会议中、运动时
+环境维度：室内/室外、强信号区/弱信号区、高温/低温
+系统状态：Wi-Fi/4G/5G、GPS开启、蓝牙连接等"
+    批注人: 微信用户
+    日期: D:20260130142304+08'00'
+
+[7] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130132525+08'00'
+
+[8] /Highlight
+    被批注的主体: "o practical"
+    批注内容: "如何理解可实践性：
+
+对比现有方案如：“相比当前‘定时关机’策略，本建议通过实时负载预测，节能效率提高23%”
+
+提出分级策略：“轻度用户：仅优化亮度；重度用户：启用全栈节能模式”
+
+考虑用户体验：“避免频繁弹窗提醒，采用渐进式提示（如图标变灰）”
+
+推广到其他设备本框架可迁移至智能手表、平板等便携设备，只需调整参数”
+
+用户能不能做？ → 能（比如调亮度）
+做了有没有用？ → 有用（比如多用30分钟）
+别人能不能用？ → 能（通用性）
+能不能证明？ → 能（用模型或数据支撑）"
+    批注人: 微信用户
+    日期: D:20260130142336+08'00'
+
+[9] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130132652+08'00'
+
+[10] /Highlight
+    被批注的主体: "cellphone user"
+    批注内容: "建议其一：对手机用户"
+    批注人: 微信用户
+    日期: D:20260130133407+08'00'
+
+[11] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130133353+08'00'
+
+[12] /Highlight
+    被批注的主体: "n operating system"
+    批注内容: "建议其二：对操作系统"
+    批注人: 微信用户
+    日期: D:20260130133432+08'00'
+
+[13] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130133415+08'00'
+
+[14] /Underline
+    被批注的主体: "battery agi"
+    批注内容: "电池老化"
+    批注人: 微信用户
+    日期: D:20260130133458+08'00'
+
+[15] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130133449+08'00'
+
+[16] /Highlight
+    被批注的主体: "disabling background tasks, or switching network modes—yield the largest 
+improvements in battery life? How might an operating system implement m"
+    批注内容: "如何评定这里的最大程度？
+模型输出中进行定量分析与排序？
+1.基于功耗敏感性分析---“降低屏幕亮度 是对功耗影响最大的单一操作，其敏感度最高。”
+
+2.模拟不同场景下的续航延长效果。 考虑综合成本与可行性（实际最大价值）“最大改进” 不仅指节能最多，还应结合 模型量化结果、现实可行性、用户体验 综合判定。
+
+3.在本题中，降低屏幕亮度 是物理上节能最强的操作，而 关闭后台任务 是实践中最易推广的方案。"
+    批注人: 微信用户
+    日期: D:20260130142314+08'00'
+
+[17] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130133652+08'00'
+
+[18] /Highlight
+    被批注的主体: "more"
+    批注内容: "更有效，那是不是要进行一个对比"
+    批注人: 微信用户
+    日期: D:20260130134147+08'00'
+
+[19] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130134135+08'00'
+
+[20] /Highlight
+    被批注的主体: "l charge levels and usage scenario"
+    批注内容: "不同的电池的电量做的横坐标一个图，使用场景一个图，以及他们结合的一个图（可考虑）"
+    批注人: 微信用户
+    日期: D:20260130142122+08'00'
+
+[21] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130134225+08'00'
+
+[22] /Highlight
+    被批注的主体: "well or poorly."
+    批注内容: "好或不好的"
+    批注人: 微信用户
+    日期: D:20260130134246+08'00'
+
+[23] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130134239+08'00'
+
+[24] /Highlight
+    被批注的主体: "specific"
+    批注内容: "具体"
+    批注人: 微信用户
+    日期: D:20260130134302+08'00'
+
+[25] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130134300+08'00'
+
+[26] /Highlight
+    被批注的主体: "greatest reductions"
+    批注内容: "最大，要有比较"
+    批注人: 微信用户
+    日期: D:20260130134321+08'00'
+
+[27] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130134313+08'00'
+
+
+--------------------------------------------------------------------------------
+
+[Full Page Text]
+| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |  2. Time-to-Empty predictions: Use your model to compute or approximate the time- to-
+empty under various initial charge levels and usage scenarios. Compare predictions to 
+observed or plausible behavior, quantify uncertainty, and identify where the model 
+performs well or poorly.  
+○ Show how your model explains differences in these outcomes and identify the 
+specific drivers of rapid battery drain in each case.  
+○ Which activities or conditions produce the greatest reductions in battery life?  
+Which ones change the model surprisingly little?  
+ 
+3. Sensitivity and Assumptions: Examine how your predictions vary after making changes 
+in your modeling assumptions, parameter values, and fluctuations in usage patterns.  
+ 
+4. Recommendations: Translate your findings into practical recommendations  for a 
+cellphone user. For example, which  user behaviors —such as reducing brightness, 
+disabling background tasks, or switching network modes— yield the largest 
+improvements in battery life? How might an operating system implement more effective 
+power-saving strategies based on insights from your model? Consider how battery aging 
+reduces effective capacity or how your modeling framework could generalize to other 
+portable devices.  
+ 
+Your report should present:   
+● A clear description of your model and governing equations.  
+● The assumptions and rationale behind your design choices.  
+● Parameter estimation methods and validation results.  
+● A discussion of strengths, limitations, and possible extensions.  
+● An executive-style summary highlighting main results, insights, and 
+recommendations.  
+ 
+Important:  Your model must be grounded in clearly defined physical or mechanical  reasoning; 
+discrete curve fitting or other mathematical forms  that are disconnected from an explicit 
+continuous-time description of battery behavior will not satisfy the requirements. Projects that 
+rely solely on discrete curve fitting or statistical regression without a clearly formulated 
+continuous -time model  will not satisfy the requirements of this problem.  
+ 
+Your PDF solution of no more than 25 total pages should include:  
+• One-page Summary Sheet.  
+• Table of Contents.  
+• Your complete solution.  
+• In-text Citations and A Reference List.  
+• AI Use Report  (If used does not count toward the 25- page limit.)  
+
+
+
+================================================================================
+PAGE 3
+================================================================================
+
+[Page 3 - 12 annotations]
+
+[1] /Link
+    被批注的主体: "COMAP"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: 
+
+[2] /Link
+    被批注的主体: "AI use policy."
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: 
+
+[3] /Highlight
+    被批注的主体: "Smartphone:"
+    批注内容: "智能手机 是一种集成了通信模块（如射频收发器）、计算核心（CPU/GPU）、存储单元、传感器阵列（加速度计、陀螺仪等）、显示系统及电源管理系统的便携式电子设备。
+
+能量转换过程：电能 → 机械能（振动）、光能（屏幕）、热能（发热）、电磁波（通信）。
+
+系统边界：由电池、处理器、屏幕、通信模块等组成，构成一个封闭的能量流系统。
+
+状态变量：包括 CPU 负载、屏幕亮度、网络活动状态、GPS 是否开启等。
+
+输入输出：
+输入：用户指令、网络数据包、传感器信号
+输出：显示内容、声音、通信信号、热量"
+    批注人: 微信用户
+    日期: D:20260130142512+08'00'
+
+[4] /Popup
+    被批注的主体: "ional cell phone with 
+m its battery or power 
+t a given moment"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130123112+08'00'
+
+[5] /Highlight
+    被批注的主体: "Power Consumption"
+    批注内容: "测量边界：通常指整机功耗（含所有子系统），也可拆解为子系统级（如 CPU、GPU、屏幕）
+
+是否包含热损失？ 是 —— 所有非有用功都转化为热能（焦耳热），属于损耗项。
+
+功耗定义为设备从电池中提取电能的速率，单位为瓦特（W）。
+
+在本模型中，我们将功耗视为时间的函数，并假设其由各子系统功耗线性叠加而成。”"
+    批注人: 微信用户
+    日期: D:20260130142547+08'00'
+
+[6] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130123518+08'00'
+
+[7] /Highlight
+    被批注的主体: "Processor Load:"
+    批注内容: "处理器负载是指在某一时刻，处理器执行任务所占用的计算资源比例，反映其工作强度。
+
+它是一个 无量纲的归一化指标，取值范围为 [0,1]，其中：0：空闲状态（无任务）
+1：满负荷运行（持续使用最大性能）
+
+
+是否包括 GPU？ 通常不包括，除非特别说明。建议明确：“本文中的处理器负载仅指 CPU 核心的综合负载。”
+
+如何获取？ 实际中可通过 top 命令、Android 的 dumpsys 或专用工具（如 Perfetto）获得。
+"
+    批注人: 微信用户
+    日期: D:20260130142539+08'00'
+
+[8] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130132119+08'00'
+
+[9] /Highlight
+    被批注的主体: "State of Charge (SOC):"
+    批注内容: "SOC 不等于剩余续航时间！它是 能量状态指标，不是时间预测。
+
+非线性关系：锂电池的电压-SOC 曲线呈非线性，尤其在低 SOC 区域变化剧烈。
+
+受温度、老化、充放电历史影响：真实 SOC 需结合 卡尔曼滤波 或 安时积分法 估算。"
+    批注人: 微信用户
+    日期: D:20260130132317+08'00'
+
+[10] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130132307+08'00'
+
+[11] /Highlight
+    被批注的主体: "Time-to-Empty"
+    批注内容: "这不是一个物理量，而是一个 预测性指标，依赖于当前功耗模式。
+
+关键问题：当前功耗是否代表未来？若用户行为突变（如打开游戏），预测会失效。
+
+因此，“剩余电量”是 基于当前负载的短期预测，具有不确定性。"
+    批注人: 微信用户
+    日期: D:20260130141909+08'00'
+
+[12] /Popup
+    被批注的主体: "[无文本]"
+    批注内容: "[无批注]"
+    批注人: Unknown
+    日期: D:20260130132432+08'00'
+
+
+--------------------------------------------------------------------------------
+
+[Full Page Text]
+| ©202 6 by COMAP | www.comap.org | www.mathmodels.org | info@comap.org |   
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.½ç¶¨Ä£ÐÍ·¶Î§£ºÈ·±£ÄãµÄÄ£ÐÍ×¨×¢ÓÚÌâÄ¿ÖÐÌáµ½µÄ¹Ø¼üÒòËØ£¨ÈçÆÁÄ»Ê¹ÓÃ¡¢´¦ÀíÆ÷¸ºÔØµÈ£©£¬²¢
+Çå³þµØ¶¨ÒåÕâÐ©ÒòËØÈçºÎÓ°Ïìµç³ØÏûºÄ¡£
+.Ç¿µ÷ÎïÀíÔ­ÀíµÄÓ¦ÓÃ£ºÔÚ¹¹½¨Ä£ÐÍÊ±£¬Ê¼ÖÕ´ÓÎïÀí»ò»úÐµÔ­Àí³ö·¢£¬È·±£Ã¿¸ö¼ÙÉè¶¼ÓÐ¿ÆÑ§ÒÀ¾Ý
+£¬²¢ÄÜ±»ÊµÑé»òÏÖÓÐÑÐ¾¿Ö§³Ö¡£
+Ì½Ë÷Ä£ÐÍµÄ¾ÖÏÞÐÔºÍ¸Ä½ø¿Õ¼ä£ºÊ¶±ðÄ£ÐÍÖÐ¿ÉÄÜ´æÔÚµÄ¾ÖÏÞÐÔ£¬²¢Ì½ÌÖÈçºÎÍ¨¹ýÒýÈëÐÂµÄ±äÁ¿»ò¸Ä
+½øÏÖÓÐ·½·¨À´¿Ë·þÕâÐ©ÏÞÖÆ¡£
+¿ÉÀ©Õ¹·½Ïò  
+- »·¾³ÒòËØÓ°Ïì  ¿¼ÂÇ¸ü¶à»·¾³ÒòËØ£¨ÈçÊª¶È¡¢º£°ÎµÈ£©¶Ôµç³ØÐÔÄÜµÄÓ°Ïì¡£
+- ÓÃ»§ÐÐÎªÄ£Ê½  ÒýÈë¸ü¸´ÔÓµÄÓÃ»§ÐÐÎªÄ£Ê½·ÖÎö£¬ÀýÈç²»Í¬Ó¦ÓÃµÄÊ¹ÓÃÆµÂÊºÍÄ£Ê½¡£
+- ÀÏ»¯Ð§Ó¦  ÑÐ¾¿µç³ØËæÊ±¼äµÄÀÏ»¯¹ý³ÌÈçºÎÓ°ÏìÆäÐÔÄÜ£¬°üÀ¨ÈÝÁ¿Ë¥¼õºÍÄÚ×èÔö¼Ó¡£
+- ¿çÉè±¸ÊÊÓÃÐÔ  Note: There is no specific required minimum page length for a complete MCM submission. You 
+may use up to 25 total pages for all your solution work and any additional information you want 
+to include (for example: drawings, diagrams, calculations, tables). Partial solutions are accepted. 
+We permit the careful use of AI such as ChatGPT, although it is not necessary to create a 
+solution to this problem. If you choose to utilize a generative AI, you must follow the COMAP 
+AI use policy . This will result in an add itional AI use report that you must add to the end of your 
+PDF solution file and does not count toward the 25 total page limit for your solution.
+Glossary
+Smartphone: is a mobile device that combines the functionality of a traditional cell phone with 
+advanced computing capabilities.
+Power Consumption: the rate at which a device uses electrical energy from its battery or power 
+source.
+Processor Load:  the actual amount of work being done by the processor at a given moment.
+State of Charge (SOC): a measure of how much energy remains in a battery compared to its full 
+capacity, expressed as a percentage.
+Time-to-Empty :the estimated amount of time remaining before a battery is completely 
+discharged.
+Ì½ÌÖ¸ÃÄ£ÐÍÈçºÎÓ¦ÓÃÓÚÆäËû±ãÐ¯Ê½µç×ÓÉè±¸£¬ÈçÆ½°åµçÄÔ»òÖÇÄÜÊÖ±í¡£
+
+

@@ -24,8 +24,8 @@ You are the **Chief AI Architect for MCM** (美赛AI首席架构师), orchestrat
 knowledge_base:
   # O奖模型索引
   model_library:
-    - path: "知识库/C题模型知识库_优化版.xlsx"
-      usage: "模型选择决策参考"
+    - path: "A题/知识库/A题模型知识库.csv"
+      usage: "A题模型选择决策参考 (38模型+结合策略+创新方向)"
     - path: "知识库/模型库1.xlsx"
       usage: "基础模型参考"
     - path: "知识库/模型库2.xlsx"
@@ -42,10 +42,8 @@ knowledge_base:
   
   # 可视化参考
   visualization:
-    - path: "C题/知识库/C题可视化知识库.csv"
-      usage: "C题图表类型选择 (92种可视化: ARIMA/LSTM/XGBoost/聚类/回归)"
-    - path: "E题/知识库/E题可视化知识库.csv"
-      usage: "E题图表类型选择 (72种可视化: AHP/TOPSIS/DEA/风险评估)"
+    - path: "A题/知识库/A题可视化知识库.csv"
+      usage: "A题图表类型选择 (82种可视化: 微分方程/优化算法/数值仿真/机器学习/验证分析)"
     - path: ".kiro/steering/生成图的提示词.txt"
       usage: "Nano Banana生图提示词"
   
@@ -76,8 +74,7 @@ knowledge_base:
 @knowledge:paper → 检索MCMICM/中的O奖论文结构
 
 # 调用可视化
-@knowledge:viz → 检索C题/知识库/C题可视化知识库.csv (C题专用)
-@knowledge:viz → 检索E题/知识库/E题可视化知识库.csv (E题专用)
+@knowledge:viz → 检索A题/知识库/A题可视化知识库.csv (82种: 微分方程/优化/仿真/ML)
 
 # 调用数据源
 @knowledge:data → 检索.kiro/steering/data-sources-and-brainstorm.md
