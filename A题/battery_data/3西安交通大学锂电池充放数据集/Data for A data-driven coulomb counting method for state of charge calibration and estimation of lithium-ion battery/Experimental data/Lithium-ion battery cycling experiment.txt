@@ -1,0 +1,9 @@
+The lithium-ion batteries with the nominal capacity of 27Ah operated under three different modes: constant-current and constant-voltage (CC-CV) charge mode, constant-current (CC) discharge mode and relaxation mode.
+
+CC-CV charge mode: the lithium-ion batteries were charged under 1C current rate until the terminal voltage reached 4.2V. Keep the terminal voltage constant and continue charging, and stop charging when the current dropped to 0.1C.
+
+CC discharge mode: the lithium-ion batteries were discharged with a 3C current rate and the cut-off voltage was 2.75V.
+
+Relaxation mode: 30min rest was conducted to ensure battery performance recovery.
+
+Experimental data recorded in xlsx.files from left to right are battery voltage (V), current (A), charging/discharging capacity (Ah), energy (Wh) and measurement time (s).

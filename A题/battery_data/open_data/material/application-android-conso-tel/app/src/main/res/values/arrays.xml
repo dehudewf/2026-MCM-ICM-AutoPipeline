@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cpu_loads">
+        <item>0</item>
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Heavy</item>
+        <item>Max</item>
+    </string-array>
+</resources>

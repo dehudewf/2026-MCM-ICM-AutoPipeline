@@ -1,0 +1,9 @@
+model,best_params,best_score
+LinearRegression,"{'fit_intercept': True, 'positive': False}",-155727746855.54654
+Ridge,"{'alpha': 1e-06, 'fit_intercept': True, 'positive': False, 'solver': 'svd'}",-155727746855.62955
+Lasso,"{'alpha': 0.0001, 'fit_intercept': True, 'max_iter': 1000, 'positive': False, 'selection': 'random'}",-155727560722.7041
+ElasticNet,"{'alpha': 1e-06, 'fit_intercept': True, 'l1_ratio': 1.0, 'max_iter': 1000, 'positive': False}",-155727746851.47745
+DecisionTreeRegressor,"{'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 2}",-183485067681.89713
+RandomForestRegressor,"{'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}",-117095672229.28976
+GradientBoostingRegressor,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}",-107362594959.66331
+KNeighborsRegressor,"{'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'distance'}",-834175626430.3708

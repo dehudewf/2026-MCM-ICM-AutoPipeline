@@ -1,0 +1,4 @@
+Dataset,CSV_Files,Total_Records,Location
+5Nature EIS Data,21,752640,5Nature论文电池数据集/EIS_data_csv
+5Nature Capacity Data,5,2608,5Nature论文电池数据集/Capacity_data_csv
+Oxford Clean Data,6,130,13牛津大学电池驾驶循环数据集/Oxford_csv_clean

@@ -1,6 +1,0 @@
-Parameter,Our_Value_W,Literature_Value_W,Deviation_%,Status,Source
-Screen,1.2,0.4,200.0,❌ OUT OF RANGE,Carroll & Heiser 2010
-CPU,0.4,0.1,300.0,❌ OUT OF RANGE,Carroll & Heiser 2010
-GPU,0.1,0.05,100.0,❌ OUT OF RANGE,Carroll & Heiser 2010
-3G/4G,1.2,0.3,300.0,❌ OUT OF RANGE,Carroll & Heiser 2010
-GPS,0.5,0.5,0.0,✅ VALID,Carroll & Heiser 2010
