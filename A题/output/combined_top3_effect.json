@@ -1,0 +1,16 @@
+{
+  "top_3_actions": [
+    "Use power saving mode proactively at 30%",
+    "Reduce screen brightness to 50%",
+    "Enable dark mode (OLED screens)"
+  ],
+  "individual_gains_h": [
+    2.24,
+    1.4,
+    0.84
+  ],
+  "linear_sum_h": 4.48,
+  "realistic_combined_h": 3.81,
+  "sub_linearity_pct": 15.0,
+  "interpretation": "Combined Top-3 yields +3.81h"
+}

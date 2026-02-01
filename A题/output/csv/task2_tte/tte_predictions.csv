@@ -1,0 +1,2 @@
+SOC_input,Power_W,TTE_hours,CI_lower,CI_upper,Well_predicted
+0.95,2.045732e-06,9419.76202001379,8739.4080124864,10433.319739319752,False

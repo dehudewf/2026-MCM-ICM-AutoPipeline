@@ -1,0 +1,8 @@
+Parameter,Value,Unit,Source,Literature_Range,Status
+P_screen (50% brightness),1.2,W,"Carroll & Heiser, 2010",0.8-1.8W,Valid
+P_CPU (20% load),0.4,W,Qualcomm Spec,0.3-0.6W,Valid
+P_GPU (idle),0.1,W,ARM Mali Spec,0.05-0.2W,Valid
+P_4G (active),1.2,W,3GPP Specs,0.8-1.5W,Valid
+P_GPS,0.5,W,GPS.gov,0.3-0.6W,Valid
+Q_nominal,4000.0,mAh,GSMArena avg,3500-5000mAh,Valid
+f_temp(0°C),0.8,-,IEEE Li-ion papers,0.7-0.85,Valid

@@ -1,7 +1,0 @@
-Mineral,HHI_Production,HHI_Reserves,Import_Reliance_USA,Top3_Concentration,Supply_Risk_Score,Substitutability,Critical_Mineral_USA,Critical_Mineral_EU
-Lithium,3200,2800,0.5,0.82,7.5,Difficult,True,True
-Cobalt,5800,5200,0.76,0.89,9.2,Very Difficult,True,True
-Nickel,1900,1600,0.49,0.68,6.8,Moderate,True,True
-Graphite,4500,3800,1.0,0.78,8.5,Difficult,True,True
-Manganese,1800,1600,1.0,0.6,5.2,Easy,False,False
-Rare Earths,9500,9200,1.0,0.95,9.8,Very Difficult,True,True

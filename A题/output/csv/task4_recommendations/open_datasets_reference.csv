@@ -1,0 +1,7 @@
+Dataset,Type,License,URL,Used_For
+NASA Battery Dataset,Li-ion cycling,CC0 Public Domain,https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/,Aging validation (E3)
+Oxford Battery Degradation,Li-ion fast-charge,CC BY 4.0,https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac,Capacity fade model
+GSMArena Phone Specs,Battery capacity,Public (scraped),https://www.gsmarena.com/,Q_nominal validation
+Apple Official Specs,iPhone battery,Public,https://support.apple.com/en-us/HT201773,Validation baseline (13 models)
+Qualcomm Tech Docs,SoC power,Public docs,https://www.qualcomm.com/products/technology/processors,P_CPU parameters
+Carroll & Heiser 2010,Display power,Academic paper,DOI:10.1145/1814433.1814456,P_screen model

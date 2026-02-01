@@ -1,0 +1,9 @@
+Factor,Power_Addition_W,Power_Addition_mW,Baseline_TTE_h,New_TTE_h,TTE_Change_h,TTE_Change_pct,Expected_Impact,Actual_Impact,Surprise_Level,Physical_Reason
+Vibration motor (idle),0.0,0.0,18.0,18.0,0.0,0.0,Low,Negligible,LOW (As expected),Modern power-save protocols minimize idle power
+Ambient light sensor,0.001,1.0,18.0,17.973040439340988,-0.026959560659012283,-0.14977533699451268,Low,Negligible,LOW (As expected),Modern power-save protocols minimize idle power
+NFC (standby),0.002,2.0,18.0,17.94616151545364,-0.05383848454636109,-0.2991026919242282,Low,Negligible,LOW (As expected),Modern power-save protocols minimize idle power
+App count (suspended),0.005,5.0,18.0,17.866004962779158,-0.13399503722084205,-0.7444168734491224,High,Low,"HIGH (Expected High, Got <2%)",Modern power-save protocols minimize idle power
+Accelerometer/Gyro,0.005,5.0,18.0,17.866004962779158,-0.13399503722084205,-0.7444168734491224,Low,Low,LOW (As expected),Modern power-save protocols minimize idle power
+Bluetooth (idle),0.01,10.0,18.0,17.733990147783253,-0.26600985221674733,-1.477832512315263,Medium,Low,LOW (As expected),Modern power-save protocols minimize idle power
+WiFi idle (connected),0.02,20.0,18.0,17.475728155339805,-0.5242718446601948,-2.9126213592233046,Medium,Moderate,LOW (As expected),Modern power-save protocols minimize idle power
+Audio (earphones),0.03,30.0,18.0,17.22488038277512,-0.7751196172248811,-4.306220095693783,Medium,Moderate,LOW (As expected),Modern power-save protocols minimize idle power

@@ -1,0 +1,6 @@
+Extension,TTE_h,Delta_%,Description
+Baseline (no extensions),20.22041081655962,0.0,"Pure battery model at optimal conditions (T=25°C, SOH=1.0)"
+E1 (OU fluctuation),19.853190599483344,-1.816086826364277,Usage pattern variance modeling
+E2 (Temperature),19.005762307043064,-6.007041699280482,Non-optimal temperature impact (T=32°C)
+E3 (Aging),18.602780037125182,-7.99998968423367,Battery degradation effect (SOH=0.92)
+Combined (E1+E2+E3),18.127577403890506,-10.350103327055935,Full realistic operating conditions

@@ -1,0 +1,9 @@
+rank_by_largest_gain,recommendation_id,action,tte_gain_hours,tte_gain_pct,parameter,intervention_pct,equation_reference,model_insight,ux_cost,practicality_score
+1,R8,Use power saving mode proactively at 30%,2.24,28.0,P_total,-35.0,Eq.(1): Overall P_total reduction,Power mode reduces aggregate consumption,medium,8.8
+2,R1,Reduce screen brightness to 50%,1.4,17.5,P_screen,-50.0,Eq.(3): P_screen in P_total sum,Screen is typically 30-50% of total power,low,9.8
+3,R5,Enable dark mode (OLED screens),0.84,10.5,P_screen,-30.0,Eq.(3): P_screen OLED specific,OLED black pixels consume zero power,very_low,10.0
+4,R6,Lower screen refresh rate to 60Hz,0.56,7.0,P_screen,-20.0,Eq.(3): P_screen refresh rate component,120Hz uses ~20% more display power,low,8.7
+5,R3,Disable GPS when not navigating,0.4,5.0,P_gps,-100.0,Eq.(6): P_GPS term,GPS is high-drain (~200mW active),low,8.5
+6,R2,Use WiFi instead of 4G/5G when available,0.38,4.8,P_network,-40.0,Eq.(5): P_network = P_wifi + P_cellular,WiFi consumes ~40% less than cellular,very_low,9.5
+7,R4,Close unused background apps,0.24,3.0,P_cpu,-15.0,Eq.(4): P_processor scaling,Background tasks add 10-20% CPU load,medium,6.3
+8,R7,Disable auto-sync for non-essential apps,0.24,3.0,P_network,-25.0,Eq.(5): Background sync overhead,Periodic sync keeps radios active,low,8.3

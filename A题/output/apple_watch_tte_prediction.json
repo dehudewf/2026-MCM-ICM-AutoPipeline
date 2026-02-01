@@ -1,0 +1,38 @@
+{
+  "device": "Apple Watch Series 9",
+  "baseline_device": "iPhone 14",
+  "parameter_mapping": {
+    "Q_scale": 0.0965625,
+    "screen_area_scale": 0.09687636522498906,
+    "power_components_mapped": 6,
+    "new_components_added": [
+      "P_heart_rate"
+    ],
+    "components_removed": [
+      "P_GPS",
+      "P_GPU",
+      "P_cellular"
+    ]
+  },
+  "power_breakdown_W": {
+    "P_screen": 0.015209589340323282,
+    "P_cpu": 0.026699999999999998,
+    "P_network": 0.0225,
+    "P_heart_rate": 0.012,
+    "P_memory": 0.005000000000000001,
+    "P_other": 0.0095
+  },
+  "P_total_W": 0.0909,
+  "battery_capacity_mAh": 309,
+  "TTE_predicted_h": 11.78,
+  "TTE_vs_iphone_h": 33.1,
+  "TTE_ratio": 0.36,
+  "validation": {
+    "apple_claimed_tte_h": 18.0,
+    "model_prediction_h": 11.78,
+    "error_pct": 34.6,
+    "status": "Needs calibration"
+  },
+  "formula_trace": "TTE = (309 mAh * 3.85 V * 0.9) / (90.9 mW) = 11.78 h",
+  "source": "[Apple Watch Series 9 Tech Specs + Model Eq.(1.1) adaptation]"
+}

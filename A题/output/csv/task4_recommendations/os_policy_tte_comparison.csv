@@ -1,0 +1,4 @@
+SOC,baseline_TTE_h,with_policy_TTE_h,TTE_gain_h,TTE_gain_pct,policy_mode,primary_actions
+95%,7.6,8.0,0.4,5.3,normal,
+50%,4.0,8.0,4.0,100.0,normal,
+15%,1.2,9.72,8.52,710.0,aggressive_saver,"brightness, background_sync, location_services"

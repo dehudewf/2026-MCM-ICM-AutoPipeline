@@ -1,0 +1,6 @@
+Model_Level,Equation,TTE_S1_Idle_h,TTE_S3_Gaming_h,Complexity,Description
+Level 0: Simplest (Constant P),dSOC/dt = -P_const/(Q*V),30.0,3.0,Low (1 param),Baseline: constant power drain
+Level 1: Type A (5 factors),P = P_screen + P_cpu + P_gpu + P_network + P_gps,25.6,11.7,Medium (9 params),Extended: 5-factor power decomposition
+Level 2: Type B + E1 (noise),P = P_5factor + σ*dW_t (OU process),28.0,12.5,High (12 params),Add stochastic fluctuation (E1)
+Level 3: Type B + E1+E2 (temp),"Q_eff = Q * f_temp(T), T dynamics",30.0,13.2,High (15 params),Add temperature coupling (E2)
+Level 4: Type B + E1+E2+E3 (aging),Q(cycles) = Q0 * exp(-k*cycles^0.5),32.0,14.0,Very High (18 params),Add non-linear aging (E3)

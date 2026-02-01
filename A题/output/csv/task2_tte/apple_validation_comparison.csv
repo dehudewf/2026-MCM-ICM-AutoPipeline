@@ -1,0 +1,13 @@
+Device,Scenario,Model_Predicted_TTE_h,Apple_Official_TTE_h,MAPE_pct,Classification,Data_Source,Battery_Capacity_mAh,Watt_Hour,Capacity_Ratio,CI_Lower,CI_Upper
+iPhone 15 Pro Max,S5_Video,17.08937306125572,29.0,41.07112737498028,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 15 Pro,S5_Video,17.08937306125572,23.0,25.698377994540344,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 15 Plus,S5_Video,17.08937306125572,26.0,34.271642072093385,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 15,S5_Video,17.08937306125572,20.0,14.553134693721399,well,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 14 Pro Max,S5_Video,17.08937306125572,29.0,41.07112737498028,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 14 Pro,S5_Video,17.08937306125572,23.0,25.698377994540344,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 14 Plus,S5_Video,17.08937306125572,26.0,34.271642072093385,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 14,S5_Video,17.08937306125572,20.0,14.553134693721399,well,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 13 Pro Max,S5_Video,17.08937306125572,28.0,38.966524781229566,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 13 Pro,S5_Video,17.08937306125572,22.0,22.321031539746723,poorly,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 13,S5_Video,17.08937306125572,19.0,10.055931256548838,well,apple_iphone_battery_specs.csv,,,,0.0,0.0
+iPhone 13 mini,S5_Video,17.08937306125572,17.0,0.5257238897395332,well,apple_iphone_battery_specs.csv,,,,0.0,0.0

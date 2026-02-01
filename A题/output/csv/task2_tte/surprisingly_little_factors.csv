@@ -1,0 +1,7 @@
+Factor,Expected_Impact,Actual_Impact_TTE_pct,Surprise_Level,Explanation
+"Bluetooth (paired, idle)",Medium,<0.3%,★★★ High,BLE protocol consumes ~0.01W when idle
+Ambient temperature (20-30°C),Medium,<2%,★★ Medium,Li-ion optimal range; f_temp ≈ 1.0
+App count (not running),High,<1%,★★★ High,Modern OS suspends inactive apps
+Audio (earphones),Low,<1.5%,★ Low,Speaker vs earphone: ~0.2W difference
+Accelerometer/Gyroscope,Low,Negligible,★ Low,~0.005W continuous
+WiFi idle (connected),Medium,<1%,★★ Medium,Power-save mode reduces to ~0.02W

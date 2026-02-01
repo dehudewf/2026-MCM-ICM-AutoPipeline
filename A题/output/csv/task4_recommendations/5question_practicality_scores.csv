@@ -1,0 +1,9 @@
+recommendation_id,action,total_5q_score,Q1_technical_feasibility,Q2_ux_cost,Q3_effectiveness,Q4_generalizability,Q5_evidence,threshold_met
+R8,Use power saving mode proactively at 30%,8,2,1,2,1,2,True
+R1,Reduce screen brightness to 50%,9,2,2,1,2,2,True
+R5,Enable dark mode (OLED screens),8,2,2,1,1,2,True
+R6,Lower screen refresh rate to 60Hz,7,1,2,1,1,2,True
+R3,Disable GPS when not navigating,8,2,2,0,2,2,True
+R2,Use WiFi instead of 4G/5G when available,8,2,2,0,2,2,True
+R4,Close unused background apps,5,1,1,0,1,2,False
+R7,Disable auto-sync for non-essential apps,6,1,2,0,1,2,False

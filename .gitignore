@@ -36,3 +36,8 @@ Thumbs.db
 *.log
 # Large files (GitHub limit 100MB)
 *.mat
+*.perfetto-trace
+
+# Large data directories
+A题/battery_data/open_data/
+A题/battery_data/kaggle/

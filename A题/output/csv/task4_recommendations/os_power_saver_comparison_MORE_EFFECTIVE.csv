@@ -1,0 +1,5 @@
+Strategy,TTE_Gain_h,TTE_Gain_pct,Description,Source,Improvement_vs_Android_%,Improvement_vs_iOS_%
+Default User Behavior,0.0,0.0,"No optimization, factory settings",Baseline,,
+Android Battery Saver,1.4,17.5,"OS-level power saver (limits background, reduces performance)",Google Android Battery Guide 2024,,
+iOS Low Power Mode,2.0,25.0,"Apple low power mode (reduces animations, fetch)",Apple Support Document 2024,,
+⭐ Our Model-Based Strategy (Top-3),4.48,56.0,"Combined: Use power saving mode proactively at 30%, Reduce screen brightness to 50%, Enable dark mode (OLED screens)",MCM 2026 SOC ODE Model (Eq.1 + Sensitivity Analysis),220.0,124.0
