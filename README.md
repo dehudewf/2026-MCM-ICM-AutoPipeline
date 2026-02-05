@@ -33,7 +33,7 @@
 ## 📦 项目结构
 
 ```
-肖惠威美赛/
+meisai/
 ├── .qoder/rules/                    # AI规则层（自动加载）
 │   ├── agents.md                    # Agent完整规则（@strategist/@executor/@redcell）
 │   ├── mcm_ultimate_system.md       # 主规则+时间线+检查清单
@@ -246,3 +246,4 @@ pip install -r requirements.txt
 ---
 
 **🏆 目标：O奖！祝比赛顺利！**
+
