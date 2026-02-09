@@ -81,8 +81,8 @@ meisai/
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/your-repo/mcm-2026-battle-system.git
-cd mcm-2026-battle-system
+git clone https://github.com/your-repo/2026-MCM-ICM-AutoPipeline.git
+cd 到主页
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -246,4 +246,5 @@ pip install -r requirements.txt
 ---
 
 **🏆 目标：O奖！祝比赛顺利！**
+
 
